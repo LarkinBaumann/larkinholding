@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ShadowFooter from '../Shadows/shadowFooter'
+import ShadowFooter from '../Shadows/ShadowFooter'
 
 function Footer() {
   return (
