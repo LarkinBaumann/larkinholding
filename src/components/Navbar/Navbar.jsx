@@ -3,9 +3,11 @@ import React from 'react'
 
 function Navbar({}) {
   return (
+    <div className='w-full h-[133px] flex flex-col px-14'>
+
     <div
-      className='w-full h-[133px] flex flex-row justify-around items-center text-white border-b-[1px] border-[#1777BA]'
-    >
+      className='w-full h-full flex flex-row justify-around items-center text-white '
+      >
       <div>
         <Image src='/assets/logonav.png' alt="logo" width={100} height={100} />
       </div>
@@ -21,6 +23,8 @@ function Navbar({}) {
           
       </div>
     </div>
+    <div className='h-[1px] bg-[#1777BA]'/>
+        </div>
   );
 }
 

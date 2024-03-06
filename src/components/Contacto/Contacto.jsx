@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contacto() {
   return (
-    <div className='w-full h-[604px] flex flex-col  justify-center items-center px-14 gap-[15px] relative z-10'>
+    <div className='w-full h-[604px] flex flex-col  justify-center items-center px-14 gap-[15px] relative z-20'>
       <h2 className='text-white font-roboto text-[65px] font-bold leading-[87.55px] text-center'>
       Inicia tu camino, hoy mismo.
       <br/>
