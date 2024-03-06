@@ -7,31 +7,31 @@ function Empresas() {
     {
       id:1,
       nombre:'Seguridad privada',
-      imagen:'/images/empresas.png',
+      imagen:'/images/empresas/seguridad.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:2,
       nombre:'Seguridad privada',
-      imagen:'/images/empresas.png',
+      imagen:'/images/empresas/realestate.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:3,
       nombre:'Seguridad privada',
-      imagen:'/images/empresas.png',
+      imagen:'/images/empresas/oil.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:4,
       nombre:'Seguridad privada',
-      imagen:'/images/empresas.png',
+      imagen:'/images/empresas/investment.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:5,
       nombre:'Seguridad privada',
-      imagen:'/images/empresas.png',
+      imagen:'/images/empresas/gold.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     }
   ]
@@ -44,9 +44,25 @@ const [seleccion, setSeleccion] = useState(0)
       <div className='grid grid-cols-6 w-full h-full px-14 items-center gap-9 '>
         {
           empresas.map((empresa,index)=>(
-          <div key={index}  className={seleccion != index?'w-full h-[774px] rounded-[22px] bg-red-500 relative cursor-pointer':'col-span-2 h-[774px] rounded-[22px] bg-red-500'}
+          <div key={index}  className={seleccion != index?'w-full h-[774px] rounded-[22px]  relative cursor-pointer':'col-span-2 h-[774px] rounded-[22px]  '}
           onClick={()=>setSeleccion(index)}
           >
+            {
+              seleccion == index? 
+              <div className='w-full h-full flex flex-col justify-between bg-[
+                #183F5C] rounded-t-[22px]'>
+                <div className='w-full h-[50%] flex flex-col justify-center items-center '>
+                <p className='font-paragraph font-semibold  leading-[48px] text-[36px] w-[350px] h-[192px]'>
+                  {empresa.descripcion}
+                </p>
+                </div>
+                <div className='w-full h-[50%] '>
+                  <Image src={empresa.imagen} width={100} height={100} alt={empresa.nombre} className='w-full h-full object-cover rounded-b-[22px]'/>
+                  </div>
+                </div>
+              :
+              <Image src={empresa.imagen} width={100} height={100} alt={empresa.nombre} className='w-full h-full object-cover rounded-[22px]'/>
+            }
         <div className={seleccion != index ?'absolute bg-[#4084d2] w-[50%] h-[250px] bottom-0': "hidden"}>
           <h3 className='text-white -rotate-90 font-header font-bold text-[28px] absolute bottom-14 -left-[25%] uppercase '>Seguridad<br></br> privada</h3>
         </div>
