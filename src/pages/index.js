@@ -7,7 +7,6 @@ import Empresas from "@/components/Empresas/Empresas";
 import Servicio from "@/components/Servicio/Servicio";
 import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
-import ShadowFooter from "@/components/Shadows/shadowFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
