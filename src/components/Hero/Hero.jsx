@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Acerca from '../Acerca/Acerca'
+import ShadowAcerca from '../Shadows/ShadowAcerca'
 
 function Hero() {
   return (
@@ -15,7 +16,10 @@ function Hero() {
         Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.
       </p>  
     </div>
+    <div className='w-full h-full relative '>
+  <ShadowAcerca/>
     <Acerca/>
+    </div>
     </div>
   )
 }
