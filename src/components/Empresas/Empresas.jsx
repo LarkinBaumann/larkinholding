@@ -56,8 +56,11 @@ const [seleccion, setSeleccion] = useState(0)
                   {empresa.descripcion}
                 </p>
                 </div>
-                <div className='w-full h-[50%] '>
+                <div className='w-full h-[50%] relative '>
                   <Image src={empresa.imagen} width={100} height={100} alt={empresa.nombre} className='w-full h-full object-cover rounded-b-[22px]'/>
+                  <button className='text-white w-[71px] h-[42px] absolute bg-[#005E93] bottom-0 right-0'>
+                  Ir a sitio web <span>Icono</span>
+                  </button>
                   </div>
                 </div>
               :
