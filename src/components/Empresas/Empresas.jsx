@@ -12,27 +12,27 @@ function Empresas() {
     },
     {
       id:2,
-      nombre:'Seguridad privada',
+      nombre:'Real Estate',
       imagen:'/images/empresas/realestate.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:3,
-      nombre:'Seguridad privada',
+      nombre:'OIL & GAS INDUSTRY',
       imagen:'/images/empresas/oil.png',
       descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
     },
     {
       id:4,
-      nombre:'Seguridad privada',
+      nombre:'INVESTMENT & FINANCES',
       imagen:'/images/empresas/investment.png',
-      descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
+      descripcion:'Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito.'
     },
     {
       id:5,
-      nombre:'Seguridad privada',
+      nombre:'GOLD MINING',
       imagen:'/images/empresas/gold.png',
-      descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros'
+      descripcion:'Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología.'
     }
   ]
 
@@ -41,10 +41,10 @@ const [seleccion, setSeleccion] = useState(0)
   return (
     <div className='h-[1024px] w-full  text-white  relative z-20'>
       <Image src='/images/empresas.png' width={100} height={100} alt='fondo-empresas' className='w-full h-full absolute -z-10' />
-      <div className='grid grid-cols-6 w-full h-full px-14 items-center gap-9 '>
+      <div className='grid grid-cols-8 w-full h-full px-14 items-center gap-9 '>
         {
           empresas.map((empresa,index)=>(
-          <div key={index}  className={seleccion != index?'w-full h-[774px] rounded-[22px]  relative cursor-pointer':'col-span-2 h-[774px] rounded-[22px]  '}
+          <div key={index}  className={seleccion != index?'w-full h-[774px] rounded-[22px]  relative cursor-pointer':'col-span-4 h-[774px] rounded-[22px]  '}
           onClick={()=>setSeleccion(index)}
           >
             {
@@ -52,7 +52,7 @@ const [seleccion, setSeleccion] = useState(0)
               <div className='w-full h-full flex flex-col justify-between bg-[
                 #183F5C] rounded-t-[22px]'>
                 <div className='w-full h-[50%] flex flex-col justify-center items-center '>
-                <p className='font-paragraph font-semibold  leading-[48px] text-[36px] w-[350px] h-[192px]'>
+                <p className='font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] h-[192px]'>
                   {empresa.descripcion}
                 </p>
                 </div>
@@ -64,7 +64,7 @@ const [seleccion, setSeleccion] = useState(0)
               <Image src={empresa.imagen} width={100} height={100} alt={empresa.nombre} className='w-full h-full object-cover rounded-[22px]'/>
             }
         <div className={seleccion != index ?'absolute bg-[#4084d2] w-[50%] h-[250px] bottom-0': "hidden"}>
-          <h3 className='text-white -rotate-90 font-header font-bold text-[28px] absolute bottom-14 -left-[25%] uppercase '>Seguridad<br></br> privada</h3>
+          <h3 className='text-white -rotate-90 font-header font-bold text-[28px] absolute bottom-14 -left-[25%] uppercase '>{empresa.nombre}</h3>
         </div>
         </div>
           ))
