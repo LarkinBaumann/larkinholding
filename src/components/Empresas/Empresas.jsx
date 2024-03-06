@@ -2,7 +2,7 @@ import React from 'react'
 
 function Empresas() {
   return (
-    <div>Empresas</div>
+    <div className='h-[1024px] w-full text-white px-14'>Empresas</div>
   )
 }
 
