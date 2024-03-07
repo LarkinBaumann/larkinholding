@@ -8,7 +8,7 @@ function Hero() {
     <div className='w-full h-[1190px] flex flex-col px-14 '>
      
     <div className='w-full h-full flex flex-col justify-center gap-[23px]'>
-      <Image src='/assets/logoHero.png' alt="hero" width={100} height={100} className='w-[497px]' />
+      <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
       <h2 className='w-[656px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2'>
         Investment & Finances
       </h2>

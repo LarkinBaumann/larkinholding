@@ -51,8 +51,8 @@ function Empresas() {
     <div className="h-[1024px] w-full  text-white  relative z-0">
       <Image
         src="/images/empresas.png"
-        width={100}
-        height={100}
+        width={1000}
+        height={1000}
         alt="fondo-empresas"
         className="w-full h-full absolute -z-20"
       />
@@ -80,8 +80,8 @@ function Empresas() {
                 <div className="w-full h-[50%] relative ">
                   <Image
                     src={empresa.imagen}
-                    width={100}
-                    height={100}
+                    width={1000}
+                    height={1000}
                     alt={empresa.nombre}
                     className="w-full h-full object-cover rounded-b-[22px]"
                   />
@@ -107,8 +107,8 @@ function Empresas() {
             ) : (
               <Image
                 src={empresa.imagen}
-                width={100}
-                height={100}
+                width={1000}
+                height={1000}
                 alt={empresa.nombre}
                 className="w-full h-full object-cover rounded-[22px] "
               />

@@ -9,7 +9,7 @@ function Navbar({}) {
       className='w-full h-full flex flex-row justify-around items-center text-white '
       >
       <div>
-        <Image src='/assets/logonav.png' alt="logo" width={100} height={100} />
+        <Image src='/assets/logonav.png' alt="logo" width={1000} height={1000} className='w-[227px] h-[60px] object-cover' />
       </div>
       <div className='flex flex-row items-center justify-center gap-8'>
         <span>Nosotros</span>

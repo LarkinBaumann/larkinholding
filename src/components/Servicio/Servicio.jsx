@@ -10,7 +10,7 @@ function Servicio() {
       ">
       <div className="">
         <div className="w-[557px] h-[539px]">
-          <Image src='/images/mapa.png' alt="mapa" width={100} height={100} className='w-full h-full'/>
+          <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full'/>
         </div>
       </div>
       <div className=" flex flex-col gap-[8px]">
