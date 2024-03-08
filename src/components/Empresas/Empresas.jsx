@@ -48,13 +48,13 @@ function Empresas() {
   const [seleccion, setSeleccion] = useState(0);
 
   return (
-    <div className="h-[1024px] w-full  text-white  relative z-0">
+    <div className="h-[1024px] w-full  text-white  relative z-20">
       <Image
         src="/images/empresas.png"
         width={1000}
         height={1000}
         alt="fondo-empresas"
-        className="w-full h-full absolute -z-20"
+        className="w-full h-full absolute -z-50"
       />
       <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 ">
         {empresas.map((empresa, index) => (
@@ -85,7 +85,9 @@ function Empresas() {
                     alt={empresa.nombre}
                     className="w-full h-full object-cover rounded-b-[22px]"
                   />
-                  <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 flex justify-center items-center gap-[14px] text-[19px] font-paragraph">
+                  <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 cursor-pointer ">
+                    <div className=" w-full h-full flex justify-center items-center gap-[14px] text-[19px] font-paragraph cursor-pointer">
+
                     Ir a sitio web{" "}
                     <span>
                       <svg
@@ -101,6 +103,7 @@ function Empresas() {
                         />
                       </svg>
                     </span>
+                  </div>
                   </button>
                 </div>
               </div>
@@ -132,16 +135,17 @@ function Empresas() {
                 fill="#005E93"
               />
             </svg>
-
+            <div className="w-[170px] h-[80px] absolute bottom-16 right-0 text-white -rotate-90">
             <h3
               className={
                 seleccion != index
-                  ? "absolute bottom-16 right-0 text-white -rotate-90 font-header font-bold text-[28px]  uppercase leading-[35px] "
+                  ? " font-header font-bold text-[28px]  uppercase leading-[35px] "
                   : "hidden"
               }
             >
               {empresa.nombre}
             </h3>
+            </div>
           </div>
         ))}
       </div>
