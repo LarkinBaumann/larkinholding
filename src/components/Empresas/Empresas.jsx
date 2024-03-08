@@ -6,7 +6,7 @@ function Empresas() {
     {
       id: 1,
       nombre: "Seguridad privada",
-      imagen: "/images/empresas/seguridad.png",
+      imagen: "/images/EMPRESAS/seguridad.png",
       url: "LarkinBaumanSeguridad.com",
       descripcion:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
@@ -15,14 +15,14 @@ function Empresas() {
       id: 2,
       nombre: "Real Estate",
       url: "LarkinBaumanSeguridad.com",
-      imagen: "/images/empresas/realestate.png",
+      imagen: "/images/EMPRESAS/realestate.png",
       descripcion:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
     },
     {
       id: 3,
       nombre: "OIL & GAS INDUSTRY",
-      imagen: "/images/empresas/oil.png",
+      imagen: "/images/EMPRESAS/oil.png",
       url: "LarkinBaumanSeguridad.com",
       descripcion:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
@@ -30,7 +30,7 @@ function Empresas() {
     {
       id: 4,
       nombre: "INVESTMENT & FINANCES",
-      imagen: "/images/empresas/investment.png",
+      imagen: "/images/EMPRESAS/investment.png",
       url: "LarkinBaumanSeguridad.com",
       descripcion:
         "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito.",
@@ -38,7 +38,7 @@ function Empresas() {
     {
       id: 5,
       nombre: "GOLD MINING",
-      imagen: "/images/empresas/gold.png",
+      imagen: "/images/EMPRESAS/gold.png",
       url: "LarkinBaumanSeguridad.com",
       descripcion:
         "Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología.",
