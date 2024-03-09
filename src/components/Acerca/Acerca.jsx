@@ -30,7 +30,7 @@ function Acerca() {
     </div>
     <div className='w-full h-full flex flex-col justify-center gap-[16px]'>
       <h2 className='text-[47px] font-black text-white leading-[49px]'>
-      {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>.
+      {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
       </h2>
       <p className='text-white font-paragraph leading-[34px] text-[20px] w-[569px]'>{traduccion.acerca.paragraph}</p>
     </div>
