@@ -7,6 +7,8 @@ import { AppContext } from '@/Context/AppContext'
 function Hero() {
   const {traduccion} = useContext(AppContext)
   return (
+    <div className='w-full h-full relative overflow-hidden'>
+<ShadowAcerca/>
     <div className='w-full h-[1190px] flex flex-col px-14 max-w-[1444px] mx-auto min-w-sm  '>
      
     <div className='w-full h-full flex flex-col justify-center gap-[23px]'>
@@ -18,9 +20,9 @@ function Hero() {
        {traduccion.hero.descripcion[0]}
       </p>  
     </div>
-    <div className='w-full h-full relative '>
-  <ShadowAcerca/>
+  
     <Acerca/>
+ 
     </div>
     </div>
   )

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="w-full h-full  ">
       <div className="w-full relative z-10">
-      <Image src='/images/heroInvestment.png' alt="hero" width={5000} height={5000} className='w-full h-full absolute object-cover -z-10'/>
+      <Image src={'/images/Hero/1.png'} alt="hero" fill={true} quality={100} className='w-full h-full absolute object-cover -z-10'/>
       <Navbar/>
       <Hero/>
       </div>
