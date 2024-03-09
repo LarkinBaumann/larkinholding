@@ -13,7 +13,8 @@
     "next-i18next": "^15.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-flag-kit": "^1.1.1"
+    "react-flag-kit": "^1.1.1",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
