@@ -7,6 +7,7 @@ import Empresas from "@/components/Empresas/Empresas";
 import Servicio from "@/components/Servicio/Servicio";
 import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
+import Jaizmora from "@/components/Jaizmora/Jaizmora";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Servicio/>
       <Contacto/>
       <Footer/>
+      <Jaizmora/>
    
     </main>
   );
