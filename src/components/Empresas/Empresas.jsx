@@ -15,9 +15,9 @@ function Empresas() {
         width={1000}
         height={1000}
         alt="fondo-empresas"
-        className="w-full h-full absolute -z-50"
+        className="w-full h-full object-fill absolute -z-50"
       />
-      <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 ">
+      <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm ">
         {traduccion.empresas.map((empresa, index) => (
           <div
             key={index}
@@ -78,7 +78,13 @@ function Empresas() {
                 width={1000}
                 height={1000}
                 alt={empresa.nombre}
-                className="w-full h-full object-cover rounded-[22px] "
+                className="w-full h-full object-cover  rounded-[22px] "
+                style={{ objectPosition: empresa.id == '1'?'-380px center':
+                 empresa.id == '2'? "-150px center":
+                 empresa.id == '3'? "-500px center":
+                 empresa.id == '4'? "-380px center":
+                 empresa.id == '5'&& "-150px center"
+                }}
               />
             )}
             <div className={
