@@ -11,11 +11,11 @@ function Empresas() {
   return (
     <div className="h-[1024px] w-full  text-white  relative z-20">
       <Image
-        src="/images/empresas.png"
-        width={1000}
-        height={1000}
+        src="/images/empresas2.png"
+        width={5000}
+        height={5000}
         alt="fondo-empresas"
-        className="w-full h-full object-fill absolute -z-50"
+        className="w-full h-full object-cover  absolute -z-50"
       />
       <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm ">
         {traduccion.empresas.map((empresa, index) => (
