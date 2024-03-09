@@ -6,9 +6,10 @@ import { AppContext } from "@/Context/AppContext";
 function Footer() {
   const { traduccion } = useContext(AppContext);  
   return (
-    <div className="w-full h-full relative z-10 over">
+    <div className="w-full h-full relative z-10 bg-[#0e192170]">
       <ShadowFooter />
-      <div className="w-full h-[327px] flex flex-row justify-between items-center text-white bg-[#0e192170]  ">
+      <div className="w-full h-[327px] flex flex-row justify-between items-center text-white 
+      max-w-[1444px] mx-auto min-w-sm  ">
         <div className="w-full flex flex-row ">
           <div className="w-[227px] h-[203px]">
             <Image
