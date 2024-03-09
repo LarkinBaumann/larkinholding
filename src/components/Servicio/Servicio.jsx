@@ -1,8 +1,10 @@
 import Image from "next/image";
-import React from "react";
+import React, { useContext } from "react";
 import ShadowServicio from "../Shadows/ShadowServicio";
+import { AppContext } from "@/Context/AppContext";
 
 function Servicio() {
+  const {traduccion} = useContext(AppContext)
   return (
     <div className="w-full h-[830px] flex flex-row justify-center items-center px-14 relative z-10 ">
 <ShadowServicio/>
@@ -15,11 +17,11 @@ function Servicio() {
       </div>
       <div className=" flex flex-col gap-[8px]">
         <h2 className="font-header w-[532px] text-[40px] font-bold leading-[44px]">
-          Tus Socios en Todo México:
+          {traduccion.servicio.header}
           <br/>
-          <span className="titulo2">Servicios a lo Largo y Ancho del País</span>
+          <span className="titulo2">{traduccion.servicio.accent}</span>
         </h2>
-        <p className="w-[532px]  font-paragraph text-[20px] leading-[34px] ">Cobertura en toda la República Mexicana,  nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país.</p>
+        <p className="w-[532px]  font-paragraph text-[20px] leading-[34px] ">{traduccion.servicio.paragraph}</p>
       </div>
     </div>
    
