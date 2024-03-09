@@ -1,14 +1,13 @@
+import { AppContext } from "@/Context/AppContext";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { FlagIcon } from "react-flag-kit";
 
 function Navbar({}) {
 
   const [navIdioma, setNavIdioma] = useState(false)
-  const [idioma, setIdioma] = useState({
-    nombre: "ES",
-    code: "ES",
-  })
+  const {idioma, setIdioma} = useContext(AppContext)
+ 
 
  
 

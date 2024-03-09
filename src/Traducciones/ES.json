@@ -1,0 +1,46 @@
+{
+    "hero": {
+      "titulos": ["Oil & Gas Industry", "Private Security", "Real Estate", "Investment & Finances", "Gold & Mining"],
+      "descripcion": ["Descubre cómo nuestra empresa líder en la industria de petróleo y gas ofrece soluciones integrales para tus proyectos. Ofrecemos resultados excepcionales adaptados a tus necesidades. ",
+    "Proporcionamos tecnología y servicios personalizados para proteger tus activos más valiosos, desde sistemas de vigilancia hasta protocolos de respuesta rápida, asegurando tu tranquilidad y protección en cada paso.",
+    "Explora propiedades inmobiliarias con tecnología de vanguardia. Te ofrecemos una experiencia única, confía en nuestra experiencia  para una búsqueda inmobiliaria eficiente y efectiva.",
+    "Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.",
+    "Desde la compra hasta la venta, gestionamos todo el proceso con transparencia y eficiencia, asegurando los más altos estándares de calidad y cumplimiento."
+    ]
+    },
+    "acerca": {
+      "titulo1": "25+",
+      "descripcion1": "Años de experiencia",
+      "titulo2": "5K+",
+      "descripcion2": "Clientes satisfechos",
+      "titulo3": "50+",
+      "descripcion3": "Certificaciones",
+      "titulo4": "200+",
+      "descripcion4": "Colaboraciones con empresas",
+      "header": "Potenciando Diversas Empresas,",
+      "accent":"Uniendo Éxitos.",
+      "paragraph":"Somos un corporativo diversificado, abarcando industrias clave como bienes raíces, seguridad privada, petróleo y gas, inversiones y gestión financiera. Con enfoque integrador y compromiso con la excelencia, impulsamos el éxito de cada una de nuestras empresas. Nuestro equipo apasionado y profesional se dedica a la innovación y calidad en todo momento."
+    },
+    "servicio": {
+      "header": "Tus Socios en Todo México:",
+      "accent":"Servicios a lo Largo y Ancho del País",
+      "paragraph": "Cobertura en toda la República Mexicana,  nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país."
+    },
+    "contacto":{
+        "header": "Inicia tu camino, hoy mismo.",
+        "accent": "Contáctanos.",
+        "paragraph": "En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.",
+        "titulo":"E-mail",
+        "titulo2":"Teléfono",
+        "titulo3":"Ubicación"
+    },
+    "navbar":{
+        "link1":"Nosotros",
+        "link2":"Experiencia",
+        "link3":"Empresas"
+    },
+    "footer":{
+        "titulo1":"Dirección",
+        "titulo2":"Contacto"
+    }
+  }

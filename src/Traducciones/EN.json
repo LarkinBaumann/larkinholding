@@ -1,0 +1,46 @@
+{
+        "hero": {
+            "titulos": ["Oil & Gas Industry", "Private Security", "Real Estate", "Investment & Finances", "Gold & Mining"],
+            "descripcion": ["Discover how our leading oil and gas company offers comprehensive solutions for your projects. We deliver exceptional results tailored to your needs.",
+        "We provide customized technology and services to protect your most valuable assets, from surveillance systems to rapid response protocols, ensuring your peace of mind and protection at every step.",
+        "Explore real estate properties with cutting-edge technology. We offer a unique experience, trust our expertise for an efficient and effective property search.",
+        "Power your investments with our expert financial management. Trust our team to optimize your portfolio and secure a solid financial future.",
+        "From purchase to sale, we manage the entire process with transparency and efficiency, ensuring the highest standards of quality and compliance."
+        ]
+        },
+        "acerca": {
+            "titulo1": "25+",
+            "descripcion1": "Years of Experience",
+            "titulo2": "5K+",
+            "descripcion2": "Satisfied Clients",
+            "titulo3": "50+",
+            "descripcion3": "Certifications",
+            "titulo4": "200+",
+            "descripcion4": "Collaborations with Companies",
+            "header": "Empowering Diverse Companies,",
+            "accent":"Uniting Successes.",
+            "paragraph":"We are a diversified corporation, encompassing key industries such as real estate, private security, oil and gas, investments, and financial management. With an integrative approach and a commitment to excellence, we drive the success of each of our companies. Our passionate and professional team is dedicated to innovation and quality at all times."
+        },
+        "servicio": {
+            "header": "Your Partners Across Mexico:",
+            "accent":"Services Nationwide",
+            "paragraph": "Coverage throughout the Mexican Republic, our team is ready to meet your needs wherever you are. Trust us to provide reliable and quality solutions throughout the country."
+        },
+        "contacto":{
+                "header": "Start Your Journey Today.",
+                "accent": "Contact Us.",
+                "paragraph": "In our team, we are here to help you take the first step towards your goals. We offer the boost you need to start this exciting journey towards success.",
+                "titulo":"Email",
+                "titulo2":"Phone",
+                "titulo3":"Location"
+        },
+        "navbar":{
+                "link1":"About Us",
+                "link2":"Experience",
+                "link3":"Companies"
+        },
+        "footer":{
+                "titulo1":"Address",
+                "titulo2":"Contact"
+        }
+    }
