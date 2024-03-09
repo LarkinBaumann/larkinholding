@@ -12,7 +12,7 @@ function Navbar({}) {
  
 
   return (
-    <div className="w-full h-[93px] flex flex-col px-14 max-w-[1440px] mx-auto min-w-sm overflow-hidden">
+    <div className="w-full h-[93px] flex flex-col px-14 max-w-[1440px] mx-auto min-w-sm  ">
       <div className="w-full h-full flex flex-row justify-around items-center text-white ">
         <div className="w-[227px] h-[60px]">
           <Image
@@ -57,7 +57,7 @@ function Navbar({}) {
 
               {navIdioma && (
                 <div
-                  className="w-full h-full  flex flex-col gap-2"
+                  className="w-full h-full  flex flex-col gap-2 z-20"
                   style={{
                     background: 'rgba(11, 32, 46, 0.30)',
                     hover: { backgroundColor: 'rgba(44, 82, 107, 0.3)' }

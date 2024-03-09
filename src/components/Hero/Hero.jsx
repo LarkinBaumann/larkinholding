@@ -4,7 +4,8 @@ import Acerca from '../Acerca/Acerca'
 import ShadowAcerca from '../Shadows/ShadowAcerca'
 import { AppContext } from '@/Context/AppContext'
 
-function Hero() {
+function Hero({heroImage}) {
+  
   const {traduccion} = useContext(AppContext)
   return (
     <div className='w-full h-full relative overflow-hidden'>
@@ -13,11 +14,11 @@ function Hero() {
      
     <div className='w-full h-full flex flex-col justify-center gap-[23px]'>
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
-      <h2 className='w-[656px] h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2'>
-        {traduccion.hero.titulos[0]}
+      <h2 className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}>
+        {traduccion.hero.titulos[heroImage]}
       </h2>
       <p className='w-[556px] text-white font-roboto text-xl font-semibold leading-[38.726px]'>
-       {traduccion.hero.descripcion[0]}
+       {traduccion.hero.descripcion[heroImage]}
       </p>  
     </div>
   

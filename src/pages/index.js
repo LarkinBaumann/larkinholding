@@ -8,24 +8,43 @@ import Servicio from "@/components/Servicio/Servicio";
 import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
 import Jaizmora from "@/components/Jaizmora/Jaizmora";
+import { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
-  return (
-    <main className="w-full h-full  ">
-      <div className="w-full relative z-10">
-      <Image src={'/images/Hero/1.png'} alt="hero" fill={true} quality={100} className='w-full h-full absolute object-cover -z-10'/>
-      <Navbar/>
-      <Hero/>
-      </div>
 
-      <Empresas/>
-      <Servicio/>
-      <Contacto/>
-      <Footer/>
-      <Jaizmora/>
-   
-    </main>
-  );
-}
+  export default function Home() {
+    const [heroImage, setHeroImage] = useState(1);
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setHeroImage((prevImage) =>  prevImage  + 1 > 5? 1 : prevImage + 1);
+      }, 6000);
+
+      return () => clearInterval(interval);
+    }, []);
+
+    return (
+      <main className="w-full h-full">
+        <div className="w-full relative z-10">
+          <Image
+            src={`/images/Hero/${heroImage}.png`}
+            alt="hero"
+            fill={true}
+            quality={100}
+            className="w-full h-full absolute object-cover -z-10"
+          />
+          <Navbar />
+          <Hero 
+          heroImage={heroImage}
+          />
+        </div>
+
+        <Empresas />
+        <Servicio />
+        <Contacto />
+        <Footer />
+        <Jaizmora />
+      </main>
+    );
+  }
