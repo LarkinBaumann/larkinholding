@@ -72,7 +72,7 @@ function Empresas() {
                 className="w-full h-full flex flex-col justify-between bg-[
                 #183F5C] rounded-t-[22px]"
               >
-                <div className="w-full h-[50%] flex flex-col justify-center items-center ">
+                <div className="w-full h-[50%] flex flex-col justify-center items-center bg-[#183F5C2E] rounded-[22px]">
                   <p className="font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] h-[192px]">
                     {empresa.descripcion}
                   </p>
@@ -83,7 +83,11 @@ function Empresas() {
                     width={1000}
                     height={1000}
                     alt={empresa.nombre}
-                    className="w-full h-full object-cover rounded-b-[22px]"
+                    className={index == 3 ?
+                      "w-full h-full object-cover object-bottom rounded-b-[22px]"
+                  :
+                  "w-full h-full object-cover object-center rounded-b-[22px]"
+                  }
                   />
                   <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 cursor-pointer ">
                     <div className=" w-full h-full flex justify-center items-center gap-[14px] text-[19px] font-paragraph cursor-pointer">
@@ -116,6 +120,13 @@ function Empresas() {
                 className="w-full h-full object-cover rounded-[22px] "
               />
             )}
+            <div className={
+              seleccion!=index?
+              "w-full h-full bg-[#005E937A] absolute top-0 rounded-[22px]"
+            :"hidden"
+            }>
+              </div>
+
             <svg
               className={
                 seleccion != index
