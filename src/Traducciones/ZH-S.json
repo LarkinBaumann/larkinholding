@@ -42,5 +42,42 @@
     "footer":{
             "titulo1":"地址",
             "titulo2":"联系方式"
-    }
+    },
+    "empresas":[
+        {
+          "id": 1,
+          "nombre": "私人安全",
+          "imagen": "/images/EMPRESAS/seguridad.png",
+          "url": "LarkinBaumanSeguridad.com",
+          "descripcion": "定制保护，专业护卫，为您的安心提供先进的解决方案"
+        },
+        {
+          "id": 2,
+          "nombre": "房地产",
+          "url": "LarkinBaumanSeguridad.com",
+          "imagen": "/images/EMPRESAS/realestate.png",
+          "descripcion": "在寻找和购买房产方面提供独特的体验，以个性化的关注点和广泛的市场知识"
+        },
+        {
+          "id": 3,
+          "nombre": "石油和天然气工业",
+          "imagen": "/images/EMPRESAS/oil.png",
+          "url": "LarkinBaumanSeguridad.com",
+          "descripcion": "与我们一起在石油和天然气工业中提升您的成功。我们提供承诺，效率和安全"
+        },
+        {
+          "id": 4,
+          "nombre": "投资和金融",
+          "imagen": "/images/EMPRESAS/investment.png",
+          "url": "LarkinBaumanSeguridad.com",
+          "descripcion": "与我们一起实现您的财务目标。我们最大化您的增长和成功的机会。"
+        },
+        {
+          "id": 5,
+          "nombre": "黄金开采",
+          "imagen": "/images/EMPRESAS/gold.png",
+          "url": "LarkinBaumanSeguridad.com",
+          "descripcion": "购买贵金属并在我们的高科技精炼厂进行处理。"
+        }
+      ]
 }

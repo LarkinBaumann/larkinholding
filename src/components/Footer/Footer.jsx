@@ -1,8 +1,10 @@
 import Image from "next/image";
-import React from "react";
+import React, { useContext } from "react";
 import ShadowFooter from "../Shadows/ShadowFooter";
+import { AppContext } from "@/Context/AppContext";
 
 function Footer() {
+  const { traduccion } = useContext(AppContext);  
   return (
     <div className="w-full h-full relative z-10 over">
       <ShadowFooter />
@@ -19,11 +21,11 @@ function Footer() {
           </div>
           <div className="h-[203px] flex flex-col justify-between">
             <div className="flex flex-col">
-              <p>Dirección</p>
+              <p>{traduccion.footer.titulo1}</p>
               <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
             </div>
             <div className="flex flex-col">
-              <p>Contacto</p>
+              <p>{traduccion.footer.titulo2}</p>
               <p>1800 123 4567</p>
               <p>info@relume.io</p>
             </div>

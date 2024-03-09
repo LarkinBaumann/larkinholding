@@ -1,49 +1,10 @@
+import { AppContext } from "@/Context/AppContext";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 
 function Empresas() {
-  const empresas = [
-    {
-      id: 1,
-      nombre: "Seguridad privada",
-      imagen: "/images/EMPRESAS/seguridad.png",
-      url: "LarkinBaumanSeguridad.com",
-      descripcion:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
-    },
-    {
-      id: 2,
-      nombre: "Real Estate",
-      url: "LarkinBaumanSeguridad.com",
-      imagen: "/images/EMPRESAS/realestate.png",
-      descripcion:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
-    },
-    {
-      id: 3,
-      nombre: "OIL & GAS INDUSTRY",
-      imagen: "/images/EMPRESAS/oil.png",
-      url: "LarkinBaumanSeguridad.com",
-      descripcion:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et auctor eros",
-    },
-    {
-      id: 4,
-      nombre: "INVESTMENT & FINANCES",
-      imagen: "/images/EMPRESAS/investment.png",
-      url: "LarkinBaumanSeguridad.com",
-      descripcion:
-        "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito.",
-    },
-    {
-      id: 5,
-      nombre: "GOLD MINING",
-      imagen: "/images/EMPRESAS/gold.png",
-      url: "LarkinBaumanSeguridad.com",
-      descripcion:
-        "Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología.",
-    },
-  ];
+  
+  const {traduccion} = useContext(AppContext)
 
   const [seleccion, setSeleccion] = useState(0);
 
@@ -57,7 +18,7 @@ function Empresas() {
         className="w-full h-full absolute -z-50"
       />
       <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 ">
-        {empresas.map((empresa, index) => (
+        {traduccion.empresas.map((empresa, index) => (
           <div
             key={index}
             className={
