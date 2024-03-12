@@ -18,8 +18,7 @@ function Acerca() {
 
   return (
     <div
-    id='Acerca'
-    className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
+     className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
 
     <div className='w-full grid grid-cols-2 gap-x-4 gap-y-8'>
       <div className='w-[302px] h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
