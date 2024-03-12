@@ -6,7 +6,8 @@ import { useRouter } from "next/router";
 
 function Navbar({}) {
   const [navIdioma, setNavIdioma] = useState(false);
-  const { idioma, setIdioma } = useContext(AppContext);
+  const { idioma, setIdioma, traduccion } = useContext(AppContext);
+
 
   const router = useRouter();
 
@@ -28,17 +29,17 @@ function Navbar({}) {
           onClick={() => {
             document.getElementById('Acerca').scrollIntoView({ behavior: 'smooth' });
           }}
-          >Nosotros</span>
+          >{traduccion.navbar.link1}</span>
           <span className="cursor-pointer"
             onClick={() => {
               document.getElementById('Empresas').scrollIntoView({ behavior: 'smooth' });
             }}
-          >Empresas</span>
+          >{traduccion.navbar.link2}</span>
           <span className="cursor-pointer"
             onClick={() => {
               document.getElementById('Servicio').scrollIntoView({ behavior: 'smooth' });
             }}
-          >Cobertura</span>
+          >{traduccion.navbar.link3}</span>
           <div>
             <div className="absolute -right-[100px] top-0 flex flex-col gap-4">
               <div
@@ -137,7 +138,7 @@ function Navbar({}) {
                 .scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Contacto
+           {traduccion.contactoNavbar.titulo}
           </button>
         </div>
       </div>

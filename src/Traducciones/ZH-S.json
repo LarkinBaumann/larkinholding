@@ -43,6 +43,9 @@
       "link2": "公司",
       "link3": "覆盖范围"
     },
+    "contactoNavbar": {
+      "titulo":"联系我们"
+    },
     "footer":{
             "titulo1":"地址",
             "titulo2":"联系方式"

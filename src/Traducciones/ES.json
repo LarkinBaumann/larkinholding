@@ -52,6 +52,9 @@
     "link2": "Empresas",
     "link3": "Cobertura"
   },
+  "contactoNavbar": {
+    "titulo":"Contacto"
+  },
   "footer": {
     "titulo1": "Dirección",
     "titulo2": "Contacto"

@@ -50,6 +50,9 @@
       "link2": "Companies",
       "link3": "Coverage"
     },
+    "contactoNavbar": {
+      "titulo":"Contact"
+    },
     "footer": {
       "titulo1": "Address",
       "titulo2": "Contact"
