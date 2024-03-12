@@ -9,7 +9,9 @@ function Empresas() {
   const [seleccion, setSeleccion] = useState(0);
 
   return (
-    <div className="h-[1024px] w-full  text-white  relative z-20">
+    <div
+    id="Empresas"
+    className="h-[1024px] w-full  text-white  relative z-20">
       <Image
         src="/images/empresas2.png"
         width={5000}

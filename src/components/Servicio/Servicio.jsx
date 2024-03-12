@@ -6,7 +6,9 @@ import { AppContext } from "@/Context/AppContext";
 function Servicio() {
   const {traduccion} = useContext(AppContext)
   return (
-    <div className="w-full h-full relative z-10 ">
+    <div 
+    id="Servicio"
+    className="w-full h-full relative z-10 ">
 
       <ShadowServicio/>
     <div className="w-full h-[830px] flex flex-row justify-center items-center px-14 

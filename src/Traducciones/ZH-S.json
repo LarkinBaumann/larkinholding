@@ -38,10 +38,10 @@
             "titulo2":"电话",
             "titulo3":"地址"
     },
-    "navbar":{
-            "link1":"关于我们",
-            "link2":"经验",
-            "link3":"公司"
+    "navbar": {
+      "link1": "关于我们",
+      "link2": "公司",
+      "link3": "覆盖范围"
     },
     "footer":{
             "titulo1":"地址",

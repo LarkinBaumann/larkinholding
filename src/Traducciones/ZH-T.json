@@ -40,10 +40,10 @@
         "titulo3": "地址"
     },
     "navbar": {
-        "link1": "关于我们",
-        "link2": "经验",
-        "link3": "企业"
-    },
+            "link1": "关于我们",
+            "link2": "企业",
+            "link3": "覆盖范围"
+        },
     "footer": {
         "titulo1": "地址",
         "titulo2": "联系方式"

@@ -2,14 +2,13 @@ import { AppContext } from "@/Context/AppContext";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 import { FlagIcon } from "react-flag-kit";
+import { useRouter } from "next/router";
 
 function Navbar({}) {
+  const [navIdioma, setNavIdioma] = useState(false);
+  const { idioma, setIdioma } = useContext(AppContext);
 
-  const [navIdioma, setNavIdioma] = useState(false)
-  const {idioma, setIdioma} = useContext(AppContext)
- 
-
- 
+  const router = useRouter();
 
   return (
     <div className="w-full h-[93px] flex flex-col px-14 max-w-[1440px] mx-auto min-w-sm  ">
@@ -25,14 +24,27 @@ function Navbar({}) {
           />
         </div>
         <div className="flex flex-row items-center justify-center text-[16px] font-paragraph leading-[24px] gap-8 relative">
-          <span className="cursor-pointer">Nosotros</span>
-          <span className="cursor-pointer">Experiencia</span>
-          <span className="cursor-pointer">Empresas</span>
+          <span className="cursor-pointer"
+          onClick={() => {
+            document.getElementById('Acerca').scrollIntoView({ behavior: 'smooth' });
+          }}
+          >Nosotros</span>
+          <span className="cursor-pointer"
+            onClick={() => {
+              document.getElementById('Empresas').scrollIntoView({ behavior: 'smooth' });
+            }}
+          >Empresas</span>
+          <span className="cursor-pointer"
+            onClick={() => {
+              document.getElementById('Servicio').scrollIntoView({ behavior: 'smooth' });
+            }}
+          >Cobertura</span>
           <div>
             <div className="absolute -right-[100px] top-0 flex flex-col gap-4">
-              <div className="w-[110px] flex flex-row items-center gap-2 cursor-pointer"
+              <div
+                className="w-[110px] flex flex-row items-center gap-2 cursor-pointer"
                 onClick={() => {
-                  setNavIdioma(!navIdioma)
+                  setNavIdioma(!navIdioma);
                 }}
               >
                 <div>
@@ -59,50 +71,56 @@ function Navbar({}) {
                 <div
                   className="w-full h-full  flex flex-col gap-2 z-20"
                   style={{
-                    background: 'rgba(11, 32, 46, 0.30)',
-                    hover: { backgroundColor: 'rgba(44, 82, 107, 0.3)' }
+                    background: "rgba(11, 32, 46, 0.30)",
+                    hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
                   }}
                 >
-                  <div className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]" onClick={() => 
-                  {
-                  setIdioma({
-                    nombre: "EN",
-                    code: "GB",
-                  })
-                  setNavIdioma(!navIdioma)
-                }
-              }
+                  <div
+                    className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                    onClick={() => {
+                      setIdioma({
+                        nombre: "EN",
+                        code: "GB",
+                      });
+                      setNavIdioma(!navIdioma);
+                    }}
                   >
                     <FlagIcon code="GB" /> EN
                   </div>
-                  <div className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]" onClick={() =>{
-                    setNavIdioma(!navIdioma)
-                  setIdioma({
-                    nombre: "ES",
-                    code: "ES",
-                  })}
-                }>
+                  <div
+                    className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                    onClick={() => {
+                      setNavIdioma(!navIdioma);
+                      setIdioma({
+                        nombre: "ES",
+                        code: "ES",
+                      });
+                    }}
+                  >
                     <FlagIcon code="ES" /> ES
                   </div>
-                  <div className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]" onClick={() => {
-                    setNavIdioma(!navIdioma)
-                    setIdioma(
-                    {
-                      nombre: "ZH-T",
-                      code: "TW"
-                    }
-                  )}}>
+                  <div
+                    className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                    onClick={() => {
+                      setNavIdioma(!navIdioma);
+                      setIdioma({
+                        nombre: "ZH-T",
+                        code: "TW",
+                      });
+                    }}
+                  >
                     <FlagIcon code="TW" /> ZH-T
                   </div>
-                  <div className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]" onClick={() => {
-                    setNavIdioma(!navIdioma)
-                    setIdioma(
-                    {
-                      nombre: "ZH-S",
-                      code: "CN"
-                    }
-                  )}
-                  }>
+                  <div
+                    className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                    onClick={() => {
+                      setNavIdioma(!navIdioma);
+                      setIdioma({
+                        nombre: "ZH-S",
+                        code: "CN",
+                      });
+                    }}
+                  >
                     <FlagIcon code="CN" /> ZH-S
                   </div>
                 </div>
@@ -111,7 +129,14 @@ function Navbar({}) {
           </div>
         </div>
         <div>
-          <button className="w-130 h-49 px-8 py-2 flex justify-center items-center gap-8 flex-shrink-0 bg-[#005E93]">
+          <button
+            className="w-130 h-49 px-8 py-2 flex justify-center items-center gap-8 flex-shrink-0 bg-[#005E93]"
+            onClick={() => {
+              document
+                .getElementById("Contacto")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             Contacto
           </button>
         </div>

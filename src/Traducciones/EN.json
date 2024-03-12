@@ -47,8 +47,8 @@
     },
     "navbar": {
       "link1": "About Us",
-      "link2": "Experience",
-      "link3": "Companies"
+      "link2": "Companies",
+      "link3": "Coverage"
     },
     "footer": {
       "titulo1": "Address",
