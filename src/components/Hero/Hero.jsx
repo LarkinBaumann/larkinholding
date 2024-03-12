@@ -9,7 +9,7 @@ function Hero({heroImage}) {
   
   const {traduccion} = useContext(AppContext)
   const text = traduccion.hero.titulos[heroImage];
-const delay = 2500 / text.length; // Calculate delay to make the animation last about 6 seconds
+const delay = 2500 / text?.length; // Calculate delay to make the animation last about 6 seconds
 
   return (
     <div className='w-full h-full relative overflow-hidden'>
