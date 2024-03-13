@@ -12,10 +12,10 @@ function Acerca() {
   const{traduccion}= useContext(AppContext)
 
   const { ref, inView } = useInView({
-    triggerOnce: true, // Change this to false if you want the animation to trigger again whenever it comes in view
+    triggerOnce: true, 
   });
   const { ref2, inView2 } = useInView({
-    triggerOnce: true, // Change this to false if you want the animation to trigger again whenever it comes in view
+    triggerOnce: true, 
   });
   const variants = {
     hidden: { opacity: 0, x: -50 },
