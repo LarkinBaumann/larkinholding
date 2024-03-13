@@ -3,13 +3,22 @@ import React, { useContext } from 'react'
 import Acerca from '../Acerca/Acerca'
 import ShadowAcerca from '../Shadows/ShadowAcerca'
 import { AppContext } from '@/Context/AppContext'
-import Typewriter from 'typewriter-effect';
+import {motion} from 'framer-motion'
 
 function Hero({heroImage}) {
   
   const {traduccion} = useContext(AppContext)
-  const text = traduccion.hero.titulos[heroImage];
-const delay = 2500 / text?.length; // Calculate delay to make the animation last about 6 seconds
+
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 3 } },
+  };
+
+  
+const variantsp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 3 } },
+};
 
   return (
     <div className='w-full h-full relative overflow-hidden'>
@@ -18,9 +27,16 @@ const delay = 2500 / text?.length; // Calculate delay to make the animation last
      
     <div className='w-full h-full flex flex-col justify-center gap-[23px]'>
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
-      <h2 className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}>
-        {traduccion.hero.titulos[heroImage]}
-      </h2>
+     
+<motion.h2
+  className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}
+  initial="hidden"
+  animate="visible"
+  variants={variants}
+  key={traduccion.hero.titulos[heroImage]}
+>
+  {traduccion.hero.titulos[heroImage]}
+</motion.h2>
       {/* <h2 className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}>
   <Typewriter
      options={{
@@ -31,9 +47,15 @@ const delay = 2500 / text?.length; // Calculate delay to make the animation last
     }}
   />
 </h2> */}
-      <p className='w-[556px] text-white font-roboto text-xl font-semibold leading-[38.726px]'>
-       {traduccion.hero.descripcion[heroImage]}
-      </p>  
+    <motion.p
+  className='w-[556px] text-white font-roboto text-xl font-semibold leading-[38.726px]'
+  initial="hidden"
+  animate="visible"
+  variants={variantsp}
+  key={traduccion.hero.descripcion[heroImage]}
+>
+  {traduccion.hero.descripcion[heroImage]}
+</motion.p>
     </div>
   
     <Acerca/>

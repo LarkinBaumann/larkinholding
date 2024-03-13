@@ -109,8 +109,8 @@ function Empresas() {
               fill="none"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M86.4408 53.9612L86.525 53.9067L86.4408 53.8544V53.7167H86.2191L0.865231 0.707672L1.51143 88.5769V296.611H86.4408V53.9612Z"
                 fill="#005E93"
               />
