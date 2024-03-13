@@ -2,11 +2,31 @@ import Image from "next/image";
 import React, { useContext } from "react";
 import ShadowFooter from "../Shadows/ShadowFooter";
 import { AppContext } from "@/Context/AppContext";
+import { motion } from 'framer-motion';
+
 
 function Footer() {
   const { traduccion } = useContext(AppContext);  
+
+  const variants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 0.5, 
+        ease: "easeOut" 
+      } 
+    },
+  };
+
+  
   return (
-    <div className="w-full h-full relative z-10 bg-[#0e192170]">
+    <motion.div className="w-full h-full relative z-10 bg-[#0e192170]"
+    initial="hidden"
+      animate="visible"
+      variants={variants}
+      >
       <ShadowFooter />
       <div className="w-full h-[327px] flex flex-row justify-between items-center text-white 
       max-w-[1444px] mx-auto min-w-sm  ">
@@ -119,7 +139,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
