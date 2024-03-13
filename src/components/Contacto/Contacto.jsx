@@ -1,6 +1,7 @@
 import { AppContext } from "@/Context/AppContext";
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function Contacto() {
   const { traduccion } = useContext(AppContext);
@@ -49,6 +50,10 @@ function Contacto() {
     },
   };
 
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
+
   return (
     <div
       id="Contacto"
@@ -57,7 +62,7 @@ function Contacto() {
       <motion.h2
         className="text-white font-roboto text-[65px] font-bold leading-[87.55px] text-center"
         initial="hidden"
-        animate="visible"
+        animate={inView ? "visible" : "hidden"}
         variants={variants}
       >
         {traduccion.contacto.header}
@@ -65,23 +70,26 @@ function Contacto() {
         <motion.span
           className="titulo2"
           initial="hidden"
-          animate="visible"
+          animate={inView ? "visible" : "hidden"}
           variants={variants}
         >
           {traduccion.contacto.accent}
         </motion.span>
       </motion.h2>
       <motion.p
+      
         className="w-[930px] text-white text-center text-[25px] font-paragraph leading-[43px]"
         initial="hidden"
-        animate="visible"
+        animate={inView ? "visible" : "hidden"}
         variants={variantsText}
       >
         {traduccion.contacto.paragraph}
       </motion.p>
-      <motion.div className="w-[930px] flex flex-row justify-around items-center"
+      <motion.div
+      ref={ref}
+      className="w-[930px] flex flex-row justify-around items-center"
        initial="hidden"
-       animate="visible"
+       animate={inView ? "visible" : "hidden"}
        variants={containerVariants}
       >
         <motion.div

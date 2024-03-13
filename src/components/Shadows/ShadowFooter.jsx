@@ -1,8 +1,27 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
-function ShadowFooter() {
+function ShadowFooter({inView}) {
+
+   
+  const variants = {
+    hidden: { opacity: 0, y: 0 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 3,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <div className='w-full absolute -top-[500px]  -z-10 overflow-hidden'>
+    <motion.div 
+    initial="hidden"
+    animate={inView ? "visible" : "hidden"}
+    variants={variants}
+    className='w-full absolute -top-[500px]  -z-10 overflow-hidden'>
         <svg xmlns="http://www.w3.org/2000/svg" width="2240" height="859" viewBox="0 0 1440 859" fill="none">
   <g filter="url(#filter0_f_99_526)">
     <path d="M1371.84 613.152C1206.12 470.18 593.567 494.132 308.003 523.98C-465.341 844.527 453.533 910.384 1009.64 903.244C1199.42 866.119 1537.55 756.124 1371.84 613.152Z" fill="url(#paint0_linear_99_526)"/>
@@ -21,7 +40,7 @@ function ShadowFooter() {
     </linearGradient>
   </defs>
 </svg>
-    </div>
+    </motion.div>
   )
 }
 

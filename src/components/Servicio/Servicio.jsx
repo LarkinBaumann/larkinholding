@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import ShadowServicio from "../Shadows/ShadowServicio";
 import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 
 function Servicio() {
@@ -29,13 +30,19 @@ function Servicio() {
       } 
     },
   };
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
 
   return (
     <div 
+    
     id="Servicio"
     className="w-full h-full relative z-10 ">
 
-      <ShadowServicio/>
+      <ShadowServicio
+      inView={inView}
+      />
     <div className="w-full h-[830px] flex flex-row justify-center items-center px-14 
     max-w-[1444px] mx-auto min-w-sm 
     ">
@@ -44,7 +51,7 @@ function Servicio() {
       <div className="">
         <motion.div className="w-[557px] h-[539px]" 
          initial="hidden"
-         animate="visible"
+         animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
         >
           <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full'/>
@@ -52,8 +59,9 @@ function Servicio() {
       </div>
       <div className=" flex flex-col gap-[8px]">
         <motion.h2 
+        ref={ref}
          initial="hidden"
-         animate="visible"
+         animate={inView ? "visible" : "hidden"}
          variants={variants}
         className="font-header w-[532px] text-[40px] font-bold leading-[44px]">
           {traduccion.servicio.header}
@@ -62,7 +70,7 @@ function Servicio() {
         </motion.h2>
         <motion.p 
         initial="hidden"
-        animate="visible"
+        animate={inView ? "visible" : "hidden"}
         variants={variants}
         className="w-[532px]  font-paragraph text-[20px] leading-[34px] ">{traduccion.servicio.paragraph}</motion.p>
       </div>

@@ -3,7 +3,8 @@ import React, { useContext } from "react";
 import ShadowFooter from "../Shadows/ShadowFooter";
 import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
-
+import { useInView } from "react-intersection-observer";
+import { useMediaQuery } from "react-responsive";
 
 function Footer() {
   const { traduccion } = useContext(AppContext);  
@@ -20,14 +21,41 @@ function Footer() {
     },
   };
 
-  
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
+
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+
+  const variantsH1 = isTabletOrMobile
+    ? {
+        hidden: { opacity: 0, y: 0 },
+        visible: {
+          y: 0,
+          opacity: 1,
+          transition: { duration: 3, ease: "easeOut" },
+        },
+      }
+    : {
+        hidden: { y: -100 },
+        visible: {
+          y: 0,
+          transition: { duration: 3, ease: "easeOut" },
+        },
+      };
+
+
   return (
-    <motion.div className="w-full h-full relative z-10 bg-[#0e192170]"
+    <motion.div 
+    ref={ref}
+    className="w-full h-full relative z-10 bg-[#0e192170]"
     initial="hidden"
-      animate="visible"
+    animate={inView ? "visible" : "hidden"}
       variants={variants}
       >
-      <ShadowFooter />
+      <ShadowFooter
+      inView={inView}
+      />
       <div className="w-full h-[327px] flex flex-row justify-between items-center text-white 
       max-w-[1444px] mx-auto min-w-sm  ">
         <div className="w-full flex flex-row ">
