@@ -28,6 +28,27 @@ function Contacto() {
     },
   };
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1, 
+      transition: { 
+        staggerChildren: 0.5 
+      } 
+    },
+  };
+  
+  const childVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1, 
+      transition: { 
+        duration: 0.5, 
+        ease: "easeOut" 
+      } 
+    },
+  };
+
   return (
     <div
       id="Contacto"
@@ -58,8 +79,14 @@ function Contacto() {
       >
         {traduccion.contacto.paragraph}
       </motion.p>
-      <div className="w-[930px] flex flex-row justify-around items-center">
-        <div className=" flex flex-col  gap-[9px] text-white">
+      <motion.div className="w-[930px] flex flex-row justify-around items-center"
+       initial="hidden"
+       animate="visible"
+       variants={containerVariants}
+      >
+        <motion.div
+        variants={childVariants}
+        className=" flex flex-col  gap-[9px] text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -93,8 +120,10 @@ function Contacto() {
             Lorem ipsum dolor sit amet.
           </p>
           <p className="font-paragraph text-[18px] "> hello@relume.io</p>
-        </div>
-        <div className=" flex flex-col gap-[9px]  text-white">
+        </motion.div>
+        <motion.div
+        variants={childVariants}
+        className=" flex flex-col gap-[9px]  text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -128,8 +157,10 @@ function Contacto() {
             Lorem ipsum dolor sit amet.
           </p>
           <p className="font-paragraph text-[18px] "> +1 (555) 000-0000</p>
-        </div>
-        <div className=" flex flex-col gap-[9px]  text-white">
+        </motion.div>
+        <motion.div
+        variants={childVariants}
+        className=" flex flex-col gap-[9px]  text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -175,8 +206,8 @@ function Contacto() {
           </h4>
           <p className="font-paragraph text-[18px] ">123 Sample St, Sydney </p>
           <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }
