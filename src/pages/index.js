@@ -9,6 +9,8 @@ import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
 import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import { useEffect, useState } from "react";
+import { motion } from 'framer-motion';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,10 +26,28 @@ const inter = Inter({ subsets: ["latin"] });
       return () => clearInterval(interval);
     }, []);
 
+
+    const variants = {
+      hidden: { opacity: 0 },
+      visible: { 
+        opacity: 1, 
+        transition: { 
+          duration: 3, 
+          ease: "easeOut" 
+        } 
+      },
+    };
+
     return (
       <main className="w-full h-full">
-        <div className="w-full relative z-10">
-          <Image
+        <div
+        
+        className="w-full relative z-10">
+          <motion.img
+          initial="hidden"
+          animate="visible"
+          variants={variants}
+          key={heroImage}
             src={`/images/Hero/${heroImage}.png`}
             alt="hero"
             fill={true}

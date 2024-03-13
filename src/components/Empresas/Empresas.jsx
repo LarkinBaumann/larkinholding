@@ -2,6 +2,7 @@ import { AppContext } from "@/Context/AppContext";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
 import { motion } from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 function Empresas() {
   
@@ -18,6 +19,15 @@ function Empresas() {
       } 
     },
   };
+  const variantsP = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1, 
+      transition: { 
+        duration: 3 
+      } 
+    },
+  };
   
   const childVariants = {
     hidden: { opacity: 0 },
@@ -29,6 +39,10 @@ function Empresas() {
       } 
     },
   };
+
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
   
 
   return (
@@ -44,30 +58,37 @@ function Empresas() {
       />
       <motion.div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm "
       initial="hidden"
-      animate="visible"
+      animate={inView ? "visible" : "hidden"}
       variants={containerVariants}
     >
       
         {traduccion.empresas.map((empresa, index) => (
           <motion.div
+          
             key={index}
             className={
               seleccion != index
-                ? "w-full h-[774px] rounded-[22px]  relative cursor-pointer hover:-translate-y-4 transition-all duration-300"
+                ? "w-full h-[774px] col-span-1 rounded-[22px]  relative cursor-pointer hover:-translate-y-4 transition-all duration-300"
                 : "col-span-4 h-[774px] rounded-[22px]  "
             }
             onClick={() => setSeleccion(index)}
             variants={childVariants}
+            
           >
             {seleccion == index ? (
               <div
+              ref={ref}
                 className="w-full h-full flex flex-col justify-between bg-[
                 #183F5C] rounded-t-[22px]"
               >
                 <div className="w-full h-[50%] flex flex-col justify-center items-center bg-[#183F5C2E] rounded-[22px]">
-                  <p className="font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] h-[192px]">
+                  <motion.p className="font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] h-[192px]"
+                   initial="hidden"
+                   animate={inView ? "visible" : "hidden"}
+                   variants={variantsP}
+                  >
                     {empresa.descripcion}
-                  </p>
+                  </motion.p>
                 </div>
                 <div className="w-full h-[50%] relative ">
                   <Image

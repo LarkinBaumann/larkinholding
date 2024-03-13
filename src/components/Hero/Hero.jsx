@@ -37,16 +37,7 @@ const variantsp = {
 >
   {traduccion.hero.titulos[heroImage]}
 </motion.h2>
-      {/* <h2 className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}>
-  <Typewriter
-     options={{
-      strings: [text],
-      autoStart: true,
-      loop: true,
-      delay: delay,
-    }}
-  />
-</h2> */}
+   
     <motion.p
   className='w-[556px] text-white font-roboto text-xl font-semibold leading-[38.726px]'
   initial="hidden"
