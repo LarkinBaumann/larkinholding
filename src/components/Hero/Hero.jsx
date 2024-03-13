@@ -29,7 +29,7 @@ const variantsp = {
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
      
 <motion.h2
-  className={`${heroImage != 2 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}
+  className={`${heroImage != 1 ? "w-[656px]": "w-[356px]"} h-[195px] text-white font-roboto text-8xl font-bold leading-[87.55px] titulo2`}
   initial="hidden"
   animate="visible"
   variants={variants}

@@ -4,6 +4,8 @@ import { AppContext } from '@/Context/AppContext'
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { Fade } from 'react-awesome-reveal';
+import { motion } from 'framer-motion';
+
 
 function Acerca() {
 
@@ -15,6 +17,17 @@ function Acerca() {
   const { ref2, inView2 } = useInView({
     triggerOnce: true, // Change this to false if you want the animation to trigger again whenever it comes in view
   });
+  const variants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { 
+      opacity: 1, 
+      x: 0, 
+      transition: { 
+        duration: 0.5, 
+        ease: "easeOut" 
+      } 
+    },
+  };
 
   return (
     <div
@@ -73,10 +86,20 @@ function Acerca() {
       
     </div>
     <div className='w-full h-full flex flex-col justify-center gap-[16px]'>
-      <h2 className='text-[47px] font-black text-white leading-[49px]'>
-      {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
-      </h2>
-      <p className='text-white font-paragraph leading-[34px] text-[20px] w-[569px]'>{traduccion.acerca.paragraph}</p>
+    <motion.h2
+  className='text-[47px] font-black text-white leading-[49px]'
+  initial="hidden"
+  animate="visible"
+  variants={variants}
+>
+  {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
+</motion.h2>
+      <motion.p className='text-white font-paragraph leading-[34px] text-[20px] w-[569px]'
+       initial="hidden"
+       animate="visible"
+       variants={variants}
+      >
+        {traduccion.acerca.paragraph}</motion.p>
     </div>
     
 

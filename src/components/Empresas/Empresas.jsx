@@ -1,12 +1,35 @@
 import { AppContext } from "@/Context/AppContext";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
+import { motion } from 'framer-motion';
 
 function Empresas() {
   
   const {traduccion} = useContext(AppContext)
 
   const [seleccion, setSeleccion] = useState(0);
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1, 
+      transition: { 
+        staggerChildren: 0.5 
+      } 
+    },
+  };
+  
+  const childVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1, 
+      transition: { 
+        duration: 0.5, 
+        ease: "easeOut" 
+      } 
+    },
+  };
+  
 
   return (
     <div
@@ -19,9 +42,14 @@ function Empresas() {
         alt="fondo-empresas"
         className="w-full h-full object-cover  absolute -z-50"
       />
-      <div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm ">
+      <motion.div className="grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm "
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
+    >
+      
         {traduccion.empresas.map((empresa, index) => (
-          <div
+          <motion.div
             key={index}
             className={
               seleccion != index
@@ -29,6 +57,7 @@ function Empresas() {
                 : "col-span-4 h-[774px] rounded-[22px]  "
             }
             onClick={() => setSeleccion(index)}
+            variants={childVariants}
           >
             {seleccion == index ? (
               <div
@@ -126,9 +155,9 @@ function Empresas() {
               {empresa.nombre}
             </h3>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

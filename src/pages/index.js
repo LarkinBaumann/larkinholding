@@ -14,11 +14,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 
   export default function Home() {
-    const [heroImage, setHeroImage] = useState(1);
+    const [heroImage, setHeroImage] = useState(0);
 
     useEffect(() => {
       const interval = setInterval(() => {
-        setHeroImage((prevImage) =>  prevImage  + 1 > 5? 1 : prevImage + 1);
+        setHeroImage((prevImage) =>  prevImage  + 1 > 4? 1 : prevImage + 1);
       }, 6000);
 
       return () => clearInterval(interval);
