@@ -52,12 +52,12 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-screen lg:h-full absolute object-cover -z-10"
-            style={{ objectPosition: heroImage == '0'?'-750px center':
-                 heroImage == '1'? "-960px center":
-                 heroImage == '2'? "-720px center":
-                 heroImage == '3'? "-750px center":
-                 heroImage == '4'&& "-660px center"
+            className="w-full h-[55vh] lg:h-full absolute object-cover -z-10"
+            style={{ objectPosition: heroImage == '0'?'-280px center':
+                 heroImage == '1'? "-425px center":
+                 heroImage == '2'? "-280px center":
+                 heroImage == '3'? "-280px center":
+                 heroImage == '4'&& "-280px center"
                 }}
           />
           <Navbar />

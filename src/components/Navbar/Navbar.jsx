@@ -195,7 +195,7 @@ function Navbar({}) {
           </button>
         </div>
       </div>
-      <div className="h-[1px] bg-[#1777BA]" />
+      <div className="hidden lg:flex h-[1px] bg-[#1777BA]" />
     </div>
 
     <div className='lg:hidden w-full h-[80px] flex flex-row items-center justify-between  border-b-[2px] border-black px-4 '>
