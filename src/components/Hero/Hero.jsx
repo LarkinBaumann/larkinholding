@@ -23,7 +23,7 @@ const variantsp = {
   return (
     <div className='w-full h-full relative overflow-hidden'>
 <ShadowAcerca/>
-    <div className='w-full h-[1190px] flex flex-col px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm  '>
+    <div className='w-full h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm  '>
      
     <div className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[23px]'>
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
