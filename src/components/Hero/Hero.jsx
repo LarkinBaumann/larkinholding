@@ -23,15 +23,15 @@ const variantsp = {
   return (
     <div className='w-full h-full relative overflow-hidden'>
 <ShadowAcerca/>
-    <div className='w-full h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm  '>
+    <div className='w-full h-full lg:h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm gap-[54px]  '>
      
-    <div className='w-full h-full flex flex-col justify-end lg:justify-center items-center lg:items-start gap-[23px]'>
+    <div className='w-full h-[82vh] lg:h-full flex flex-col justify-end lg:justify-center items-center lg:items-start gap-[23px] '>
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='hidden lg:flex w-[497px]' />
      {
       console.log(heroImage)
 }
 <motion.h2
-  className={`${heroImage == 1 ? "w-[280px] lg:w-[656px] text-[68px] lg:text-8xl": heroImage == 2?" w-[500px] lg:w-[656px] text-[60px] lg:text-8xl leading-[80.55px]" : "w-[280px] lg:w-[356px]"} h-[180px] text-center lg:text-start lg:h-[195px] text-white font-roboto text-[68px] lg:text-8xl font-bold leading-[87.55px] titulo2`}
+  className={`${heroImage == 1 ? "w-[280px] lg:w-[656px] text-[68px] lg:text-8xl": heroImage == 2?" w-[500px] lg:w-[656px] text-[60px] lg:text-8xl leading-[80.55px]" : "w-[280px] lg:w-[356px]"} h-[150px] text-center lg:text-start lg:h-[195px] text-white font-header text-[68px] lg:text-8xl font-extrabold lg:font-bold leading-[70px] lg:leading-[87.55px] titulo2 `}
   initial="hidden"
   animate="visible"
   variants={variants}
@@ -50,7 +50,7 @@ const variantsp = {
   {traduccion.hero.descripcion[heroImage]}
 </motion.p>
 
-<div className='w-full lg:hidden flex flex-row justify-center items-center gap-3'>
+<div className='w-full lg:hidden flex flex-row justify-center items-center gap-3 mt-4'>
   
   
   {

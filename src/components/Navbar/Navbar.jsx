@@ -204,11 +204,11 @@ function Navbar({}) {
               initial="hidden"
               animate="visible"
               variants={variantsLogo}
-              className="w-full h-full"
+              className="w-full h-full items-center flex"
               >
 
             <Image src="/assets/logonav.png" width={1000} height={1000} alt='logo'
-            className="w-[127px] h-[60px] object-contain"
+            className="w-[170px] h-[45px] object-contain ml-4"
             />	
               </motion.div>
         </div>{/* 
