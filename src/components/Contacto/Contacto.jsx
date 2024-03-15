@@ -60,13 +60,13 @@ function Contacto() {
       className="w-full h-[604px] flex flex-col  justify-center items-center px-14 gap-[15px] relative z-20"
     >
       <motion.h2
-        className="text-white font-roboto text-[65px] font-bold leading-[87.55px] text-center"
+        className="w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
       >
         {traduccion.contacto.header}
-        <br />
+        <br className="lg:hidden" />
         <motion.span
           className="titulo2"
           initial="hidden"
@@ -78,7 +78,7 @@ function Contacto() {
       </motion.h2>
       <motion.p
       
-        className="w-[930px] text-white text-center text-[25px] font-paragraph leading-[43px]"
+        className="w-[289px] lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variantsText}
@@ -87,7 +87,7 @@ function Contacto() {
       </motion.p>
       <motion.div
       ref={ref}
-      className="w-[930px] flex flex-row justify-around items-center"
+      className="hidden w-[930px] lg:flex flex-row justify-around items-center"
        initial="hidden"
        animate={inView ? "visible" : "hidden"}
        variants={containerVariants}
@@ -216,6 +216,44 @@ function Contacto() {
           <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
         </motion.div>
       </motion.div>
+      <div className="w-full h-full flex lg:hidden flex-row justify-center items-center">
+      <div className='w-[161px] lg:w-[302px] h-[121px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
+      <motion.div
+        variants={childVariants}
+        className=" flex flex-col  gap-[9px] text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="38"
+            height="38"
+            viewBox="0 0 38 38"
+            fill="none"
+          >
+            <path
+              d="M30.9338 6.18652H6.18708C4.48111 6.18652 3.09375 7.57388 3.09375 9.27986V27.8399C3.09375 29.5458 4.48111 30.9332 6.18708 30.9332H30.9338C32.6397 30.9332 34.0271 29.5458 34.0271 27.8399V9.27986C34.0271 7.57388 32.6397 6.18652 30.9338 6.18652ZM30.9338 9.27986V10.0702L18.5604 19.6951L6.18708 10.0717V9.27986H30.9338ZM6.18708 27.8399V13.9879L17.6108 22.8735C17.8816 23.0862 18.216 23.2019 18.5604 23.2019C18.9048 23.2019 19.2392 23.0862 19.5101 22.8735L30.9338 13.9879L30.9368 27.8399H6.18708Z"
+              fill="url(#paint0_linear_224_713)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_224_713"
+                x1="18.5604"
+                y1="6.18652"
+                x2="18.5604"
+                y2="30.9332"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#1777BA" />
+                <stop offset="1" stopColor="#8FAFF1" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <h4 className="font-bold font-header text-[23px]">
+            {traduccion.contacto.titulo}
+          </h4>
+         
+          <p className="font-paragraph text-[18px] "> hello@relume.io</p>
+        </motion.div>
+      </div>
+      </div>
     </div>
   );
 }

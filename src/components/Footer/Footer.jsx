@@ -56,10 +56,10 @@ function Footer() {
       <ShadowFooter
       inView={inView}
       />
-      <div className="w-full h-[327px] flex flex-row justify-between items-center text-white 
+      <div className="w-full h-[327px] flex flex-row justify-center lg:justify-between items-center text-white 
       max-w-[1444px] mx-auto min-w-sm  ">
-        <div className="w-full flex flex-row ">
-          <div className="w-[227px] h-[203px]">
+        <div className="w-full flex flex-col lg:flex-row items-center lf:items-start gap-4 ">
+          <div className="w-[138px] lg:w-[227px] h-[123px] lg:h-[203px]">
             <Image
               src="/assets/logoHolding.png"
               alt="logo"
@@ -68,17 +68,17 @@ function Footer() {
               className="w-full h-full"
             />
           </div>
-          <div className="h-[203px] flex flex-col justify-between">
+          <div className="h-[150px] lg:h-[203px] flex flex-col justify-between items-center lg:items-start">
             <div className="flex flex-col">
-              <p>{traduccion.footer.titulo1}</p>
+              <p className="text-center lg:text-left">{traduccion.footer.titulo1}</p>
               <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
             </div>
             <div className="flex flex-col">
-              <p>{traduccion.footer.titulo2}</p>
+              <p className="text-center lg:text-left">{traduccion.footer.titulo2}</p>
               <p>1800 123 4567</p>
               <p>info@relume.io</p>
             </div>
-            <div className="flex flex-row justify-between items-center">
+            <div className="hidden lg:flex flex-row justify-between items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -146,7 +146,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row ">
+        <div className="hidden lg:flex flex-row ">
           <div className="w-[227px] h-[203px]">
             <Image
               src="/images/wechatFooter.png"
