@@ -20,7 +20,7 @@ const inter = Inter({ subsets: ["latin"] });
 
     useEffect(() => {
       const interval = setInterval(() => {
-        setHeroImage((prevImage) =>  prevImage  + 1 > 4? 1 : prevImage + 1);
+        setHeroImage((prevImage) =>  prevImage  + 1 > 4? 0 : prevImage + 1);
       }, 6000);
 
       return () => clearInterval(interval);
@@ -52,7 +52,13 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-full absolute object-cover -z-10"
+            className="w-full h-screen lg:h-full absolute object-cover -z-10"
+            style={{ objectPosition: heroImage == '0'?'-750px center':
+                 heroImage == '1'? "-960px center":
+                 heroImage == '2'? "-720px center":
+                 heroImage == '3'? "-750px center":
+                 heroImage == '4'&& "-660px center"
+                }}
           />
           <Navbar />
           <Hero 

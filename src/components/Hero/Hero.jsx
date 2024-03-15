@@ -26,7 +26,7 @@ const variantsp = {
     <div className='w-full h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm  '>
      
     <div className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[23px]'>
-      <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='w-[497px]' />
+      <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='hidden lg:flex w-[497px]' />
      
 <motion.h2
   className={`${heroImage != 1 ? "w-[229px] lg:w-[656px] text-[68px] lg:text-8xl": "w-[229px] lg:w-[356px]"} h-[180px] text-center lg:text-start lg:h-[195px] text-white font-roboto text-[68px] lg:text-8xl font-bold leading-[87.55px] titulo2`}
