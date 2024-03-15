@@ -31,26 +31,29 @@ function Contacto() {
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1, 
-      transition: { 
-        staggerChildren: 0.5 
-      } 
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5,
+      },
     },
   };
-  
+
   const childVariants = {
     hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1, 
-      transition: { 
-        duration: 0.5, 
-        ease: "easeOut" 
-      } 
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut",
+      },
     },
   };
 
   const [ref, inView] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
+  const [ref2, inViewMov] = useInView({
     triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
   });
 
@@ -77,7 +80,6 @@ function Contacto() {
         </motion.span>
       </motion.h2>
       <motion.p
-      
         className="w-[289px] lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
@@ -86,15 +88,16 @@ function Contacto() {
         {traduccion.contacto.paragraph}
       </motion.p>
       <motion.div
-      ref={ref}
-      className="hidden w-[930px] lg:flex flex-row justify-around items-center"
-       initial="hidden"
-       animate={inView ? "visible" : "hidden"}
-       variants={containerVariants}
+        ref={ref}
+        className="hidden w-[930px] lg:flex flex-row justify-around items-center"
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={containerVariants}
       >
         <motion.div
-        variants={childVariants}
-        className=" flex flex-col  gap-[9px] text-white">
+          variants={childVariants}
+          className=" flex flex-col  gap-[9px] text-white"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -130,8 +133,9 @@ function Contacto() {
           <p className="font-paragraph text-[18px] "> hello@relume.io</p>
         </motion.div>
         <motion.div
-        variants={childVariants}
-        className=" flex flex-col gap-[9px]  text-white">
+          variants={childVariants}
+          className=" flex flex-col gap-[9px]  text-white"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -167,8 +171,9 @@ function Contacto() {
           <p className="font-paragraph text-[18px] "> +1 (555) 000-0000</p>
         </motion.div>
         <motion.div
-        variants={childVariants}
-        className=" flex flex-col gap-[9px]  text-white">
+          variants={childVariants}
+          className=" flex flex-col gap-[9px]  text-white"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"
@@ -216,43 +221,75 @@ function Contacto() {
           <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
         </motion.div>
       </motion.div>
+
+      <div className="w-full h-full flex flex-col gap-[9px] items-center">
+      <motion.h2
+      ref={ref2}
+        className="w-full text-white font-header text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center lg:text-start "
+        initial="hidden"
+        animate={"visible"}
+        variants={variants}
+      >
+        {traduccion.contacto.header}
+        <motion.span
+          className="titulo2 ml-2"
+          initial="hidden"
+          animate={"visible"}
+          variants={variants}
+        >
+          {traduccion.contacto.accent}
+        </motion.span>
+      </motion.h2>
+      <motion.p
+        className="w-full lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
+        initial="hidden"
+        animate={"visible"}
+        variants={variantsText}
+      >
+        {traduccion.contacto.paragraph}
+      </motion.p>
       <div className="w-full h-full flex lg:hidden flex-row justify-center items-center">
-      <div className='w-[161px] lg:w-[302px] h-[121px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
-      <motion.div
-        variants={childVariants}
-        className=" flex flex-col  gap-[9px] text-white">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
-            viewBox="0 0 38 38"
-            fill="none"
+        <div
+          className="w-[161px] lg:w-[302px] h-[121px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
-            <path
-              d="M30.9338 6.18652H6.18708C4.48111 6.18652 3.09375 7.57388 3.09375 9.27986V27.8399C3.09375 29.5458 4.48111 30.9332 6.18708 30.9332H30.9338C32.6397 30.9332 34.0271 29.5458 34.0271 27.8399V9.27986C34.0271 7.57388 32.6397 6.18652 30.9338 6.18652ZM30.9338 9.27986V10.0702L18.5604 19.6951L6.18708 10.0717V9.27986H30.9338ZM6.18708 27.8399V13.9879L17.6108 22.8735C17.8816 23.0862 18.216 23.2019 18.5604 23.2019C18.9048 23.2019 19.2392 23.0862 19.5101 22.8735L30.9338 13.9879L30.9368 27.8399H6.18708Z"
-              fill="url(#paint0_linear_224_713)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_224_713"
-                x1="18.5604"
-                y1="6.18652"
-                x2="18.5604"
-                y2="30.9332"
-                gradientUnits="userSpaceOnUse"
+          <motion.div
+            variants={childVariants}
+            className=" flex flex-col  gap-[9px] text-white"
+            >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              viewBox="0 0 38 38"
+              fill="none"
               >
-                <stop stopColor="#1777BA" />
-                <stop offset="1" stopColor="#8FAFF1" />
-              </linearGradient>
-            </defs>
-          </svg>
-          <h4 className="font-bold font-header text-[23px]">
-            {traduccion.contacto.titulo}
-          </h4>
-         
-          <p className="font-paragraph text-[18px] "> hello@relume.io</p>
-        </motion.div>
-      </div>
+              <path
+                d="M30.9338 6.18652H6.18708C4.48111 6.18652 3.09375 7.57388 3.09375 9.27986V27.8399C3.09375 29.5458 4.48111 30.9332 6.18708 30.9332H30.9338C32.6397 30.9332 34.0271 29.5458 34.0271 27.8399V9.27986C34.0271 7.57388 32.6397 6.18652 30.9338 6.18652ZM30.9338 9.27986V10.0702L18.5604 19.6951L6.18708 10.0717V9.27986H30.9338ZM6.18708 27.8399V13.9879L17.6108 22.8735C17.8816 23.0862 18.216 23.2019 18.5604 23.2019C18.9048 23.2019 19.2392 23.0862 19.5101 22.8735L30.9338 13.9879L30.9368 27.8399H6.18708Z"
+                fill="url(#paint0_linear_224_713)"
+                />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_224_713"
+                  x1="18.5604"
+                  y1="6.18652"
+                  x2="18.5604"
+                  y2="30.9332"
+                  gradientUnits="userSpaceOnUse"
+                  >
+                  <stop stopColor="#1777BA" />
+                  <stop offset="1" stopColor="#8FAFF1" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <h4 className="font-bold font-header text-[23px]">
+              {traduccion.contacto.titulo}
+            </h4>
+
+            <p className="font-paragraph text-[18px] "> hello@relume.io</p>
+          </motion.div>
+        </div>
+                  </div>
       </div>
     </div>
   );
