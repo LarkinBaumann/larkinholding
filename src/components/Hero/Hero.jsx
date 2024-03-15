@@ -50,14 +50,15 @@ const variantsp = {
   {traduccion.hero.descripcion[heroImage]}
 </motion.p>
 
-<div className='w-full lg:hidden flex flex-row justify-center items-center'>
+<div className='w-full lg:hidden flex flex-row justify-center items-center gap-3'>
+  
   
   {
-    traduccion.hero.titulos.forEach(element => {
+    traduccion.hero.titulos.map((element,index) => (
       
-      <div key={element} className='w-[13px] h-[13px] rounded-full bg-[#042134] border-[1px] border-[#55B0F0]'/>
+      <div key={element} className={`w-[13px] h-[13px] rounded-full ${index != heroImage ? 'bg-[#042134]' : 'bg-[#55B0F0]'} border-[1px] border-[#55B0F0]`}/>
 
-    } )
+     ) )
 }
 </div>
     </div>
