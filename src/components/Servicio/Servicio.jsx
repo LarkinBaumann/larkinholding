@@ -43,7 +43,7 @@ function Servicio() {
       <ShadowServicio
       inView={inView}
       />
-    <div className="w-full h-[830px] flex flex-col lg:flex-row justify-center items-center px-4 lg:px-14 
+    <div className="w-full h-[500px] lg:h-[830px] flex flex-col lg:flex-row justify-center items-center px-4 lg:px-14 
     max-w-[1444px] mx-auto min-w-sm 
     ">
     <div className="w-[337px] lg:w-full h-[511px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]

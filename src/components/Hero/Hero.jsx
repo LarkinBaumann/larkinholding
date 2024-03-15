@@ -39,7 +39,7 @@ const variantsp = {
 </motion.h2>
    
     <motion.p
-  className='w-[286px] lg:w-[556px] text-white font-roboto text-[17px] text-center lg:text-start lg:text-xl font-semibold leading-[21px] lg:leading-[38.726px]'
+  className='w-full lg:w-[556px] text-white font-roboto text-[17px] text-center lg:text-start lg:text-xl font-semibold leading-[21px] lg:leading-[38.726px] px-4'
   initial="hidden"
   animate="visible"
   variants={variantsp}

@@ -33,7 +33,7 @@ function Acerca() {
     <div
      className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
 
-    <div className='w-full grid grid-cols-2 gap-x-4 gap-y-8'>
+    <div className='w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start'>
       <div className='w-[161px] lg:w-[302px] h-[121px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
         <div className='flex'>
 
@@ -85,16 +85,16 @@ function Acerca() {
       </div>
       
     </div>
-    <div className='w-full h-full flex flex-col justify-center gap-[16px]'>
+    <div className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
     <motion.h2
-  className='w-[341px]  lg:w-full text-[27px] lg:text-[47px] font-black text-white leading-[28px] lg:leading-[49px] text-center lg:text-start'
+  className='w-full text-[27px] lg:text-[47px] font-black text-white leading-[28px] lg:leading-[49px] text-center lg:text-start'
   initial="hidden"
   animate="visible"
   variants={variants}
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>
-      <motion.p className='text-white font-paragraph leading-[20px]  text-center lg:text-left lg:leading-[34px] text-[12px] lg:text-[20px] w-[331px] lg:w-[569px]'
+      <motion.p className='text-white font-paragraph leading-[20px]  text-center lg:text-left lg:leading-[34px] text-[12px] lg:text-[20px]  lg:w-[569px]'
        initial="hidden"
        animate="visible"
        variants={variants}
