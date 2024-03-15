@@ -255,7 +255,7 @@ function Contacto() {
           >
           <motion.div
             variants={childVariants}
-            className=" flex flex-col  gap-[9px] text-white"
+            className=" flex flex-col items-center justify-center  gap-[9px] text-white"
             >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -282,11 +282,11 @@ function Contacto() {
                 </linearGradient>
               </defs>
             </svg>
-            <h4 className="font-bold font-header text-[23px]">
+            <h4 className="font-bold font-header text-[23px] text-center">
               {traduccion.contacto.titulo}
             </h4>
 
-            <p className="font-paragraph text-[18px] "> hello@relume.io</p>
+            <p className="font-paragraph text-[18px] text-center "> hello@relume.io</p>
           </motion.div>
         </div>
                   </div>
