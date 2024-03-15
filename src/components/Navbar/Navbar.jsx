@@ -74,7 +74,7 @@ function Navbar({}) {
             width={1000}
             height={1000}
             quality={100}
-            className="w-full h-full object-cover"
+            className="w-[170px] lg:w-full h-[45px] lg:h-full object-cover"
           />
         </div>
         <div className="flex flex-row items-center justify-center text-[16px] font-paragraph leading-[24px] gap-8 relative">
@@ -195,10 +195,10 @@ function Navbar({}) {
           </button>
         </div>
       </div>
-      <div className="hidden lg:flex h-[1px] bg-[#1777BA]" />
+      <div className="h-[1px] bg-[#1777BA]" />
     </div>
 
-    <div className='lg:hidden w-full h-[80px] flex flex-row items-center justify-between  border-b-[2px] border-black px-4 '>
+    <div className='lg:hidden w-full h-[80px] flex flex-row items-center justify-between  lg:border-b-[2px] border-black px-4 '>
     <div className='w-full h-full  items-center'>
         <motion.div
               initial="hidden"
@@ -306,7 +306,13 @@ function Navbar({}) {
              animate="visible"
              variants={variantsButton}
              onClick={() => setShowMenu(!showMenu)}
-            className='px-[20px] py-[8px] bg-brand-primary rounded-[10px]  text-white uppercase'>cotizar</motion.button>
+            className='px-[20px] py-[8px]  rounded-[10px]  text-white uppercase'>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="21" viewBox="0 0 32 21" fill="none">
+  <path d="M2 2H30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M2 10H30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M2 19H30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
+            </motion.button>
         </div>
         
     
