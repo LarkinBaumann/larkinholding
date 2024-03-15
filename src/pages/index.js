@@ -10,6 +10,7 @@ import Footer from "@/components/Footer/Footer";
 import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
+import { useSwipeable } from 'react-swipeable';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -38,11 +39,17 @@ const inter = Inter({ subsets: ["latin"] });
       },
     };
 
+    const handlers = useSwipeable({
+      onSwipedLeft: () => setHeroImage(prev => (prev + 1) % 5),
+      onSwipedRight: () => setHeroImage(prev => (prev - 1 + 5) % 5),
+    });
+
     return (
       <main className="w-full h-full">
         <div
-        
+        {...handlers}
         className="w-full relative z-10">
+         
           <motion.img
           initial="hidden"
           animate="visible"
@@ -52,12 +59,12 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-[55vh] lg:h-full absolute object-cover -z-10"
-            style={{ objectPosition: heroImage == '0'?'-280px center':
-                 heroImage == '1'? "-425px center":
-                 heroImage == '2'? "-280px center":
+            className="w-full h-[50vh] lg:h-full absolute object-cover -z-10"
+            style={{ objectPosition: heroImage == '0'?'-240px center':
+                 heroImage == '1'? "-370px center":
+                 heroImage == '2'? "-220px center":
                  heroImage == '3'? "-280px center":
-                 heroImage == '4'&& "-280px center"
+                 heroImage == '4'&& "-200px center"
                 }}
           />
           <Navbar />
