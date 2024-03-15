@@ -43,13 +43,13 @@ function Servicio() {
       <ShadowServicio
       inView={inView}
       />
-    <div className="w-full h-[830px] flex flex-row justify-center items-center px-14 
+    <div className="w-full h-[830px] flex flex-col lg:flex-row justify-center items-center px-4 lg:px-14 
     max-w-[1444px] mx-auto min-w-sm 
     ">
-    <div className="w-full h-[604px] flex flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
+    <div className="w-[337px] lg:w-full h-[511px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
       ">
       <div className="">
-        <motion.div className="w-[557px] h-[539px]" 
+        <motion.div className="w-[237px] lg:w-[557px] h-[229px] lg:h-[539px]" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
@@ -63,7 +63,7 @@ function Servicio() {
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variants}
-        className="font-header w-[532px] text-[40px] font-bold leading-[44px]">
+        className="font-header w-[293px] lg:w-[532px] text-[22px] lg:text-[40px] font-bold leading-[25px] lg:leading-[44px] text-center lg:text-left">
           {traduccion.servicio.header}
           <br/>
           <span className="titulo2">{traduccion.servicio.accent}</span>
@@ -72,7 +72,7 @@ function Servicio() {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
-        className="w-[532px]  font-paragraph text-[20px] leading-[34px] ">{traduccion.servicio.paragraph}</motion.p>
+        className="w-[289px] lg:w-[532px]  font-paragraph text-[12px] lg:text-[20px] leading-[20.52px] lg:leading-[34px] text-center lg:text-left ">{traduccion.servicio.paragraph}</motion.p>
       </div>
     </div>
    
