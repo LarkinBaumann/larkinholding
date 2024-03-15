@@ -87,14 +87,14 @@ function Acerca() {
     </div>
     <div className='w-full h-full flex flex-col justify-center gap-[16px]'>
     <motion.h2
-  className='text-[47px] font-black text-white leading-[49px]'
+  className='w-[341px]  lg:w-full text-[27px] lg:text-[47px] font-black text-white leading-[28px] lg:leading-[49px] text-center lg:text-start'
   initial="hidden"
   animate="visible"
   variants={variants}
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>
-      <motion.p className='text-white font-paragraph leading-[34px] text-[20px] w-[569px]'
+      <motion.p className='text-white font-paragraph leading-[20px]  text-center lg:text-left lg:leading-[34px] text-[12px] lg:text-[20px] w-[331px] lg:w-[569px]'
        initial="hidden"
        animate="visible"
        variants={variants}

@@ -211,7 +211,7 @@ function Navbar({}) {
             className="w-[127px] h-[60px] object-contain"
             />	
               </motion.div>
-        </div>
+        </div>{/* 
         <div className="w-full h-full flex flex-row justify-center items-center">
             <div className=" flex flex-col items-center gap-4 relative">
               <div
@@ -299,7 +299,7 @@ function Navbar({}) {
                 </div>
               )}
             </div>
-          </div>
+          </div> */}
         <div className='w-full h-full flex flex-row justify-end items-center'>
             <motion.button
              initial="hidden"
