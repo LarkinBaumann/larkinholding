@@ -61,10 +61,10 @@ const inter = Inter({ subsets: ["latin"] });
             quality={100}
             className="w-full h-[350px] lg:h-full absolute object-cover -z-10"
             style={{ objectPosition: heroImage == '0'?'-120px center':
-                 heroImage == '1'? "-240px center":
+                 heroImage == '1'? "-200px center":
                  heroImage == '2'? "-100px center":
-                 heroImage == '3'? "-170px center":
-                 heroImage == '4'&& "-100px center"
+                 heroImage == '3'? "-140px center":
+                 heroImage == '4'&& "-50px center"
                 }}
           />
           <Navbar />
