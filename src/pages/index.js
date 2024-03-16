@@ -59,12 +59,12 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-[60vh] lg:h-full absolute object-cover -z-10"
-            style={{ objectPosition: heroImage == '0'?'-350px center':
-                 heroImage == '1'? "-485px center":
-                 heroImage == '2'? "-300px center":
-                 heroImage == '3'? "-400px center":
-                 heroImage == '4'&& "-350px center"
+            className="w-full h-[350px] lg:h-full absolute object-cover -z-10"
+            style={{ objectPosition: heroImage == '0'?'-150px center':
+                 heroImage == '1'? "-250px center":
+                 heroImage == '2'? "-120px center":
+                 heroImage == '3'? "-200px center":
+                 heroImage == '4'&& "-120px center"
                 }}
           />
           <Navbar />
