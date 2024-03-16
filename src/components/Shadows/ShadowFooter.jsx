@@ -21,7 +21,7 @@ function ShadowFooter({inView}) {
     initial="hidden"
     animate={inView ? "visible" : "hidden"}
     variants={variants}
-    className='hidden lg:flex w-full absolute -top-[500px]  -z-10 overflow-hidden'>
+    className='hidden md:flex w-full absolute -top-[500px]  -z-10 overflow-hidden'>
         <svg xmlns="http://www.w3.org/2000/svg" width="2240" height="859" viewBox="0 0 1440 859" fill="none">
   <g filter="url(#filter0_f_99_526)">
     <path d="M1371.84 613.152C1206.12 470.18 593.567 494.132 308.003 523.98C-465.341 844.527 453.533 910.384 1009.64 903.244C1199.42 866.119 1537.55 756.124 1371.84 613.152Z" fill="url(#paint0_linear_99_526)"/>
