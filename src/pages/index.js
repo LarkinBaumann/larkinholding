@@ -55,9 +55,9 @@ const inter = Inter({ subsets: ["latin"] });
         <meta name="keywords" content="seguridad privada, seguridad, finanzas, metales preciosos, oro, metales, hierro, viviendas, mineria, real estate,  petroleo, gas, inversion, inversiones, industrial, industria, proteccion, gestion financiera, diesel, propiedades, escoltas" />
         <meta property="og:title" content="Larkin Baumann Holding" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image" content="/ogimage.jpg" />
         <meta property="og:url" content="www.lbholding.com" />
-        <meta name="twitter:card" content="/ogimage.png" />
+        <meta name="twitter:card" content="/ogimage.jpg" />
         </Head>
       <main className="w-full h-full">
         <div
