@@ -4,6 +4,7 @@ import Acerca from '../Acerca/Acerca'
 import ShadowAcerca from '../Shadows/ShadowAcerca'
 import { AppContext } from '@/Context/AppContext'
 import {motion} from 'framer-motion'
+import ShadowAcercaSm2 from '../Shadows/ShadowAcercaSm2'
 
 function Hero({heroImage}) {
   
@@ -23,6 +24,7 @@ const variantsp = {
   return (
     <div className='w-full h-full relative overflow-hidden'>
 <ShadowAcerca/>
+<ShadowAcercaSm2/>
     <div className='w-full h-full lg:h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm gap-[54px]  '>
      
     <div className='w-full h-[73vh] lg:h-full flex flex-col justify-end lg:justify-center items-center lg:items-start gap-[23px] '>
