@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useContext } from "react";
 import ShadowFooter from "../Shadows/ShadowFooter";
+import ShadowFooterSm from "../Shadows/ShadowFooterSm";
 import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
@@ -54,6 +55,9 @@ function Footer() {
       variants={variants}
       >
       <ShadowFooter
+      inView={inView}
+      />
+      <ShadowFooterSm
       inView={inView}
       />
       <div className="w-full h-[327px] flex flex-row justify-center lg:justify-between items-center text-white 

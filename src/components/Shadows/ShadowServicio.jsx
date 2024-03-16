@@ -18,7 +18,7 @@ function ShadowServicio({inView}) {
     },
   };
   return (
-    <motion.div className='w-full absolute -bottom-[450px] -z-10 overflow-hidden '
+    <motion.div className='hidden lg:flex w-full absolute -bottom-[450px] -z-10 overflow-hidden '
     
     initial="hidden"
         animate={inView ? "visible" : "hidden"}

@@ -5,6 +5,8 @@ import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 
+const ShadowSm = '/images/Servicios/ShadowSm.png'
+
 
 function Servicio() {
   const {traduccion} = useContext(AppContext)
@@ -43,6 +45,7 @@ function Servicio() {
       <ShadowServicio
       inView={inView}
       />
+       
     <div className="w-full h-[500px] lg:h-[830px] flex flex-col lg:flex-row justify-center items-center px-8 lg:px-14 
     max-w-[1444px] mx-auto min-w-sm 
     ">

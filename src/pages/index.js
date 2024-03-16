@@ -86,10 +86,29 @@ const inter = Inter({ subsets: ["latin"] });
           heroImage={heroImage}
           />
         </div>
+        
+        <div className="w-full h-full relative">
 
         <Empresas />
+        <Image
+        src="/images/Servicios/ShadowSm.png"
+        width={5000}
+        height={5000}
+        alt="fondo-empresas"
+        className="flex lg:hidden object-cover -top-[180px]  absolute -z-0"
+      />
+        </div>
+        <div className="w-full h-full relative">
+        <Image
+        src="/images/Servicios/ShadowSm.png"
+        width={5000}
+        height={5000}
+        alt="fondo-empresas"
+        className="flex lg:hidden w-full h-full object-cover -top-[100px]  absolute z-10"
+      />
         <Servicio />
         <Contacto />
+        </div>
         <Footer />
         <Jaizmora />
       </main>
