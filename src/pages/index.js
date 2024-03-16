@@ -58,7 +58,7 @@ const inter = Inter({ subsets: ["latin"] });
         <meta property="og:image" content="/images/ogimage.png" />
         <meta property="og:url" content="www.lbholding.com" />
         <meta name="twitter:card" content="/images/ogimage.png" />
-      </Head>
+        </Head>
       <main className="w-full h-full">
         <div
         {...handlers}
