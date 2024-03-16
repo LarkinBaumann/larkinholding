@@ -63,7 +63,7 @@ function Servicio() {
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variants}
-        className="font-header w-[293px] lg:w-[532px] text-[22px] lg:text-[40px] font-bold leading-[25px] lg:leading-[44px] text-center lg:text-left order-1">
+        className="font-header w-full lg:w-[532px] text-[22px] lg:text-[40px] font-bold leading-[25px] lg:leading-[44px] text-center lg:text-left order-1 px-4 lg:px-0">
           {traduccion.servicio.header}
           <br/>
           <span className="titulo2">{traduccion.servicio.accent}</span>
