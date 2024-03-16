@@ -11,6 +11,7 @@ import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
 import { useSwipeable } from 'react-swipeable';
+import Head from "next/head";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -45,6 +46,18 @@ const inter = Inter({ subsets: ["latin"] });
     });
 
     return (
+      <>
+      <Head>
+        <meta name="theme-color" content="#050409"/>
+        <title>Larkin Baumann Holding.</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="Larkin Baumann Holding" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="/images/ogimage.png" />
+        <meta property="og:url" content="www.lbholding.com" />
+        <meta name="twitter:card" content="/images/ogimage.png" />
+      </Head>
       <main className="w-full h-full">
         <div
         {...handlers}
@@ -79,5 +92,6 @@ const inter = Inter({ subsets: ["latin"] });
         <Footer />
         <Jaizmora />
       </main>
+      </>
     );
   }
