@@ -282,7 +282,7 @@ function Contacto() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h4 className="font-bold font-header text-[12px] text-center">
+              <h4 className="font-bold font-header text-[12px] text-center w-[83px]">
                 {traduccion.contacto.titulo}
               </h4>
 
