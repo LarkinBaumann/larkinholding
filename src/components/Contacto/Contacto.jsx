@@ -2,6 +2,7 @@ import { AppContext } from "@/Context/AppContext";
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useMediaQuery } from "react-responsive";
 
 function Contacto() {
   const { traduccion } = useContext(AppContext);
@@ -56,6 +57,8 @@ function Contacto() {
   const [ref2, inViewMov] = useInView({
     triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
   });
+
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
     <div
@@ -123,7 +126,7 @@ function Contacto() {
               </linearGradient>
             </defs>
           </svg>
-          <h4 className="font-bold font-header text-[23px]">
+          <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo}
           </h4>
           <p className="font-paragraph text-[18px] ">
@@ -161,7 +164,7 @@ function Contacto() {
               </linearGradient>
             </defs>
           </svg>
-          <h4 className="font-bold font-header text-[23px]">
+          <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo2}
           </h4>
           <p className="font-paragraph text-[18px] ">
@@ -214,7 +217,7 @@ function Contacto() {
               </linearGradient>
             </defs>
           </svg>
-          <h4 className="font-bold font-header text-[23px]">
+          <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo3}
           </h4>
           <p className="font-paragraph text-[18px] ">123 Sample St, Sydney </p>
@@ -222,7 +225,7 @@ function Contacto() {
         </motion.div>
       </motion.div>
 
-      <div className="w-full h-full flex flex-col gap-[9px] items-center">
+      <div className="w-full h-full flex flex-col gap-[9px] md:gap-[15px] items-center">
         <motion.h2
           ref={ref2}
           className="w-full md:w-[650px] text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
@@ -241,7 +244,7 @@ function Contacto() {
           </motion.span>
         </motion.h2>
         <motion.p
-          className="w-full md:w-[530px] lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
+          className="w-full md:w-[530px] lg:w-[930px] text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px]"
           initial="hidden"
           animate={"visible"}
           variants={variantsText}
@@ -250,7 +253,7 @@ function Contacto() {
         </motion.p>
         <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
-            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -282,18 +285,18 @@ function Contacto() {
                   </linearGradient>
                 </defs>
               </svg>
-              <h4 className="font-bold font-header text-[12px] text-center w-[83px]">
+              <h4 className="font-bold font-header text-[12px] md:text-[17px] text-center w-[83px]">
                 {traduccion.contacto.titulo}
               </h4>
 
-              <p className="font-paragraph text-[12px] text-center ">
+              <p className="font-paragraph text-[12px] md:text-[17px] text-center  md:w-[120px] ">
                 {" "}
                 hello@relume.io
               </p>
             </motion.div>
           </div>
           <div
-            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -326,18 +329,18 @@ function Contacto() {
                 </defs>
               </svg>
 
-              <h4 className="font-bold font-header text-[12px] text-center">
+              <h4 className="font-bold font-header text-[12px] md:text-[17px] text-center">
                 {traduccion.contacto.titulo2}
               </h4>
 
-              <p className="font-paragraph text-[12px] text-center w-[83px] ">
+              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 {" "}
                 +52 5523 5652
               </p>
             </motion.div>
           </div>
           <div
-            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -385,11 +388,11 @@ function Contacto() {
                 </defs>
               </svg>
 
-              <h4 className="font-bold font-header text-[12px] text-center">
+              <h4 className="font-bold font-header text-[12px] md:text-[17px] text-center">
                 {traduccion.contacto.titulo3}
               </h4>
 
-              <p className="font-paragraph text-[12px] text-center w-[83px] ">
+              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 123 Sample St,
               </p>
             </motion.div>
@@ -397,7 +400,7 @@ function Contacto() {
         </div>
         <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
-            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -430,18 +433,18 @@ function Contacto() {
                 </defs>
               </svg>
 
-              <h4 className="font-bold font-header text-[12px] text-center">
+              <h4 className="font-bold font-header text-[12px] md:text-[17px] text-center">
                 {traduccion.contacto.titulo4}
               </h4>
 
-              <p className="font-paragraph text-[12px] text-center w-[83px] ">
+              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 {" "}
                 +52 5523 5652
               </p>
             </motion.div>
           </div>
           <div
-            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -489,11 +492,11 @@ function Contacto() {
                 </defs>
               </svg>
 
-              <h4 className="font-bold font-header text-[12px] text-center">
+              <h4 className="font-bold font-header text-[12px] md:text-[17px] text-center">
                 {traduccion.contacto.titulo5}
               </h4>
 
-              <p className="font-paragraph text-[12px] text-center w-[83px] ">
+              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 123 Sample St,
               </p>
             </motion.div>
@@ -504,8 +507,8 @@ function Contacto() {
                   mb-8" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width={isTabletOrMobile?"35":"24"}
+            height={isTabletOrMobile?"35":"24"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -516,8 +519,8 @@ function Contacto() {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width={isTabletOrMobile?"35":"24"}
+            height={isTabletOrMobile?"35":"24"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -530,8 +533,8 @@ function Contacto() {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width={isTabletOrMobile?"35":"24"}
+            height={isTabletOrMobile?"35":"24"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -542,8 +545,8 @@ function Contacto() {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width={isTabletOrMobile?"35":"24"}
+            height={isTabletOrMobile?"35":"24"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -556,8 +559,8 @@ function Contacto() {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width={isTabletOrMobile?"35":"24"}
+            height={isTabletOrMobile?"35":"24"}
             viewBox="0 0 24 24"
             fill="none"
           >

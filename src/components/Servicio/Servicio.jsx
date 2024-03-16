@@ -46,14 +46,14 @@ function Servicio() {
       inView={inView}
       />
        
-    <div className="w-full h-[500px] lg:h-[830px] flex flex-col lg:flex-row justify-center items-center px-8 lg:px-14 
+    <div className="w-full h-[500px] md:h-[700px] lg:h-[830px] flex flex-col lg:flex-row justify-center items-center px-8 lg:px-14 
     max-w-[1444px] mx-auto min-w-sm 
     ">
-    <div className="w-full h-[511px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
+    <div className="w-full h-[511px] md:h-[880px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
       ">
-        <div className="w-full flex flex-col items-center lg:items-start gap-[8px]">
+        <div className="w-full flex flex-col items-center lg:items-start gap-[8px] md:gap-[20px]">
      
-        <motion.div className="w-[237px] md:w-[300px] lg:w-[557px] h-[229px] md:[530px] lg:h-[539px] order-2" 
+        <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] h-[229px] md:h-[400px] lg:h-[539px] order-2" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
@@ -75,7 +75,7 @@ function Servicio() {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
-        className="w-[289px] md:w-[556px] lg:w-[532px]  font-paragraph text-[12px] lg:text-[20px] leading-[20.52px] lg:leading-[34px] text-center lg:text-left order-3">{traduccion.servicio.paragraph}</motion.p>
+        className="w-[289px] md:w-[556px] lg:w-[532px]  font-paragraph text-[12px] md:text-[17px] lg:text-[20px] leading-[20.52px] md:leading-[27px] lg:leading-[34px] text-center lg:text-left order-3">{traduccion.servicio.paragraph}</motion.p>
       </div>
     </div>
    

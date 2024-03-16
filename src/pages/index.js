@@ -104,7 +104,7 @@ const inter = Inter({ subsets: ["latin"] });
         width={5000}
         height={5000}
         alt="fondo-empresas"
-        className="flex lg:hidden w-full h-full object-cover -top-[100px]  absolute z-10"
+        className="flex lg:hidden w-full h-full object-cover -top-[100px] md:top-[0px]  absolute z-10"
       />
         <Servicio />
         <Contacto />
