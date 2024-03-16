@@ -53,7 +53,7 @@ function Servicio() {
       ">
         <div className="w-full flex flex-col items-center lg:items-start gap-[8px]">
      
-        <motion.div className="w-[237px] lg:w-[557px] h-[229px] lg:h-[539px] order-2" 
+        <motion.div className="w-[237px] md:w-[300px] lg:w-[557px] h-[229px] md:[530px] lg:h-[539px] order-2" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
@@ -66,7 +66,7 @@ function Servicio() {
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variants}
-        className="font-header w-full lg:w-[532px] text-[22px] lg:text-[40px] font-bold leading-[25px] lg:leading-[44px] text-center lg:text-left order-1 px-4 lg:px-0">
+        className="font-header w-full lg:w-[532px]  text-[22px] md:text-[37px] lg:text-[40px] font-bold leading-[25px] md:leading-[40px] lg:leading-[44px] text-center lg:text-left order-1 px-4 lg:px-0">
           {traduccion.servicio.header}
           <br/>
           <span className="titulo2">{traduccion.servicio.accent}</span>
@@ -75,7 +75,7 @@ function Servicio() {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
-        className="w-[289px] lg:w-[532px]  font-paragraph text-[12px] lg:text-[20px] leading-[20.52px] lg:leading-[34px] text-center lg:text-left order-3">{traduccion.servicio.paragraph}</motion.p>
+        className="w-[289px] md:w-[556px] lg:w-[532px]  font-paragraph text-[12px] lg:text-[20px] leading-[20.52px] lg:leading-[34px] text-center lg:text-left order-3">{traduccion.servicio.paragraph}</motion.p>
       </div>
     </div>
    

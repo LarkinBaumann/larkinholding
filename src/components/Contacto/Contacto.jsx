@@ -225,7 +225,7 @@ function Contacto() {
       <div className="w-full h-full flex flex-col gap-[9px] items-center">
         <motion.h2
           ref={ref2}
-          className="w-full text-white font-header text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center lg:text-start "
+          className="w-full md:w-[650px] text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
           initial="hidden"
           animate={"visible"}
           variants={variants}
@@ -241,7 +241,7 @@ function Contacto() {
           </motion.span>
         </motion.h2>
         <motion.p
-          className="w-full lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
+          className="w-full md:w-[530px] lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
           initial="hidden"
           animate={"visible"}
           variants={variantsText}

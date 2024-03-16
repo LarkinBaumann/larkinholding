@@ -73,7 +73,7 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-[350px] lg:h-full absolute object-cover -z-10"
+            className="w-full h-[350px] md:h-[600px] lg:h-full absolute object-cover -z-10"
             style={{ objectPosition: heroImage == '0'?'-120px center':
                  heroImage == '1'? "-200px center":
                  heroImage == '2'? "-100px center":

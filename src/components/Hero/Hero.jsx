@@ -26,7 +26,7 @@ const variantsp = {
 <ShadowAcerca/>
     <div className='w-full h-full lg:h-[1190px] flex flex-col  px-4 lg:px-14 max-w-[1444px] mx-auto min-w-sm gap-[54px]  '>
      
-    <div className='w-full h-[73vh] lg:h-full flex flex-col justify-end lg:justify-center items-center lg:items-start gap-[23px] '>
+    <div className='w-full h-[73vh] md:h-[82vh] lg:h-full flex flex-col justify-end lg:justify-center items-center lg:items-start gap-[23px] '>
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='hidden lg:flex w-[497px]' />
      {
       console.log(heroImage)
@@ -42,7 +42,7 @@ const variantsp = {
 </motion.h2>
    
     <motion.p
-  className='w-full lg:w-[556px] text-white font-roboto text-[17px] text-center lg:text-start lg:text-xl font-semibold leading-[21px] lg:leading-[38.726px] px-4'
+  className='w-full md:w-[556px] text-white font-roboto text-[17px] text-center lg:text-start lg:text-xl font-semibold leading-[21px] lg:leading-[38.726px] px-4'
   initial="hidden"
   animate="visible"
   variants={variantsp}

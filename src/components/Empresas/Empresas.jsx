@@ -48,7 +48,7 @@ function Empresas() {
   return (
     <div
     id="Empresas"
-    className="flex h-[500px] lg:h-[1024px] w-full  text-white  relative z-20 px-8 ">
+    className="flex h-[500px] md:h-[600px] lg:h-[1024px] w-full  text-white  relative z-20 px-8 ">
       <Image
         src="/images/empresas2.png"
         width={5000}
