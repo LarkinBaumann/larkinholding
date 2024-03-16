@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-function ShadowFooter({inView}) {
+function ShadowFooterSm({inView}) {
 
    
   const variants = {
@@ -44,4 +44,4 @@ function ShadowFooter({inView}) {
   )
 }
 
-export default ShadowFooter
+export default ShadowFooterSm
