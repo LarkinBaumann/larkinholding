@@ -60,7 +60,7 @@ function Contacto() {
   return (
     <div
       id="Contacto"
-      className="w-full h-[604px] flex flex-col  justify-center items-center px-14 gap-[15px] relative z-20"
+      className="w-full h-[604px] flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20"
     >
       <motion.h2
         className="w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
@@ -248,47 +248,152 @@ function Contacto() {
       >
         {traduccion.contacto.paragraph}
       </motion.p>
-      <div className="w-full h-full flex lg:hidden flex-row justify-center items-center">
+      <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]"
+      >
         <div
-          className="w-[161px] lg:w-[302px] h-[121px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
           style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
           <motion.div
             variants={childVariants}
             className=" flex flex-col items-center justify-center  gap-[9px] text-white"
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="38"
-              height="38"
-              viewBox="0 0 38 38"
-              fill="none"
-              >
-              <path
-                d="M30.9338 6.18652H6.18708C4.48111 6.18652 3.09375 7.57388 3.09375 9.27986V27.8399C3.09375 29.5458 4.48111 30.9332 6.18708 30.9332H30.9338C32.6397 30.9332 34.0271 29.5458 34.0271 27.8399V9.27986C34.0271 7.57388 32.6397 6.18652 30.9338 6.18652ZM30.9338 9.27986V10.0702L18.5604 19.6951L6.18708 10.0717V9.27986H30.9338ZM6.18708 27.8399V13.9879L17.6108 22.8735C17.8816 23.0862 18.216 23.2019 18.5604 23.2019C18.9048 23.2019 19.2392 23.0862 19.5101 22.8735L30.9338 13.9879L30.9368 27.8399H6.18708Z"
-                fill="url(#paint0_linear_224_713)"
-                />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_224_713"
-                  x1="18.5604"
-                  y1="6.18652"
-                  x2="18.5604"
-                  y2="30.9332"
-                  gradientUnits="userSpaceOnUse"
-                  >
-                  <stop stopColor="#1777BA" />
-                  <stop offset="1" stopColor="#8FAFF1" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <h4 className="font-bold font-header text-[23px] text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  <path d="M30.9338 6.18677H6.18708C4.48111 6.18677 3.09375 7.57413 3.09375 9.2801V27.8401C3.09375 29.5461 4.48111 30.9334 6.18708 30.9334H30.9338C32.6397 30.9334 34.0271 29.5461 34.0271 27.8401V9.2801C34.0271 7.57413 32.6397 6.18677 30.9338 6.18677ZM30.9338 9.2801V10.0704L18.5604 19.6954L6.18708 10.072V9.2801H30.9338ZM6.18708 27.8401V13.9882L17.6108 22.8738C17.8816 23.0865 18.216 23.2021 18.5604 23.2021C18.9048 23.2021 19.2392 23.0865 19.5101 22.8738L30.9338 13.9882L30.9368 27.8401H6.18708Z" fill="url(#paint0_linear_370_896)"/>
+  <defs>
+    <linearGradient id="paint0_linear_370_896" x1="18.5604" y1="6.18677" x2="18.5604" y2="30.9334" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+  </defs>
+</svg>
+            <h4 className="font-bold font-header text-[12px] text-center">
               {traduccion.contacto.titulo}
             </h4>
 
-            <p className="font-paragraph text-[18px] text-center "> hello@relume.io</p>
+            <p className="font-paragraph text-[12px] text-center "> hello@relume.io</p>
           </motion.div>
+          
+          
         </div>
+        <div
+          className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          style={{ background: "rgba(11, 32, 46, 0.30)" }}
+          >
+        <motion.div
+            variants={childVariants}
+            className=" flex flex-col items-center justify-center  gap-[9px] text-white"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  <path d="M27.3867 19.0132C27.2432 18.8694 27.0728 18.7554 26.8851 18.6776C26.6975 18.5997 26.4964 18.5597 26.2932 18.5597C26.0901 18.5597 25.889 18.5997 25.7013 18.6776C25.5137 18.7554 25.3433 18.8694 25.1997 19.0132L22.7344 21.4786C21.5914 21.1383 19.4585 20.365 18.1067 19.0132C16.7549 17.6614 15.9816 15.5285 15.6413 14.3855L18.1067 11.9202C18.2505 11.7766 18.3645 11.6062 18.4423 11.4186C18.5202 11.2309 18.5602 11.0298 18.5602 10.8267C18.5602 10.6235 18.5202 10.4224 18.4423 10.2348C18.3645 10.0471 18.2505 9.87668 18.1067 9.73317L11.9201 3.5465C11.7766 3.40275 11.6061 3.2887 11.4185 3.21088C11.2308 3.13307 11.0297 3.09302 10.8266 3.09302C10.6234 3.09302 10.4223 3.13307 10.2347 3.21088C10.047 3.2887 9.87659 3.40275 9.73308 3.5465L5.53852 7.74106C4.95078 8.3288 4.6198 9.13616 4.63217 9.96053C4.66774 12.163 5.25084 19.8128 11.2797 25.8417C17.3087 31.8706 24.9585 32.4522 27.1625 32.4893H27.2058C28.0224 32.4893 28.7942 32.1676 29.3788 31.5829L33.5734 27.3884C33.7172 27.2449 33.8312 27.0744 33.909 26.8868C33.9868 26.6991 34.0269 26.498 34.0269 26.2949C34.0269 26.0917 33.9868 25.8906 33.909 25.703C33.8312 25.5153 33.7172 25.3449 33.5734 25.2014L27.3867 19.0132ZM27.1903 29.3944C25.2601 29.3619 18.6558 28.8438 13.4667 23.6532C8.26065 18.4471 7.75644 11.8196 7.7255 9.92805L10.8266 6.82698L14.8263 10.8267L12.8264 12.8265C12.6446 13.0082 12.511 13.2323 12.4375 13.4785C12.3641 13.7248 12.3531 13.9855 12.4057 14.2371C12.4428 14.4149 13.3507 18.6327 15.9182 21.2002C18.4857 23.7676 22.7034 24.6755 22.8813 24.7126C23.1327 24.7667 23.3937 24.7567 23.6402 24.6834C23.8867 24.6102 24.1108 24.4761 24.2918 24.2935L26.2932 22.2936L30.2929 26.2933L27.1903 29.3944Z" fill="url(#paint0_linear_370_913)"/>
+  <defs>
+    <linearGradient id="paint0_linear_370_913" x1="19.3294" y1="3.09302" x2="19.3294" y2="32.4893" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+  </defs>
+</svg>
+            
+            <h4 className="font-bold font-header text-[12px] text-center">
+              {traduccion.contacto.titulo2}
+            </h4>
+
+            <p className="font-paragraph text-[12px] text-center w-[83px] "> +52 5523 5652</p>
+          </motion.div>
+          </div>
+          <div
+          className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          style={{ background: "rgba(11, 32, 46, 0.30)" }}
+          >
+        <motion.div
+            variants={childVariants}
+            className=" flex flex-col items-center justify-center  gap-[9px] text-white"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  <path d="M18.56 21.6533C21.9719 21.6533 24.7466 18.8785 24.7466 15.4666C24.7466 12.0546 21.9719 9.27993 18.56 9.27993C15.148 9.27993 12.3733 12.0546 12.3733 15.4666C12.3733 18.8785 15.148 21.6533 18.56 21.6533ZM18.56 12.3733C20.2659 12.3733 21.6533 13.7606 21.6533 15.4666C21.6533 17.1726 20.2659 18.5599 18.56 18.5599C16.854 18.5599 15.4666 17.1726 15.4666 15.4666C15.4666 13.7606 16.854 12.3733 18.56 12.3733ZM17.6629 33.7389C17.9247 33.9259 18.2383 34.0263 18.56 34.0263C18.8817 34.0263 19.1953 33.9259 19.4571 33.7389C19.9272 33.4064 30.9782 25.4271 30.9333 15.4666C30.9333 8.64425 25.3823 3.09326 18.56 3.09326C11.7376 3.09326 6.18666 8.64425 6.18666 15.4589C6.14181 25.4271 17.1927 33.4064 17.6629 33.7389ZM18.56 6.1866C23.6779 6.1866 27.84 10.3487 27.84 15.4743C27.8725 22.3384 21.0532 28.5019 18.56 30.5234C16.0683 28.5004 9.24751 22.3353 9.27999 15.4666C9.27999 10.3487 13.4421 6.1866 18.56 6.1866Z" fill="url(#paint0_linear_370_915)"/>
+  <path d="M18.56 21.6533C21.9719 21.6533 24.7466 18.8785 24.7466 15.4666C24.7466 12.0546 21.9719 9.27993 18.56 9.27993C15.148 9.27993 12.3733 12.0546 12.3733 15.4666C12.3733 18.8785 15.148 21.6533 18.56 21.6533ZM18.56 12.3733C20.2659 12.3733 21.6533 13.7606 21.6533 15.4666C21.6533 17.1726 20.2659 18.5599 18.56 18.5599C16.854 18.5599 15.4666 17.1726 15.4666 15.4666C15.4666 13.7606 16.854 12.3733 18.56 12.3733ZM17.6629 33.7389C17.9247 33.9259 18.2383 34.0263 18.56 34.0263C18.8817 34.0263 19.1953 33.9259 19.4571 33.7389C19.9272 33.4064 30.9782 25.4271 30.9333 15.4666C30.9333 8.64425 25.3823 3.09326 18.56 3.09326C11.7376 3.09326 6.18666 8.64425 6.18666 15.4589C6.14181 25.4271 17.1927 33.4064 17.6629 33.7389ZM18.56 6.1866C23.6779 6.1866 27.84 10.3487 27.84 15.4743C27.8725 22.3384 21.0532 28.5019 18.56 30.5234C16.0683 28.5004 9.24751 22.3353 9.27999 15.4666C9.27999 10.3487 13.4421 6.1866 18.56 6.1866Z" fill="url(#paint1_linear_370_915)"/>
+  <defs>
+    <linearGradient id="paint0_linear_370_915" x1="18.56" y1="3.09326" x2="18.56" y2="34.0263" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_370_915" x1="18.56" y1="3.09326" x2="18.56" y2="34.0263" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+  </defs>
+</svg>
+            
+            <h4 className="font-bold font-header text-[12px] text-center">
+              {traduccion.contacto.titulo3}
+            </h4>
+
+            <p className="font-paragraph text-[12px] text-center w-[83px] ">123 Sample St,</p>
+          </motion.div>
+          </div>
+
+
+                  </div>
+      <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]"
+      >
+        
+        <div
+          className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          style={{ background: "rgba(11, 32, 46, 0.30)" }}
+          >
+        <motion.div
+            variants={childVariants}
+            className=" flex flex-col items-center justify-center  gap-[9px] text-white"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  <path d="M27.3867 19.0132C27.2432 18.8694 27.0728 18.7554 26.8851 18.6776C26.6975 18.5997 26.4964 18.5597 26.2932 18.5597C26.0901 18.5597 25.889 18.5997 25.7013 18.6776C25.5137 18.7554 25.3433 18.8694 25.1997 19.0132L22.7344 21.4786C21.5914 21.1383 19.4585 20.365 18.1067 19.0132C16.7549 17.6614 15.9816 15.5285 15.6413 14.3855L18.1067 11.9202C18.2505 11.7766 18.3645 11.6062 18.4423 11.4186C18.5202 11.2309 18.5602 11.0298 18.5602 10.8267C18.5602 10.6235 18.5202 10.4224 18.4423 10.2348C18.3645 10.0471 18.2505 9.87668 18.1067 9.73317L11.9201 3.5465C11.7766 3.40275 11.6061 3.2887 11.4185 3.21088C11.2308 3.13307 11.0297 3.09302 10.8266 3.09302C10.6234 3.09302 10.4223 3.13307 10.2347 3.21088C10.047 3.2887 9.87659 3.40275 9.73308 3.5465L5.53852 7.74106C4.95078 8.3288 4.6198 9.13616 4.63217 9.96053C4.66774 12.163 5.25084 19.8128 11.2797 25.8417C17.3087 31.8706 24.9585 32.4522 27.1625 32.4893H27.2058C28.0224 32.4893 28.7942 32.1676 29.3788 31.5829L33.5734 27.3884C33.7172 27.2449 33.8312 27.0744 33.909 26.8868C33.9868 26.6991 34.0269 26.498 34.0269 26.2949C34.0269 26.0917 33.9868 25.8906 33.909 25.703C33.8312 25.5153 33.7172 25.3449 33.5734 25.2014L27.3867 19.0132ZM27.1903 29.3944C25.2601 29.3619 18.6558 28.8438 13.4667 23.6532C8.26065 18.4471 7.75644 11.8196 7.7255 9.92805L10.8266 6.82698L14.8263 10.8267L12.8264 12.8265C12.6446 13.0082 12.511 13.2323 12.4375 13.4785C12.3641 13.7248 12.3531 13.9855 12.4057 14.2371C12.4428 14.4149 13.3507 18.6327 15.9182 21.2002C18.4857 23.7676 22.7034 24.6755 22.8813 24.7126C23.1327 24.7667 23.3937 24.7567 23.6402 24.6834C23.8867 24.6102 24.1108 24.4761 24.2918 24.2935L26.2932 22.2936L30.2929 26.2933L27.1903 29.3944Z" fill="url(#paint0_linear_370_913)"/>
+  <defs>
+    <linearGradient id="paint0_linear_370_913" x1="19.3294" y1="3.09302" x2="19.3294" y2="32.4893" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+  </defs>
+</svg>
+            
+            <h4 className="font-bold font-header text-[12px] text-center">
+              {traduccion.contacto.titulo2}
+            </h4>
+
+            <p className="font-paragraph text-[12px] text-center w-[83px] "> +52 5523 5652</p>
+          </motion.div>
+          </div>
+          <div
+          className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+          style={{ background: "rgba(11, 32, 46, 0.30)" }}
+          >
+        <motion.div
+            variants={childVariants}
+            className=" flex flex-col items-center justify-center  gap-[9px] text-white"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  <path d="M18.56 21.6533C21.9719 21.6533 24.7466 18.8785 24.7466 15.4666C24.7466 12.0546 21.9719 9.27993 18.56 9.27993C15.148 9.27993 12.3733 12.0546 12.3733 15.4666C12.3733 18.8785 15.148 21.6533 18.56 21.6533ZM18.56 12.3733C20.2659 12.3733 21.6533 13.7606 21.6533 15.4666C21.6533 17.1726 20.2659 18.5599 18.56 18.5599C16.854 18.5599 15.4666 17.1726 15.4666 15.4666C15.4666 13.7606 16.854 12.3733 18.56 12.3733ZM17.6629 33.7389C17.9247 33.9259 18.2383 34.0263 18.56 34.0263C18.8817 34.0263 19.1953 33.9259 19.4571 33.7389C19.9272 33.4064 30.9782 25.4271 30.9333 15.4666C30.9333 8.64425 25.3823 3.09326 18.56 3.09326C11.7376 3.09326 6.18666 8.64425 6.18666 15.4589C6.14181 25.4271 17.1927 33.4064 17.6629 33.7389ZM18.56 6.1866C23.6779 6.1866 27.84 10.3487 27.84 15.4743C27.8725 22.3384 21.0532 28.5019 18.56 30.5234C16.0683 28.5004 9.24751 22.3353 9.27999 15.4666C9.27999 10.3487 13.4421 6.1866 18.56 6.1866Z" fill="url(#paint0_linear_370_915)"/>
+  <path d="M18.56 21.6533C21.9719 21.6533 24.7466 18.8785 24.7466 15.4666C24.7466 12.0546 21.9719 9.27993 18.56 9.27993C15.148 9.27993 12.3733 12.0546 12.3733 15.4666C12.3733 18.8785 15.148 21.6533 18.56 21.6533ZM18.56 12.3733C20.2659 12.3733 21.6533 13.7606 21.6533 15.4666C21.6533 17.1726 20.2659 18.5599 18.56 18.5599C16.854 18.5599 15.4666 17.1726 15.4666 15.4666C15.4666 13.7606 16.854 12.3733 18.56 12.3733ZM17.6629 33.7389C17.9247 33.9259 18.2383 34.0263 18.56 34.0263C18.8817 34.0263 19.1953 33.9259 19.4571 33.7389C19.9272 33.4064 30.9782 25.4271 30.9333 15.4666C30.9333 8.64425 25.3823 3.09326 18.56 3.09326C11.7376 3.09326 6.18666 8.64425 6.18666 15.4589C6.14181 25.4271 17.1927 33.4064 17.6629 33.7389ZM18.56 6.1866C23.6779 6.1866 27.84 10.3487 27.84 15.4743C27.8725 22.3384 21.0532 28.5019 18.56 30.5234C16.0683 28.5004 9.24751 22.3353 9.27999 15.4666C9.27999 10.3487 13.4421 6.1866 18.56 6.1866Z" fill="url(#paint1_linear_370_915)"/>
+  <defs>
+    <linearGradient id="paint0_linear_370_915" x1="18.56" y1="3.09326" x2="18.56" y2="34.0263" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_370_915" x1="18.56" y1="3.09326" x2="18.56" y2="34.0263" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1777BA"/>
+      <stop offset="1" stop-color="#8FAFF1"/>
+    </linearGradient>
+  </defs>
+</svg>
+            
+            <h4 className="font-bold font-header text-[12px] text-center">
+              {traduccion.contacto.titulo3}
+            </h4>
+
+            <p className="font-paragraph text-[12px] text-center w-[83px] ">123 Sample St,</p>
+          </motion.div>
+          </div>
+
+
                   </div>
       </div>
     </div>
