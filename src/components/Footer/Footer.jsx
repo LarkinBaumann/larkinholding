@@ -51,7 +51,7 @@ function Footer() {
     ref={ref}
     className="w-full h-full relative z-10 bg-[#0e192170]"
     initial="hidden"
-    animate={inView ? "visible" : "hidden"}
+    animate="visible"
       variants={variants}
       >
       <ShadowFooter
