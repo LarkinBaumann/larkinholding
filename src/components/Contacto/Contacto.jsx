@@ -250,7 +250,7 @@ function Contacto() {
         </motion.p>
         <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
-            className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -293,7 +293,7 @@ function Contacto() {
             </motion.div>
           </div>
           <div
-            className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -337,7 +337,7 @@ function Contacto() {
             </motion.div>
           </div>
           <div
-            className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -397,7 +397,7 @@ function Contacto() {
         </div>
         <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
-            className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div
@@ -441,7 +441,7 @@ function Contacto() {
             </motion.div>
           </div>
           <div
-            className="w-[103px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
+            className="w-[103px] md:w-[150px] lg:w-[302px] h-[108px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
             <motion.div

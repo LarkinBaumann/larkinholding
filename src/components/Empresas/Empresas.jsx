@@ -48,7 +48,7 @@ function Empresas() {
   return (
     <div
     id="Empresas"
-    className="flex h-[500px] md:h-[600px] lg:h-[1024px] w-full  text-white  relative z-20 px-8 ">
+    className="flex h-[500px] md:h-[750px] lg:h-[1024px] w-full  text-white  relative z-20 px-8 ">
       <Image
         src="/images/empresas2.png"
         width={5000}
@@ -56,13 +56,13 @@ function Empresas() {
         alt="fondo-empresas"
         className="hidden lg:flex w-full h-full object-cover  absolute -z-50"
       />
-      <div className="w-full h-full flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px]">
+      <div className="w-full h-full lg:hidden flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px]">
         {
           traduccion.empresas.map((empresa, index) => (
             <div
               key={index}
-              className="w-[184px] h-[350px] flex flex-col justify-between items-center bg-[#183F5C2E] rounded-[22px]">
-                <div className="w-[184px] h-[136px]">
+              className="w-[184px] md:w-[350px] h-[350px] md:h-[550px] flex flex-col justify-between items-center bg-[#183F5C2E] rounded-[22px]">
+                <div className="w-[184px] md:w-[350px] h-[136px] md:h-[250px]">
                 <Image
                     src={empresa.imagen}
                     width={1000}
@@ -73,7 +73,7 @@ function Empresas() {
                   }
                   />
                   </div>
-                  <div className="w-[101px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
+                  <div className="w-[101px] md:w-[150px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
                   rounded-[5px]
                   "
                   style={{ background: 'rgba(11, 32, 46, 0.30)' }}
@@ -83,14 +83,14 @@ function Empresas() {
                     {empresa.nombre}
                     </p>
                   </div>
-              <p className="text-center font-paragraph  leading-[15px] text-[12px] w-full px-[13px] h-[64px]">
+              <p className="text-center font-paragraph  leading-[15px] md:leading-[24px] text-[12px] md:text-[17px] w-full px-[13px] h-[64px]">
                 {empresa.descripcion}
               </p>
               <div>
-              <button className="text-white w-[82px] h-[20px]  bg-[#005E93]  cursor-pointer 
+              <button className="text-white w-[82px] md:w-[150px] h-[20px] md:h-[38px]  bg-[#005E93]  cursor-pointer 
               mb-4
               ">
-                    <div className=" w-full h-full flex justify-center items-center gap-[6px] text-[9px] font-paragraph cursor-pointer ">
+                    <div className=" w-full h-full flex justify-center items-center gap-[6px] text-[9px] md:text-[15px] font-paragraph cursor-pointer ">
 
                    {traduccion.empresaBoton}{" "}
                     <span>

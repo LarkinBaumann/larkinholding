@@ -45,7 +45,7 @@ function Acerca() {
 
 
 
-        <div className='text-white font-header text-[12px] lg:text-[23px] leading-[31px]'>
+        <div className='text-white font-header text-[12pmd:text-[17px] x] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion1}
   </Fade>
@@ -57,7 +57,7 @@ function Acerca() {
 
 <CountUp className='titulo2 text-[36px] md:text-[50px] lg: font-black font-header' end={parseInt(traduccion.acerca.titulo2)} duration={5} />
 <h4 className='titulo2 text-[36px] md:text-[50px] lg:text-[76px] font-black font-header'>{traduccion.acerca.complemento2}</h4>
-  </div>        <div className='text-white font-header text-[12px] lg:text-[23px] leading-[31px]'>
+  </div>        <div className='text-white font-header md:text-[17px] text-[12px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion2}
   </Fade>
@@ -69,7 +69,7 @@ function Acerca() {
 
       {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px] lg:text-[76px] font-black font-header' end={parseInt(traduccion.acerca.titulo3)} duration={5} /> : <></>}<h4 className='titulo2 text-[36px] md:text-[50px] lg: font-black font-header'>{traduccion.acerca.complemento3}</h4>
   </div>
-  <div className='text-white font-header text-[12px] lg:text-[23px] leading-[31px]'>
+  <div className='text-white font-header text-[12px] md:text-[17px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion3}
   </Fade>
@@ -82,7 +82,7 @@ function Acerca() {
       {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px] lg: font-black font-header' end={parseInt(traduccion.acerca.titulo4)} duration={5} /> : <></>}
 <h4 className='titulo2 text-[36px] md:text-[50px] lg: font-black font-header'>{traduccion.acerca.complemento4}</h4>
   </div>
-  <div className=' text-white font-header text-[12px] lg:text-[23px] leading-[31px]'>
+  <div className=' text-white font-header text-[12px] md:text-[17px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion4}
   </Fade>
@@ -99,7 +99,7 @@ function Acerca() {
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>
-      <motion.p className='text-white font-paragraph leading-[20px]  text-center lg:text-left lg:leading-[34px] text-[12px] lg:text-[20px] md:w-[556px]  lg:w-[569px]'
+      <motion.p className='text-white font-paragraph leading-[20px] md:leading-[27px]  text-center lg:text-left lg:leading-[34px] text-[12px] md:text-[17px] lg:text-[20px] md:w-[556px]  lg:w-[569px]'
        initial="hidden"
        animate="visible"
        variants={variants}
