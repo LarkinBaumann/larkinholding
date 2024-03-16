@@ -277,7 +277,7 @@ function Navbar({}) {
 
                 {navIdioma && (
                   <div
-                    className="w-full h-full  flex flex-col gap-2 z-20"
+                    className="w-full h-full  flex flex-col gap-2 z-20 text-white translate-y-[30px]"
                     style={{
                       background: "rgba(11, 32, 46, 0.30)",
                       hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
