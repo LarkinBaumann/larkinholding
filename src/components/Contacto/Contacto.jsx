@@ -66,13 +66,13 @@ function Contacto() {
       className="w-full h-[604px]   flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20"
     >
       <motion.h2
-        className="hidden lg:flex w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
+        className="hidden lg:block  w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
       >
         {traduccion.contacto.header}
-        <br className="lg:hidden" />
+        <br className="xl:hidden" />
         <motion.span
           className="titulo2"
           initial="hidden"
@@ -228,14 +228,14 @@ function Contacto() {
       <div className="w-full h-full flex flex-col gap-[9px] md:gap-[15px] items-center">
         <motion.h2
           ref={ref2}
-          className="w-full md:w-[650px] text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
+          className="w-full md:w-[650px] lg:hidden text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
           initial="hidden"
           animate={"visible"}
           variants={variants}
         >
           {traduccion.contacto.header}
           <motion.span
-            className="titulo2 ml-2"
+            className="titulo2 ml-2 lg:hidden"
             initial="hidden"
             animate={"visible"}
             variants={variants}
@@ -244,7 +244,7 @@ function Contacto() {
           </motion.span>
         </motion.h2>
         <motion.p
-          className="w-full md:w-[530px] lg:w-[930px] text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px]"
+          className="w-full md:w-[530px] lg:w-[930px] lg:hidden text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px]"
           initial="hidden"
           animate={"visible"}
           variants={variantsText}
@@ -504,7 +504,7 @@ function Contacto() {
         </div>
         <div
           className="flex flex-row justify-between items-center text-white gap-[31px]
-                  mb-8"
+                  mb-8 lg:hidden"
                   >
           <svg
             xmlns="http://www.w3.org/2000/svg"
