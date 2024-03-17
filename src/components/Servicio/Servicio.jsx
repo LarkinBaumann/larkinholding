@@ -51,7 +51,7 @@ function Servicio() {
     ">
     <div className="w-full h-[511px] md:h-[880px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
       ">
-        <div className="w-full flex flex-col lg:flex-row items-center xl:items-start gap-[8px] md:gap-[20px]">
+        <div className="w-full flex flex-col lg:flex-row items-center 2xl:items-start gap-[8px] md:gap-[20px]">
      
         <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
          initial="hidden"

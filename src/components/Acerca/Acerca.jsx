@@ -35,12 +35,12 @@ function Acerca() {
 
     <div className='w-full md:w-[580px] lg:w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start z-30'>
       
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
         <div className='flex'>
 
-      <CountUp className='titulo2 text-[36px] md:text-[50px]   font-black font-header' end={parseInt(traduccion.acerca.titulo1)} duration={5} />
-      <h4 className='titulo2 text-[36px] md:text-[50px]  font-black font-header'>{traduccion.acerca.complemento1}</h4>
+      <CountUp className='titulo2 text-[36px] md:text-[50px] xl:text-[76px]   font-black font-header' end={parseInt(traduccion.acerca.titulo1)} duration={5} />
+      <h4 className='titulo2 text-[36px] md:text-[50px] xl:text-[76px]  font-black font-header'>{traduccion.acerca.complemento1}</h4>
         </div>
 
 
@@ -51,23 +51,23 @@ function Acerca() {
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex'>
 
-<CountUp className='titulo2 text-[36px] md:text-[50px] font-black font-header' end={parseInt(traduccion.acerca.titulo2)} duration={5} />
-<h4 className='titulo2 text-[36px] md:text-[50px] xl:text-[76px] font-black font-header'>{traduccion.acerca.complemento2}</h4>
+<CountUp className='titulo2 text-[36px] md:text-[50px] xl:text-[76px] font-black font-header' end={parseInt(traduccion.acerca.titulo2)} duration={5} />
+<h4 className='titulo2 text-[36px] md:text-[50px] xl:text-[76px]  font-black font-header'>{traduccion.acerca.complemento2}</h4>
   </div>        <div className='text-white font-header md:text-[17px] text-[12px] xl:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion2}
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex'>
 
-      {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px] xl:text-[76px] font-black font-header' end={parseInt(traduccion.acerca.titulo3)} duration={5} /> : <></>}<h4 className='titulo2 text-[36px] md:text-[50px]  font-black font-header'>{traduccion.acerca.complemento3}</h4>
+      {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px]  xl:text-[76px] font-black font-header' end={parseInt(traduccion.acerca.titulo3)} duration={5} /> : <></>}<h4 className='titulo2 text-[36px] md:text-[50px] xl:text-[76px]  font-black font-header'>{traduccion.acerca.complemento3}</h4>
   </div>
   <div className='text-white font-header text-[12px] md:text-[17px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
@@ -75,12 +75,12 @@ function Acerca() {
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex' ref={ref}>
 
-      {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px] font-black font-header' end={parseInt(traduccion.acerca.titulo4)} duration={5} /> : <></>}
-<h4 className='titulo2 text-[36px] md:text-[50px]  font-black font-header'>{traduccion.acerca.complemento4}</h4>
+      {inView ? <CountUp className='titulo2 text-[36px] md:text-[50px] xl:text-[76px] font-black font-header' end={parseInt(traduccion.acerca.titulo4)} duration={5} /> : <></>}
+<h4 className='titulo2 text-[36px] md:text-[50px] xl:text-[76px]  font-black font-header'>{traduccion.acerca.complemento4}</h4>
   </div>
   <div className=' text-white font-header text-[12px] md:text-[17px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
