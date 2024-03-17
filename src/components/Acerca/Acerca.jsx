@@ -45,7 +45,7 @@ function Acerca() {
 
 
 
-        <div className='text-white font-header text-[12pmd:text-[17px] x] lg:text-[23px] leading-[31px]'>
+        <div className='text-white font-header  md:text-[17px] text-[12px] lg:text-[23px] leading-[31px]'>
   <Fade direction="left" cascade duration={200}>
     {traduccion.acerca.descripcion1}
   </Fade>

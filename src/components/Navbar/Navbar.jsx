@@ -250,7 +250,7 @@ function Navbar({}) {
           <div>
               <div className="flex flex-col gap-4">
                 <div
-                  className="w-[110px] flex flex-row items-center gap-2 cursor-pointer text-white"
+                  className="w-[110px] flex flex-row items-center gap-2 cursor-pointer justify-end text-white"
                   onClick={() => {
                     setNavIdioma(!navIdioma);
                   }}
