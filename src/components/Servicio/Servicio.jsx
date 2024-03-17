@@ -51,22 +51,24 @@ function Servicio() {
     ">
     <div className="w-full h-[511px] md:h-[880px] lg:h-[604px] flex  flex-col lg:flex-row justify-around text-white bg-[#0E192187] items-center rounded-[22px]
       ">
-        <div className="w-full flex flex-col items-center lg:items-start gap-[8px] md:gap-[20px]">
+        <div className="w-full flex flex-col lg:flex-row items-center xl:items-start gap-[8px] md:gap-[20px]">
      
-        <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] h-[229px] md:h-[400px] lg:h-[539px] order-2" 
+        <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
         >
           <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full'/>
         </motion.div>
-      
+
+      <div className="h-full flex flex-col justify-center">
+
         <motion.h2 
         ref={ref}
-         initial="hidden"
-         animate={inView ? "visible" : "hidden"}
-         variants={variants}
-        className="font-header w-full lg:w-[532px]  text-[22px] md:text-[37px] lg:text-[40px] font-bold leading-[25px] md:leading-[40px] lg:leading-[44px] text-center lg:text-left order-1 px-4 lg:px-0">
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={variants}
+        className="font-header w-full lg:w-[532px]  text-[22px] md:text-[37px] lg:text-[40px] font-bold leading-[25px] md:leading-[40px] lg:leading-[44px] text-center lg:text-left order-1 lg:order-none px-4 lg:px-0">
           {traduccion.servicio.header}
           <br/>
           <span className="titulo2">{traduccion.servicio.accent}</span>
@@ -75,7 +77,8 @@ function Servicio() {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
-        className="w-[289px] md:w-[556px] lg:w-[532px]  font-paragraph text-[12px] md:text-[17px] lg:text-[20px] leading-[20.52px] md:leading-[27px] lg:leading-[34px] text-center lg:text-left order-3">{traduccion.servicio.paragraph}</motion.p>
+        className="w-[289px] md:w-[556px] lg:w-[532px]  font-paragraph text-[12px] md:text-[17px] lg:text-[20px] leading-[20.52px] md:leading-[27px] lg:leading-[34px] text-center lg:text-left order-3 lg:order-none">{traduccion.servicio.paragraph}</motion.p>
+        </div>
       </div>
     </div>
    
