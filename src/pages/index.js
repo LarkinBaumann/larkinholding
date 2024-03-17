@@ -12,6 +12,8 @@ import { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
 import { useSwipeable } from 'react-swipeable';
 import Head from "next/head";
+import { useMediaQuery } from 'react-responsive';
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -45,6 +47,9 @@ const inter = Inter({ subsets: ["latin"] });
       onSwipedRight: () => setHeroImage(prev => (prev - 1 + 5) % 5),
     });
 
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+
+
     return (
       <>
       
@@ -73,13 +78,21 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-[350px] md:h-[600px] lg:h-full absolute object-cover -z-10"
-            style={{ objectPosition: heroImage == '0'?'-120px center':
-                 heroImage == '1'? "-200px center":
-                 heroImage == '2'? "-100px center":
-                 heroImage == '3'? "-140px center":
-                 heroImage == '4'&& "-50px center"
-                }}
+            className="w-full h-[350px] md:h-[600px] lg:h-screen xl:h-full absolute object-cover -z-10"
+            style={{ objectPosition: isTabletOrMobile ?
+              (heroImage == '0'?'0px center':
+              heroImage == '1' ? "-0px center" :
+              heroImage == '2' ? "-0px center" :
+              heroImage == '3' ? "-0px center" :
+              heroImage == '4' && "-0px center")
+            :
+              (
+                heroImage == '0' ? "-120px center" :
+                heroImage == '1' ? "-200px center" :
+              heroImage == '2' ? "-100px center" :
+              heroImage == '3' ? "-140px center" :
+              heroImage == '4' && "-50px center")
+          }}
           />
           <Navbar />
           <Hero 

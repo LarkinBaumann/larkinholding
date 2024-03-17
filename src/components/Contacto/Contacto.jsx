@@ -63,7 +63,7 @@ function Contacto() {
   return (
     <div
       id="Contacto"
-      className="w-full h-[604px] flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20"
+      className="w-full h-[604px]   flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20"
     >
       <motion.h2
         className="hidden lg:flex w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
@@ -504,7 +504,8 @@ function Contacto() {
         </div>
         <div
           className="flex flex-row justify-between items-center text-white gap-[31px]
-                  mb-8" >
+                  mb-8"
+                  >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={isTabletOrMobile?"35":"24"}
