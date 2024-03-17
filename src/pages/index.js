@@ -47,7 +47,11 @@ const inter = Inter({ subsets: ["latin"] });
       onSwipedRight: () => setHeroImage(prev => (prev - 1 + 5) % 5),
     });
 
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+    const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+    const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
+    const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
+  const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
+  const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
 
 
     return (
@@ -78,14 +82,23 @@ const inter = Inter({ subsets: ["latin"] });
             alt="hero"
             fill={true}
             quality={100}
-            className="w-full h-[350px] md:h-[600px] lg:h-screen xl:h-full absolute object-cover -z-10"
-            style={{ objectPosition: isTabletOrMobile ?
+            className="w-full h-[350px] md:h-[600px] lg:h-screen 2xl:h-full absolute object-cover -z-10"
+            style={{ objectPosition: isLarge ?
               (heroImage == '0'?'0px center':
               heroImage == '1' ? "-0px center" :
               heroImage == '2' ? "-0px center" :
               heroImage == '3' ? "-0px center" :
               heroImage == '4' && "-0px center")
             :
+            isMobile ?
+              (
+                heroImage == '0' ? "-120px center" :
+                heroImage == '1' ? "-200px center" :
+              heroImage == '2' ? "-100px center" :
+              heroImage == '3' ? "-140px center" :
+              heroImage == '4' && "-50px center")
+              :
+              isDoubleExtraLarge &&
               (
                 heroImage == '0' ? "-120px center" :
                 heroImage == '1' ? "-200px center" :

@@ -223,7 +223,7 @@ function Empresas() {
                 fill="#005E93"
               />
             </svg>
-            <div className="w-[170px] h-[80px] absolute bottom-16 right-0 text-white -rotate-90">
+            <div className="w-[170px] h-[80px] absolute bottom-16 lg:-left-9 xl:right-0 text-white -rotate-90">
             <h3
               className={
                 seleccion != index
