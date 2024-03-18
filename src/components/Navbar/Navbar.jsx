@@ -353,20 +353,20 @@ function Navbar({}) {
                   <path
                     d="M2 2H30"
                     stroke="white"
-                    stroke-width="4"
-                    stroke-linecap="round"
+                    strokeWidth="4"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M2 10H30"
                     stroke="white"
-                    stroke-width="4"
-                    stroke-linecap="round"
+                    strokeWidth="4"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M2 19H30"
                     stroke="white"
-                    stroke-width="4"
-                    stroke-linecap="round"
+                    strokeWidth="4"
+                    strokeLinecap="round"
                   />
                 </svg>
               ) : (
@@ -383,8 +383,8 @@ function Navbar({}) {
                     x2="24.6884"
                     y2="26.444"
                     stroke="white"
-                    stroke-width="4.27462"
-                    stroke-linecap="round"
+                    strokeWidth="4.27462"
+                    strokeLinecap="round"
                   />
                   <line
                     x1="23.0855"
@@ -392,8 +392,8 @@ function Navbar({}) {
                     x2="4.83461"
                     y2="26.3501"
                     stroke="white"
-                    stroke-width="4.27462"
-                    stroke-linecap="round"
+                    strokeWidth="4.27462"
+                    strokeLinecap="round"
                   />
                 </svg>
               )}

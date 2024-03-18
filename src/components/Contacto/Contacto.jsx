@@ -287,8 +287,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="30.9334"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -330,8 +330,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="32.4893"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -378,8 +378,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="34.0263"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_370_915"
@@ -389,8 +389,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="34.0263"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -434,8 +434,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="32.4893"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -482,8 +482,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="34.0263"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_370_915"
@@ -493,8 +493,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                     y2="34.0263"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1777BA" />
-                    <stop offset="1" stop-color="#8FAFF1" />
+                    <stop stopColor="#1777BA" />
+                    <stop offset="1" stopColor="#8FAFF1" />
                   </linearGradient>
                 </defs>
               </svg>
