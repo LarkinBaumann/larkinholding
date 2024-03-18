@@ -72,7 +72,7 @@ function Contacto() {
         variants={variants}
       >
         {traduccion.contacto.header}
-        <br className="xl:hidden" />
+        <br className="2xl:hidden" />
         <motion.span
           className="titulo2"
           initial="hidden"
