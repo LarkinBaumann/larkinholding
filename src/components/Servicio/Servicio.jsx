@@ -53,7 +53,7 @@ function Servicio() {
       ">
         <div className="w-full flex flex-col lg:flex-row items-center  gap-[8px] md:gap-[20px]">
      
-        <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] 2xl:w-full h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
+        <motion.div className="hidden lg:flex w-[237px] md:w-[400px] lg:w-[557px] 2xl:w-full h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
@@ -73,6 +73,13 @@ function Servicio() {
           <br/>
           <span className="titulo2">{traduccion.servicio.accent}</span>
         </motion.h2>
+        <motion.div className="w-[237px] md:w-[400px] lg:w-[557px] lg:hidden 2xl:w-full h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
+         initial="hidden"
+         animate={inView ? "visible" : "hidden"}
+         variants={variantsImage}
+        >
+          <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full'/>
+        </motion.div>
         <motion.p 
         initial="hidden"
         animate={inView ? "visible" : "hidden"}

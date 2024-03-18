@@ -7,16 +7,23 @@ import { useMediaQuery } from "react-responsive";
 function Contacto() {
   const { traduccion } = useContext(AppContext);
 
-  const variants = {
-    hidden: { opacity: 0, y: -50 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.5,
-        ease: "easeOut",
-      },
-    },
+  
+  const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
+const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
+const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
+const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
+
+  
+
+  const variants = isLarge ? {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  }
+  :
+  {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 5, ease: "easeOut" } },
   };
   const variantsText = {
     hidden: { opacity: 0 },
@@ -54,7 +61,7 @@ function Contacto() {
   const [ref, inView] = useInView({
     triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
   });
-  const [ref2, inViewMov] = useInView({
+  const [ref2, inView2] = useInView({
     triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
   });
 
@@ -230,14 +237,14 @@ function Contacto() {
           ref={ref2}
           className="w-full md:w-[650px] lg:hidden text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
           initial="hidden"
-          animate={"visible"}
+        animate={inView2? "visible" : "hidden"}
           variants={variants}
         >
           {traduccion.contacto.header}
           <motion.span
             className="titulo2 ml-2 lg:hidden"
             initial="hidden"
-            animate={"visible"}
+          animate={inView2? "visible" : "hidden"}
             variants={variants}
           >
             {traduccion.contacto.accent}
@@ -246,8 +253,8 @@ function Contacto() {
         <motion.p
           className="w-full md:w-[530px] lg:w-[930px] lg:hidden text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px]"
           initial="hidden"
-          animate={"visible"}
-          variants={variantsText}
+          animate={inView2? "visible" : "hidden"}
+          variants={variants}
         >
           {traduccion.contacto.paragraph}
         </motion.p>
