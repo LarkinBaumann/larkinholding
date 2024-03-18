@@ -5,9 +5,17 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { Fade } from 'react-awesome-reveal';
 import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
 
 
 function Acerca() {
+
+  const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
+  const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
+  const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
+  const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
+  
 
   const{traduccion}= useContext(AppContext)
 
@@ -17,7 +25,7 @@ function Acerca() {
   const { ref2, inView2 } = useInView({
     triggerOnce: true, 
   });
-  const variants = {
+  const variants = isLarge ? {
     hidden: { opacity: 0, x: -50 },
     visible: { 
       opacity: 1, 
@@ -27,7 +35,13 @@ function Acerca() {
         ease: "easeOut" 
       } 
     },
+  }
+  :
+  {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 5, ease: "easeOut" } },
   };
+  
 
   return (
     <div
@@ -94,14 +108,14 @@ function Acerca() {
     <motion.h2
   className='w-full text-[27px] md:text-[37px] lg:text-[47px] font-black text-white leading-[28px] md:leading-[40px] lg:leading-[49px] text-center lg:text-start md:w-[500px] '
   initial="hidden"
-  animate="visible"
+  animate={inView ? "visible" : "hidden"}
   variants={variants}
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>
       <motion.p className='text-white font-paragraph leading-[20px] md:leading-[27px]  text-center lg:text-left lg:leading-[34px] text-[12px] md:text-[17px] lg:text-[20px] md:w-[556px]  lg:w-[569px]'
        initial="hidden"
-       animate="visible"
+       animate={inView ? "visible" : "hidden"}
        variants={variants}
       >
         {traduccion.acerca.paragraph}</motion.p>

@@ -48,6 +48,7 @@ function Empresas() {
   return (
     <div
     id="Empresas"
+    ref={ref}
     className="flex h-[500px] md:h-[750px] lg:h-[1024px] w-full  text-white  relative z-20 px-8 ">
       <Image
         src="/images/empresas2.png"
@@ -56,11 +57,17 @@ function Empresas() {
         alt="fondo-empresas"
         className="hidden lg:flex w-full h-full object-cover  absolute -z-50"
       />
-      <div className="w-full h-full lg:hidden flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px]">
+      <motion.div 
+      
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={containerVariants}
+      className="w-full h-full lg:hidden flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px]">
         {
           traduccion.empresas.map((empresa, index) => (
-            <div
+            <motion.div
               key={index}
+              variants={childVariants}
               className="w-[184px] md:w-[350px] h-[350px] md:h-[550px] flex flex-col justify-between items-center bg-[#183F5C2E] rounded-[22px]">
                 <div className="w-[184px] md:w-[350px] h-[136px] md:h-[250px]">
                 <Image
@@ -110,10 +117,10 @@ function Empresas() {
                   </div>
                   </button>
                   </div>
-            </div>
+            </motion.div>
           ))
         }
-      </div>
+      </motion.div>
       <motion.div className="hidden lg:grid grid-cols-8 w-full h-full px-14 items-center gap-9 max-w-[1444px] mx-auto min-w-sm "
       initial="hidden"
       animate={inView ? "visible" : "hidden"}

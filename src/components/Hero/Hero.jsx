@@ -5,20 +5,34 @@ import ShadowAcerca from '../Shadows/ShadowAcerca'
 import { AppContext } from '@/Context/AppContext'
 import {motion} from 'framer-motion'
 import ShadowAcercaSm2 from '../Shadows/ShadowAcercaSm2'
+import { useMediaQuery } from 'react-responsive';
+
 
 function Hero({heroImage}) {
+
+  const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
+const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
+const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
+const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
+
   
   const {traduccion} = useContext(AppContext)
 
   const variants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 3 } },
+    visible: { opacity: 1, transition: { duration: 4 } },
   };
 
   
-const variantsp = {
+const variantsp = isLarge ? {
   hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 3 } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+}
+:
+{
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, transition: { duration: 5, ease: "easeOut" } },
 };
 
 const containerVariants = {
@@ -26,7 +40,8 @@ const containerVariants = {
   visible: { 
     opacity: 1, 
     transition: { 
-      staggerChildren: 0.5 
+      staggerChildren: 0.6,
+      ease: "linear" // Add ease property for fluid animation
     } 
   },
 };
@@ -36,10 +51,14 @@ const childVariants = {
     opacity: 1, 
     transition: { 
       duration: 0.5, 
-      ease: "easeOut" 
+      ease: "linear" // Add ease property for fluid animation
     } 
   },
 };
+
+
+
+
 
   return (
     <div className='w-full h-full relative overflow-hidden'>
