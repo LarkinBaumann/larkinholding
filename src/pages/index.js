@@ -77,11 +77,12 @@ const inter = Inter({ subsets: ["latin"] });
            initial="hidden"
            animate="visible"
            variants={variants}
+           
+          key={heroImage}
            className="w-full h-[350px] md:h-[600px] lg:h-screen 2xl:h-full absolute object-cover -z-10"
           >
           <Image
-         
-          key={heroImage}
+          key="heroImage"
           src={`/images/HERO/${heroImage}.png`}
           alt="hero"
           fill={true}
