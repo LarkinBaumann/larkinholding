@@ -21,6 +21,26 @@ const variantsp = {
   visible: { opacity: 1, y: 0, transition: { duration: 3 } },
 };
 
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: { 
+    opacity: 1, 
+    transition: { 
+      staggerChildren: 0.5 
+    } 
+  },
+};
+const childVariants = {
+  hidden: { opacity: 0 },
+  visible: { 
+    opacity: 1, 
+    transition: { 
+      duration: 0.5, 
+      ease: "easeOut" 
+    } 
+  },
+};
+
   return (
     <div className='w-full h-full relative overflow-hidden'>
 <ShadowAcerca/>
@@ -53,17 +73,22 @@ const variantsp = {
   {traduccion.hero.descripcion[heroImage]}
 </motion.p>
 
-<div className='w-full lg:hidden flex flex-row justify-center items-center gap-3 mt-4'>
-  
-  
+<motion.div
+  className='w-full lg:hidden flex flex-row justify-center items-center gap-3 mt-4'
+  initial="hidden"
+  animate="visible"
+  variants={containerVariants}
+>
   {
     traduccion.hero.titulos.map((element,index) => (
-      
-      <div key={element} className={`w-[13px] h-[13px] rounded-full ${index != heroImage ? 'bg-[#042134]' : 'bg-[#55B0F0]'} border-[1px] border-[#55B0F0]`}/>
-
-     ) )
-}
-</div>
+      <motion.div 
+        key={element} 
+        variants={childVariants}
+        className={`w-[13px] h-[13px] rounded-full ${index != heroImage ? 'bg-[#042134]' : 'bg-[#55B0F0]'} border-[1px] border-[#55B0F0]`}
+      />
+    ))
+  }
+</motion.div>
     </div>
   
     <Acerca/>
