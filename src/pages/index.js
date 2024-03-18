@@ -113,16 +113,17 @@ const inter = Inter({ subsets: ["latin"] });
           />
         </div>
         
-        <div className="w-full h-full overflow-hidden relative">
+        <div className="w-full h-full overflow-hidden relative z-20">
 
-        <Empresas />
+       
         <Image
         src="/images/Servicios/ShadowSm.png"
         width={5000}
         height={5000}
         alt="fondo-empresas"
-        className="flex lg:hidden object-cover -top-[180px]  absolute -z-0"
+        className="flex lg:hidden object-fill w-full h-full  absolute -z-50"
       />
+       <Empresas />
         </div>
         <div className="w-full h-full relative">
         <Image
