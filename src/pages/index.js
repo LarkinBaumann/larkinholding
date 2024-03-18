@@ -72,28 +72,32 @@ const inter = Inter({ subsets: ["latin"] });
         <div
         {...handlers}
         className="w-full relative z-10">
+
+          <motion.div 
+           initial="hidden"
+           animate="visible"
+           variants={variants}
+           className="w-full h-[350px] md:h-[600px] lg:h-screen 2xl:h-full absolute object-cover -z-10"
+          >
+          <Image
          
-          <motion.img
-          initial="hidden"
-          animate="visible"
-          variants={variants}
           key={heroImage}
-            src={`/images/HERO/${heroImage}.png`}
-            alt="hero"
-            fill={true}
-            quality={100}
-            className="w-full h-[350px] md:h-[600px] lg:h-screen 2xl:h-full absolute object-cover -z-10"
-            style={{ objectPosition: isLarge ?
-              (heroImage == '0'?'0px center':
-              heroImage == '1' ? "-0px center" :
-              heroImage == '2' ? "-0px center" :
-              heroImage == '3' ? "-0px center" :
-              heroImage == '4' && "-0px center")
+          src={`/images/HERO/${heroImage}.png`}
+          alt="hero"
+          fill={true}
+          quality={100}
+          className="w-full h-full  object-cover "
+          style={{ objectPosition: isLarge ?
+            (heroImage == '0'?'0px center':
+            heroImage == '1' ? "-0px center" :
+            heroImage == '2' ? "-0px center" :
+            heroImage == '3' ? "-0px center" :
+            heroImage == '4' && "-0px center")
             :
             isMobile ?
-              (
-                heroImage == '0' ? "-120px center" :
-                heroImage == '1' ? "-200px center" :
+            (
+              heroImage == '0' ? "-120px center" :
+              heroImage == '1' ? "-200px center" :
               heroImage == '2' ? "-100px center" :
               heroImage == '3' ? "-140px center" :
               heroImage == '4' && "-50px center")
@@ -102,11 +106,12 @@ const inter = Inter({ subsets: ["latin"] });
               (
                 heroImage == '0' ? "-120px center" :
                 heroImage == '1' ? "-200px center" :
-              heroImage == '2' ? "-100px center" :
-              heroImage == '3' ? "-140px center" :
-              heroImage == '4' && "-50px center")
-          }}
-          />
+                heroImage == '2' ? "-100px center" :
+                heroImage == '3' ? "-140px center" :
+                heroImage == '4' && "-50px center")
+              }}
+              />
+              </motion.div>
           <Navbar />
           <Hero 
           heroImage={heroImage}
