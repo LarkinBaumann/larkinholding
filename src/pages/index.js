@@ -68,7 +68,7 @@ const inter = Inter({ subsets: ["latin"] });
         <meta property="og:url" content="www.lbholding.com" />
         <meta name="twitter:card" content="/ogimage.jpg" />
         </Head>
-      <main className="w-full h-full">
+      <main className="w-full h-full bg-[#000206]">
         <div
         {...handlers}
         className="w-full relative z-10">
