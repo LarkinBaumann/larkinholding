@@ -73,7 +73,7 @@ const inter = Inter({ subsets: ["latin"] });
         {...handlers}
         className="w-full relative z-10">
 
-          <motion.div 
+          <div 
            initial="hidden"
            animate="visible"
            variants={variants}
@@ -112,7 +112,7 @@ const inter = Inter({ subsets: ["latin"] });
                 heroImage == '4' && "-50px center")
               }}
               />
-              </motion.div>
+              </div>
           <Navbar />
           <Hero 
           heroImage={heroImage}
