@@ -47,7 +47,7 @@ const inter = Inter({ subsets: ["latin"] });
       onSwipedRight: () => setHeroImage(prev => (prev - 1 + 5) % 5),
     });
 
-    const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+    const isMobile = useMediaQuery({ query: "(min-width: 640px)" });
     const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
     const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
   const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });

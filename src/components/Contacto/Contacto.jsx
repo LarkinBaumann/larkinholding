@@ -9,7 +9,7 @@ function Contacto() {
   const { traduccion } = useContext(AppContext);
 
   
-  const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isMobile = useMediaQuery({ query: "(min-width: 640px)" });
 const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
 const isLarge = useMediaQuery({ query: "(min-width: 1024px)" });
 const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
@@ -97,7 +97,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         </motion.span>
       </motion.h2>
       <motion.p
-        className="w-[289px] lg:w-[930px] text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
+        className="w-[289px] lg:w-[930px] hidden lg:flex text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variantsText}
@@ -264,7 +264,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           </motion.span>
         </motion.h2>
         <motion.p
-          className="w-full md:w-[530px] lg:w-[930px] lg:hidden text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px]"
+          className="w-full md:w-[530px] lg:w-[930px] lg:hidden text-white text-center text-[12px] md:text-[17px] lg:text-[25px] font-paragraph leading-[20px] md:leading-[27px] lg:leading-[43px] "
           initial="hidden"
           animate={inView2? "visible" : "hidden"}
           variants={variants}
