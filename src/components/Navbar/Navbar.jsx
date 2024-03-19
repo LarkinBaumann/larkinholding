@@ -19,6 +19,7 @@ function Navbar({}) {
     const isTabletOrMobile = window.innerWidth < 768; // o cualquier lógica que estés utilizando
     setIsTabletOrMobile(isTabletOrMobile);
   }, []);
+
   
 
   const variantsLogo = isTabletOrMobile
@@ -423,9 +424,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    document
-                      .getElementById("AcercaMobile")
-                      .scrollIntoView({ behavior: "smooth" });
+                    router.push("/#Acerca")
                       setShowMenu(false);
                   }}
                 >
@@ -434,9 +433,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    document
-                      .getElementById("Empresas")
-                      .scrollIntoView({ behavior: "smooth" });
+                    router.push("/#Empresas")
                       setShowMenu(false);
                   }}
                 >
@@ -445,9 +442,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    document
-                      .getElementById("Servicio")
-                      .scrollIntoView({ behavior: "smooth" });
+                    router.push("/#Servicio")
                       setShowMenu(false);
                   }}
                 >
