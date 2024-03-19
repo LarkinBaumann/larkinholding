@@ -75,7 +75,7 @@ const inter = Inter({ subsets: ["latin"] });
 
           <motion.div 
            initial="hidden"
-           animate="visible"
+           animate="hidden"
            variants={variants}
            
           key={heroImage}
