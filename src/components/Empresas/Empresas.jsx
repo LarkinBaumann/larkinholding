@@ -152,7 +152,7 @@ function Empresas() {
                 #183F5C] rounded-t-[22px]"
               >
                 <div className="w-full h-[50%] flex flex-col justify-center items-center bg-[#183F5C2E] rounded-[22px]">
-                  <motion.p className="font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] h-[192px]"
+                  <motion.p className="font-paragraph font-semibold  leading-[48px] text-[36px] w-[491px] lg:w-full  h-[192px]"
                    initial="hidden"
                    animate={inView ? "visible" : "hidden"}
                    variants={variantsP}

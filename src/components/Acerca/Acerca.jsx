@@ -47,6 +47,8 @@ function Acerca() {
     <div
     id='Acerca'
      className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
+      <div className='w-full h-full flex flex-col items-center justify-center'>
+       
 
     <div className='w-full md:w-[580px] lg:w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start z-30'>
       
@@ -105,9 +107,12 @@ function Acerca() {
       </div>
       
     </div>
+     
+    </div>
     <div 
      id='AcercaMobile'
-    className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
+    className='w-full lg:w-[50%] xl:w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
+   
     <motion.h2
   className='w-full text-[27px] md:text-[37px] lg:text-[47px] font-black text-white leading-[28px] md:leading-[40px] lg:leading-[49px] text-center lg:text-start md:w-[500px] '
   initial="hidden"
