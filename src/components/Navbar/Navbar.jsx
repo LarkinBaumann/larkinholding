@@ -237,21 +237,22 @@ function Navbar({}) {
         )}
 
         <div className="lg:hidden w-full h-[80px] flex flex-row items-center justify-between  lg:border-b-[2px] border-black px-4 ">
-          <div className="w-full h-full  items-center">
+          <div className="w-full h-full ">
             <motion.div
               initial="hidden"
               animate="visible"
               variants={variantsLogo}
-              className="w-full h-full items-center flex"
+              className="w-full h-full flex flex-col items-center justify-end"
             >
+
               <Image
                 src="/assets/logonav.png"
                 width={1000}
                 height={1000}
                 alt="logo"
                 priority
-                className="w-[170px] h-[45px] object-contain ml-4"
-              />
+                className="w-[170px] h-[45px] object-cover ml-4"
+                />
             </motion.div>
           </div>
           <div className="w-full h-full flex flex-row justify-end items-center">
@@ -343,6 +344,7 @@ function Navbar({}) {
                 )}
               </div>
             </div>
+            <div>
             <motion.button
               initial="hidden"
               animate="visible"
@@ -406,6 +408,7 @@ function Navbar({}) {
                 </svg>
               )}
             </motion.button>
+            </div>
           </div>
         </div>
         {showMenu && (
