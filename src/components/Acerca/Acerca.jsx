@@ -105,12 +105,15 @@ function Acerca() {
       </div>
       
     </div>
-    <div className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
+    <div 
+     id='AcercaMobile'
+    className='w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
     <motion.h2
   className='w-full text-[27px] md:text-[37px] lg:text-[47px] font-black text-white leading-[28px] md:leading-[40px] lg:leading-[49px] text-center lg:text-start md:w-[500px] '
   initial="hidden"
   animate={inView ? "visible" : "hidden"}
   variants={variants}
+
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>

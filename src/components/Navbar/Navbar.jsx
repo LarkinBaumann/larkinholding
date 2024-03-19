@@ -424,7 +424,7 @@ function Navbar({}) {
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
                     document
-                      .getElementById("Acerca")
+                      .getElementById("AcercaMobile")
                       .scrollIntoView({ behavior: "smooth" });
                       setShowMenu(false);
                   }}
