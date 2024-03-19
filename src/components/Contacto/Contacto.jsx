@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useMediaQuery } from "react-responsive";
+import Link from "next/link";
 
 function Contacto() {
   const { traduccion } = useContext(AppContext);
@@ -110,6 +111,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}
       >
+        <a href="mailto:correo@correo.com">
         <motion.div
           variants={childVariants}
           className=" flex flex-col  gap-[9px] text-white"
@@ -148,6 +150,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           </p>
           <p className="font-paragraph text-[18px] "> hello@relume.io</p>
         </motion.div>
+        </a>
         <motion.div
           variants={childVariants}
           className=" flex flex-col gap-[9px]  text-white"
@@ -269,6 +272,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
+            <a href="mailto:correo@hotmail.com">
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -307,11 +311,13 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 hello@relume.io
               </p>
             </motion.div>
+            </a>
           </div>
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
+            <a href="tel:+5255789945612">
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -351,11 +357,13 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 +52 5523 5652
               </p>
             </motion.div>
+            </a>
           </div>
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
+            <a href="https://maps.app.goo.gl/xAPL9j85xiapX6LNA" target="_blank">
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -409,6 +417,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 123 Sample St,
               </p>
             </motion.div>
+            </a>
           </div>
         </div>
         <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
