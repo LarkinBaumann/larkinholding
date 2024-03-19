@@ -45,6 +45,7 @@ function Acerca() {
 
   return (
     <div
+    id='Acerca'
      className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
 
     <div className='w-full md:w-[580px] lg:w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start z-30'>

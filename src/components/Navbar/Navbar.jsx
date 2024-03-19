@@ -426,6 +426,7 @@ function Navbar({}) {
                     document
                       .getElementById("Acerca")
                       .scrollIntoView({ behavior: "smooth" });
+                      setShowMenu(false);
                   }}
                 >
                   {traduccion.navbar.link1}
@@ -436,6 +437,7 @@ function Navbar({}) {
                     document
                       .getElementById("Empresas")
                       .scrollIntoView({ behavior: "smooth" });
+                      setShowMenu(false);
                   }}
                 >
                   {traduccion.navbar.link2}
@@ -446,6 +448,7 @@ function Navbar({}) {
                     document
                       .getElementById("Servicio")
                       .scrollIntoView({ behavior: "smooth" });
+                      setShowMenu(false);
                   }}
                 >
                   {traduccion.navbar.link3}
