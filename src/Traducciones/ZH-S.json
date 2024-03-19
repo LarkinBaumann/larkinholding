@@ -1,92 +1,100 @@
 {
-    "hero": {
-        "titulos": ["石油和天然气行业", "私人安全", "房地产", "投资和金融", "黄金和矿业"],
-        "descripcion": ["了解我们领先的石油和天然气公司如何为您的项目提供全面解决方案。我们提供根据您的需求量身定制的卓越成果。",
-    "我们为您提供定制的技术和服务，保护您最宝贵的资产，从监控系统到快速响应协议，确保您在每一步都享有平安和保护。",
-    "探索拥有尖端技术的房地产物业。我们提供独特的体验，相信我们的专业知识，进行高效和有效的房地产搜索。",
-    "通过我们专业的财务管理为您的投资提供动力。相信我们的团队，优化您的投资组合，确保稳固的财务未来。",
-    "从购买到销售，我们以透明和高效的方式管理整个过程，确保最高的质量和合规标准。"
+  "hero": {
+    "titulos": [
+      "私人保安",
+      "房地产",
+      "投资与金融",
+      "石油与天然气工业",
+      "黄金与采矿"
+    ],
+    "descripcion": [
+      "我们提供技术和定制服务来保护您最宝贵的资产，从监控系统到快速响应协议，确保您的安心与保护。",
+      "探索拥有尖端技术的房地产。我们提供独特的体验，信赖我们的专业知识，进行高效和有效的房地产搜索。",
+      "通过我们的专家财务管理提升您的投资。信任我们的团队优化您的投资组合，确保稳固的财务未来。",
+      "发现我们在石油和天然气行业的领先公司如何为您的项目提供全面解决方案。我们提供针对您需求的卓越结果。",
+      "从购买到销售，我们透明高效地管理整个过程，确保最高的质量和合规标准。"
     ]
+  },
+  "acerca": {
+    "titulo1": "25",
+    "complemento1": "+",
+    "descripcion1": "年的经验",
+    "titulo2": "5",
+    "complemento2": "千+",
+    "descripcion2": "满意的客户",
+    "titulo3": "50",
+    "complemento3": "+",
+    "descripcion3": "认证",
+    "titulo4": "200",
+    "complemento4": "+",
+    "descripcion4": "合作",
+    "header": "赋能多元化企业，",
+    "accent": "汇聚成功。",
+    "paragraph": "我们是一家多元化的公司，涵盖房地产、私人保安、石油和天然气、投资和财务管理等关键行业。通过整合方法和对卓越的承诺，我们推动每家公司的成功。我们的团队充满激情和专业，始终致力于创新和品质。"
+  },
+  "servicio": {
+    "header": "您在墨西哥的伙伴：",
+    "accent": "全国服务",
+    "paragraph": "覆盖墨西哥共和国，我们的团队随时准备满足您的需求。信赖我们在全国提供可靠和高质量的解决方案。"
+  },
+  "contacto": {
+    "header": "今天就开始您的旅程。",
+    "accent": "联系我们。",
+    "paragraph": "在我们团队中，我们在这里帮助您迈出实现目标的第一步。我们为您提供开启这激动人心成功之路所需的推动力。",
+    "titulo": "电子邮件",
+    "titulo2": "电话",
+    "titulo3": "位置",
+    "titulo4": "微博",
+    "titulo5": "微信"
+  },
+  "navbar": {
+    "link1": "关于我们",
+    "link2": "公司",
+    "link3": "覆盖范围"
+  },
+  "contactoNavbar": {
+    "titulo": "联系"
+  },
+  "footer": {
+    "titulo1": "地址",
+    "titulo2": "联系"
+  },
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "私人保安",
+      "imagen": "/images/COMPANIES/security.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "定制保护、专家护送和先进解决方案，为您的安心提供支持"
     },
-    "acerca": {
-      "titulo1": "25",
-      "complemento1":"+",
-        "descripcion1": "多年经验",
-        "titulo2": "5",
-    "complemento2":"K+",
-        "descripcion2": "满意客户",
-        "titulo3": "50",
-    "complemento3":"+",
-        "descripcion3": "认证",
-        "titulo4": "200",
-        "complemento4":"+",
-        "descripcion4": "与公司的合作",
-        "header": "赋能多元化公司，",
-        "accent":"团结成功。",
-        "paragraph":"我们是一家多元化的公司，涵盖房地产、私人安全、石油和天然气、投资和财务管理等关键行业。我们以整合的方式和对卓越的承诺推动每个公司的成功。我们充满激情和专业的团队始终致力于创新和质量。"
+    {
+      "id": 2,
+      "nombre": "房地产",
+      "url": "LarkinBaumanRealEstate.com",
+      "imagen": "/images/COMPANIES/realestate.png",
+      "descripcion": "拥有个性化关注和广泛市场知识的物业搜索和获取的独特体验。"
     },
-    "servicio": {
-        "header": "我们是您在墨西哥的合作伙伴：",
-        "accent":"全国服务",
-        "paragraph": "覆盖墨西哥全境，我们的团队随时准备满足您的需求。相信我们在全国范围内提供可靠和优质的解决方案。"
+    {
+      "id": 3,
+      "nombre": "石油与天然气工业",
+      "imagen": "/images/COMPANIES/oil.png",
+      "url": "LarkinBaumanOilGas.com",
+      "descripcion": "与我们一起在石油和天然气行业提升您的成功。我们有最低市场价格的ESPO和柴油EN590 10PP。"
     },
-    "contacto":{
-            "header": "从今天开始您的旅程。",
-            "accent": "联系我们。",
-            "paragraph": "在我们的团队中，我们在这里帮助您迈出迈向成功的第一步。我们为您提供启动这个激动人心的成功之旅所需的推动力。",
-            "titulo":"电子邮件",
-            "titulo2":"电话",
-            "titulo3":"地址"
+    {
+      "id": 4,
+      "nombre": "投资与金融",
+      "imagen": "/images/COMPANIES/investment.png",
+      "url": "LarkinBaumanInvestments.com",
+      "descripcion": "与我们一起实现您的财务目标。我们最大化您的增长和成功机会。"
     },
-    "navbar": {
-      "link1": "关于我们",
-      "link2": "公司",
-      "link3": "覆盖范围"
-    },
-    "contactoNavbar": {
-      "titulo":"联系我们"
-    },
-    "footer":{
-            "titulo1":"地址",
-            "titulo2":"联系方式"
-    },
-    "empresas":[
-        {
-          "id": 1,
-          "nombre": "私人安全",
-          "imagen": "/images/EMPRESAS/seguridad.png",
-          "url": "LarkinBaumanSeguridad.com",
-          "descripcion": "定制保护，专业护卫，为您的安心提供先进的解决方案"
-        },
-        {
-          "id": 2,
-          "nombre": "房地产",
-          "url": "LarkinBaumanSeguridad.com",
-          "imagen": "/images/EMPRESAS/realestate.png",
-          "descripcion": "在寻找和购买房产方面提供独特的体验，以个性化的关注点和广泛的市场知识"
-        },
-        {
-          "id": 3,
-          "nombre": "石油和天然气工业",
-          "imagen": "/images/EMPRESAS/oil.png",
-          "url": "LarkinBaumanSeguridad.com",
-          "descripcion": "与我们一起在石油和天然气工业中提升您的成功。我们提供承诺，效率和安全"
-        },
-        {
-          "id": 4,
-          "nombre": "投资和金融",
-          "imagen": "/images/EMPRESAS/investment.png",
-          "url": "LarkinBaumanSeguridad.com",
-          "descripcion": "与我们一起实现您的财务目标。我们最大化您的增长和成功的机会。"
-        },
-        {
-          "id": 5,
-          "nombre": "黄金开采",
-          "imagen": "/images/EMPRESAS/gold.png",
-          "url": "LarkinBaumanSeguridad.com",
-          "descripcion": "购买贵金属并在我们的高科技精炼厂进行处理。"
-        }
-      ],
-     
-    "empresaBoton": "前往网站"
+    {
+      "id": 5,
+      "nombre": "黄金采矿",
+      "imagen": "/images/COMPANIES/gold.png",
+      "url": "LarkinBaumanGoldMining.com",
+      "descripcion": "获取贵重矿物并在我们的高科技精炼厂进行加工。"
+    }
+  ],
+  "empresaBoton": "前往网站"
 }
