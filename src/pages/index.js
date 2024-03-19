@@ -98,6 +98,7 @@ useEffect(() => {
   <meta property="og:url" content="https://www.lbholding.com" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="/assets/ogimage.jpg" />
+  <link rel="icon" href="/assets/favicon.ico" />
 </Head>
       <main className="w-full h-full bg-[#000206]">
         <div
