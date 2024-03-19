@@ -53,6 +53,37 @@ const inter = Inter({ subsets: ["latin"] });
   const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
   const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
 
+  const [objectPosition, setObjectPosition] = useState('0px center'); // valor inicial que se renderizará en el servidor
+
+useEffect(() => {
+  // lógica que calcula objectPosition
+  const newPosition = isLarge ?
+    (heroImage == '0'?'0px center':
+    heroImage == '1' ? "-0px center" :
+    heroImage == '2' ? "-0px center" :
+    heroImage == '3' ? "-0px center" :
+    heroImage == '4' && "-0px center")
+    :
+    isMobile ?
+    (
+      heroImage == '0' ? "-120px center" :
+      heroImage == '1' ? "-200px center" :
+      heroImage == '2' ? "-100px center" :
+      heroImage == '3' ? "-140px center" :
+      heroImage == '4' && "-50px center")
+      :
+      isDoubleExtraLarge &&
+      (
+        heroImage == '0' ? "-120px center" :
+        heroImage == '1' ? "-200px center" :
+        heroImage == '2' ? "-100px center" :
+        heroImage == '3' ? "-140px center" :
+        heroImage == '4' && "-50px center");
+
+  setObjectPosition(newPosition);
+}, [isLarge, isMobile, isDoubleExtraLarge, heroImage]);
+
+
 
     return (
       <>
@@ -87,30 +118,9 @@ const inter = Inter({ subsets: ["latin"] });
           alt="hero"
           fill={true}
           quality={100}
+          priority
           className="w-full h-full  object-cover "
-          style={{ objectPosition: isLarge ?
-            (heroImage == '0'?'0px center':
-            heroImage == '1' ? "-0px center" :
-            heroImage == '2' ? "-0px center" :
-            heroImage == '3' ? "-0px center" :
-            heroImage == '4' && "-0px center")
-            :
-            isMobile ?
-            (
-              heroImage == '0' ? "-120px center" :
-              heroImage == '1' ? "-200px center" :
-              heroImage == '2' ? "-100px center" :
-              heroImage == '3' ? "-140px center" :
-              heroImage == '4' && "-50px center")
-              :
-              isDoubleExtraLarge &&
-              (
-                heroImage == '0' ? "-120px center" :
-                heroImage == '1' ? "-200px center" :
-                heroImage == '2' ? "-100px center" :
-                heroImage == '3' ? "-140px center" :
-                heroImage == '4' && "-50px center")
-              }}
+          style={{ objectPosition }}
               />
               </motion.div>
           <Navbar />

@@ -79,6 +79,7 @@ function Navbar({}) {
               width={1000}
               height={1000}
               quality={100}
+              priority
               className="w-[170px] lg:w-full h-[45px] lg:h-full object-cover"
             />
           </div>
@@ -242,6 +243,7 @@ function Navbar({}) {
                 width={1000}
                 height={1000}
                 alt="logo"
+                priority
                 className="w-[170px] h-[45px] object-contain ml-4"
               />
             </motion.div>
