@@ -70,16 +70,18 @@ function Empresas() {
               variants={childVariants}
               className="w-[184px] md:w-[350px] h-[350px] md:h-[550px] flex flex-col justify-between items-center bg-[#183F5C2E] rounded-[22px]">
                 <div className="w-[184px] md:w-[350px] h-[136px] md:h-[250px]">
-                <Image
+                  <Image
                     src={empresa.imagen}
                     width={1000}
                     height={1000}
                     alt={empresa.nombre}
-                    className={
-                  "w-full h-full object-cover rounded-t-[22px]"
-                  }
+                    className="w-full h-full object-cover rounded-t-[22px]"
+                    style={{
+                      objectPosition: empresa.id == '4' ? '0px bottom' :
+                        empresa.id == '5' && "0px -10px"
+                    }}
                   />
-                  </div>
+                </div>
                   <div className="w-[101px] md:w-[150px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
                   rounded-[5px]
                   "
