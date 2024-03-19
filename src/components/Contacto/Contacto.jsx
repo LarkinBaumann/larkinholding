@@ -245,7 +245,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         </a>
       </motion.div>
 
-      <div className="w-full h-full flex flex-col gap-[9px] md:gap-[15px] items-center">
+      <div className="w-full h-full flex flex-col gap-[20px] md:gap-[15px] justify-center items-center">
         <motion.h2
           ref={ref2}
           className="w-full md:w-[650px] lg:hidden text-white font-header text-[27px] md:text-[37px] lg:text-[65px] font-bold leading-[28px] md:leading-[40px] lg:leading-[87.55px] text-center lg:text-start "
@@ -253,7 +253,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         animate={inView2? "visible" : "hidden"}
           variants={variants}
         >
-          {traduccion.contacto.header}
+          {traduccion.contacto.header} 
           <motion.span
             className="titulo2 ml-2 lg:hidden"
             initial="hidden"
@@ -271,7 +271,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         >
           {traduccion.contacto.paragraph}
         </motion.p>
-        <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
+        <div className="w-full  flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
@@ -424,7 +424,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
             </a>
           </div>
         </div>
-        <div className="w-full h-full flex lg:hidden flex-row justify-center items-center gap-[14px]">
+        <div className="w-full  flex lg:hidden flex-row justify-center items-center gap-[14px]">
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
