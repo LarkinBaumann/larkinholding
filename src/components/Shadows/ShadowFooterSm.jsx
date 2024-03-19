@@ -19,7 +19,7 @@ function ShadowFooterSm({inView}) {
   return (
     <motion.div 
     initial="hidden"
-    animate={inView ? "visible" : "hidden"}
+    animate="hidden"
     variants={variants}
     className=' w-full md:hidden absolute -top-[750px] md:-top-[735px] md:-right-[50px]  -z-10 overflow-hidden lg:hidden'>
        <svg xmlns="http://www.w3.org/2000/svg" width="428" height="1057" viewBox="0 0 428 1057" fill="none">
