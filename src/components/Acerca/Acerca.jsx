@@ -52,7 +52,7 @@ function Acerca() {
 
     <div className='w-full md:w-[580px] lg:w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start z-30'>
       
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[205px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
         <div className='flex'>
 
@@ -68,7 +68,7 @@ function Acerca() {
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[205px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex'>
 
@@ -80,7 +80,7 @@ function Acerca() {
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[205px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex'>
 
@@ -92,7 +92,7 @@ function Acerca() {
   </Fade>
 </div>
       </div>
-      <div className='w-[161px] md:w-[250px] lg:w-[220px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
+      <div className='w-[161px] md:w-[250px] lg:w-[205px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
       <div className='flex' ref={ref}>
 
@@ -122,7 +122,7 @@ function Acerca() {
 >
   {traduccion.acerca.header} <span className='titulo2'>{traduccion.acerca.accent}</span>
 </motion.h2>
-      <motion.p className='text-white font-paragraph leading-[20px] md:leading-[27px]  text-center lg:text-left lg:leading-[34px] text-[12px] md:text-[17px] lg:text-[20px] md:w-[556px]  lg:w-[569px]'
+      <motion.p className='text-white font-paragraph leading-[20px] md:leading-[27px]  text-center lg:text-left lg:leading-[34px] text-[12px] md:text-[17px] lg:text-[20px] md:w-[556px] lg:w-full  xl:w-[569px]'
        initial="hidden"
        animate={inView ? "visible" : "hidden"}
        variants={variants}
