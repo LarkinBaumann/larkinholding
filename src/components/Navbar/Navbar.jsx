@@ -12,8 +12,14 @@ function Navbar({}) {
   const { idioma, setIdioma, traduccion } = useContext(AppContext);
 
   const router = useRouter();
+  const [isTabletOrMobile, setIsTabletOrMobile] = useState(false); // valor inicial que se renderizará en el servidor
 
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  useEffect(() => {
+    // lógica que calcula isTabletOrMobile
+    const isTabletOrMobile = window.innerWidth < 768; // o cualquier lógica que estés utilizando
+    setIsTabletOrMobile(isTabletOrMobile);
+  }, []);
+  
 
   const variantsLogo = isTabletOrMobile
     ? {
