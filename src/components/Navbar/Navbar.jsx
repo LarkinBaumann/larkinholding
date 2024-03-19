@@ -344,7 +344,7 @@ function Navbar({}) {
                 )}
               </div>
             </div>
-            <div>
+            <div className="w-full h-full flex flex-col justify-end items-center">
             <motion.button
               initial="hidden"
               animate="visible"
