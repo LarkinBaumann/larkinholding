@@ -16,11 +16,21 @@ import { useMediaQuery } from 'react-responsive';
 
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 
   export default function Home() {
+
+    const img0 = "/images/HERO/0.png";
+    const img1 = "/images/HERO/1.png";
+    const img2 = "/images/HERO/2.png";  
+    const img3 = "/images/HERO/3.png";
+    const img4 = "/images/HERO/4.png";
+
+
     const [heroImage, setHeroImage] = useState(0);
+    const [heroImageArray, setHeroImageArray] = useState([img0,img1,img2,img3,img4]);
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -83,7 +93,8 @@ const inter = Inter({ subsets: ["latin"] });
           >
           <Image
           key="heroImage"
-          src={`/images/HERO/${heroImage}.png`}
+          src={heroImageArray[heroImage]}
+          /* src={`/images/HERO/${heroImage}.png`} */
           alt="hero"
           fill={true}
           quality={100}
