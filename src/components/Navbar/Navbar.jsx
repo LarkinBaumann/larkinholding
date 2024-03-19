@@ -257,10 +257,9 @@ function Navbar({}) {
             </motion.div>
           </div>
           <div className="w-full h-full flex flex-row justify-end items-center">
-          <div>
-              <div className="flex flex-col gap-4">
+              <div className="h-full flex flex-col justify-center md:justify-end md:mb-4 ">
                 <div
-                  className="w-[110px] flex flex-row items-center gap-2 cursor-pointer justify-end text-white"
+                  className={` ${navIdioma && "opacity-0" } w-[110px] flex flex-row items-center gap-2 cursor-pointer justify-end text-white`}
                   onClick={() => {
                     setNavIdioma(!navIdioma);
                   }}
@@ -287,7 +286,7 @@ function Navbar({}) {
 
                 {navIdioma && (
                   <div
-                    className="w-full h-full  flex flex-col gap-2 z-20 text-white translate-y-[30px]"
+                    className="w-full h-full  flex flex-col gap-2 z-20 text-white translate-y-[20px]"
                     style={{
                       background: "rgba(11, 32, 46, 0.30)",
                       hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
@@ -344,7 +343,6 @@ function Navbar({}) {
                   </div>
                 )}
               </div>
-            </div>
             <div className="w-full h-full flex flex-col justify-end items-center">
             <motion.button
               initial="hidden"

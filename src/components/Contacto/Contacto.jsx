@@ -151,6 +151,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <p className="font-paragraph text-[18px] "> hello@relume.io</p>
         </motion.div>
         </a>
+        <a href="tel:+5255789945612">	
         <motion.div
           variants={childVariants}
           className=" flex flex-col gap-[9px]  text-white"
@@ -189,6 +190,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           </p>
           <p className="font-paragraph text-[18px] "> +1 (555) 000-0000</p>
         </motion.div>
+        </a>
+        <a href="https://maps.app.goo.gl/xAPL9j85xiapX6LNA" target="_blank">
         <motion.div
           variants={childVariants}
           className=" flex flex-col gap-[9px]  text-white"
@@ -239,6 +242,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <p className="font-paragraph text-[18px] ">123 Sample St, Sydney </p>
           <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
         </motion.div>
+        </a>
       </motion.div>
 
       <div className="w-full h-full flex flex-col gap-[9px] md:gap-[15px] items-center">
@@ -425,6 +429,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
+            <a href="https://weibo.com/yourusername" target="_blank" rel="noopener noreferrer">
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -464,6 +469,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 +52 5523 5652
               </p>
             </motion.div>
+            </a>
           </div>
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
