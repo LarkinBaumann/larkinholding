@@ -25,7 +25,7 @@ function Empresas() {
     visible: { 
       opacity: 1, 
       transition: { 
-        duration: 3.5,
+        duration: 5,
         ease: "easeInOut"
       } 
     },
@@ -36,7 +36,7 @@ function Empresas() {
     visible: { 
       opacity: 1, 
       transition: { 
-        duration: 1.0, 
+        duration: 2.5, 
         ease: "easeInOut"
       } 
     },
