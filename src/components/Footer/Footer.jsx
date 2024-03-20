@@ -75,12 +75,16 @@ function Footer() {
           <div className="h-[150px] lg:h-[203px] flex flex-col justify-between items-center lg:items-start">
             <div className="flex flex-col">
               <p className="text-center lg:text-left">{traduccion.footer.titulo1}</p>
-              <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
+              <p>Miguel Cervantes, CDMX</p>
             </div>
             <div className="flex flex-col">
               <p className="text-center lg:text-left">{traduccion.footer.titulo2}</p>
-              <p>1800 123 4567</p>
-              <p>info@relume.io</p>
+              <a href="tel:+525516891448">
+              <p className="text-center">+52 55 1689 1448</p>
+              </a>
+              <a href="mailto:info@corporativo.com">
+              <p className="text-center">info@corporativo.com</p>
+              </a>
             </div>
             <div className="hidden lg:flex flex-row justify-between items-center">
               <svg

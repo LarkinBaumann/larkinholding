@@ -147,10 +147,10 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
             {" "}
             Lorem ipsum dolor sit amet.
           </p>
-          <p className="font-paragraph text-[18px] "> hello@relume.io</p>
+          <p className="font-paragraph text-[18px] "> info@corporativolb.com</p>
         </motion.div>
         </a>
-        <a href="tel:+5255789945612">	
+        <a href="tel:+525516891448">	
         <motion.div
           variants={childVariants}
           className=" flex flex-col gap-[9px]  text-white"
@@ -238,7 +238,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo3}
           </h4>
-          <p className="font-paragraph text-[18px] ">123 Sample St, Sydney </p>
+          <p className="font-paragraph text-[18px] ">Miguel Cervantes, CDMX  </p>
           <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
         </motion.div>
         </a>
@@ -309,9 +309,9 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 {traduccion.contacto.titulo}
               </h4>
 
-              <p className="font-paragraph text-[12px] md:text-[17px] text-center  md:w-[120px] ">
+              <p className="font-paragraph text-[8px] md:text-[17px] text-center  md:w-[120px] ">
                 {" "}
-                hello@relume.io
+                info@corporativolb.com
               </p>
             </motion.div>
             </a>
@@ -355,9 +355,9 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 {traduccion.contacto.titulo2}
               </h4>
 
-              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
+              <p className="font-paragraph text-[8px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 {" "}
-                +52 5523 5652
+                +52 55 1689 1448
               </p>
             </motion.div>
             </a>
@@ -416,8 +416,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 {traduccion.contacto.titulo3}
               </h4>
 
-              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
-                123 Sample St,
+              <p className="font-paragraph text-[8px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
+                Miguel Cervantes, CDMX
               </p>
             </motion.div>
             </a>
@@ -463,9 +463,9 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 {traduccion.contacto.titulo4}
               </h4>
 
-              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
+              <p className="font-paragraph text-[8px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
                 {" "}
-                +52 5523 5652
+                +52 55 1689 1448
               </p>
             </motion.div>
             </a>
@@ -523,8 +523,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
                 {traduccion.contacto.titulo5}
               </h4>
 
-              <p className="font-paragraph text-[12px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
-                123 Sample St,
+              <p className="font-paragraph text-[8px] md:text-[17px] text-center w-[83px] md:w-[120px] ">
+                Miguel Cervantes, CDMX
               </p>
             </motion.div>
           </div>
