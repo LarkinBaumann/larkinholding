@@ -63,7 +63,7 @@
       {
         "id": 1,
         "nombre": "私人保安",
-        "imagen": "/images/EMPRESAS/seguridad.png",
+        "imagen": "/images/EMPRESAS/seguridad.webp",
         "url": "LarkinBaumanSecurity.com",
         "descripcion": "定制保護、專家護送和先進解決方案，為您的安心提供支持"
       },
@@ -71,27 +71,27 @@
         "id": 2,
         "nombre": "房地產",
         "url": "LarkinBaumanRealEstate.com",
-        "imagen": "/images/EMPRESAS/realestate.png",
+        "imagen": "/images/EMPRESAS/realestate.webp",
         "descripcion": "擁有個性化關注和廣泛市場知識的物業搜索和獲取的獨特體驗。"
       },
       {
         "id": 3,
         "nombre": "石油與天然氣工業",
-        "imagen": "/images/EMPRESAS/oil.png",
+        "imagen": "/images/EMPRESAS/oil.webp",
         "url": "LarkinBaumanOilGas.com",
         "descripcion": "與我們一起在石油和天然氣行業提升您的成功。我們有最低市場價格的ESPO和柴油EN590 10PP。"
       },
       {
         "id": 4,
         "nombre": "投資與金融",
-        "imagen": "/images/EMPRESAS/investment.png",
+        "imagen": "/images/EMPRESAS/investment.webp",
         "url": "LarkinBaumanInvestments.com",
         "descripcion": "與我們一起實現您的財務目標。我們最大化您的增長和成功機會。"
       },
       {
         "id": 5,
         "nombre": "黃金礦業",
-        "imagen": "/images/EMPRESAS/gold.png",
+        "imagen": "/images/EMPRESAS/gold.webp",
         "url": "LarkinBaumanGoldMining.com",
         "descripcion": "獲取貴重礦物並在我們的高科技精煉廠進行加工。"
       }
