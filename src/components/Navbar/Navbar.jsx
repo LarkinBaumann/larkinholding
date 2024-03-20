@@ -454,6 +454,10 @@ function Navbar({}) {
                 className="w-[204px]h-[77px] flex flex-row justify-center px-[31px] py-[12px] items-center bg-[#022136] border-[1px] border-[#1777BA] text-white rounded-[11px] 
             font-paragraph text-[25px] cursor-pointer
             "
+            onClick={() => {
+              router.push("/#Contacto")
+                setShowMenu(false);
+            }}
               >
                 Contacto
               </div>
