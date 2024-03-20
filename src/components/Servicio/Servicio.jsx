@@ -4,6 +4,7 @@ import ShadowServicio from "../Shadows/ShadowServicio";
 import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
+import ShadowAcerca2 from "../Shadows/ShadowAcerca2";
 
 const ShadowSm = '/images/Servicios/ShadowSm.png'
 
@@ -40,11 +41,14 @@ function Servicio() {
     <div 
     ref={ref}
     id="Servicio"
-    className="w-full h-full relative z-10 ">
+    className="w-full h-full relative z-10 overflow-hidden ">
 
-      <ShadowServicio
+      {/* <ShadowServicio
       inView={inView}
-      />
+      /> */}
+     <ShadowAcerca2
+     inView={inView}
+     />
        
     <div className="w-full h-[500px] md:h-[700px] lg:h-[830px] flex flex-col lg:flex-row justify-center items-center px-8 lg:px-14 
     max-w-[1444px] mx-auto min-w-sm 
