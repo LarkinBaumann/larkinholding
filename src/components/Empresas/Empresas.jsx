@@ -240,7 +240,7 @@ function Empresas() {
               <svg
                 className={
                   seleccion != index
-                    ? "lg:w-full lg:h-[32%] xl:w-[88px] xl:h-[300px] absolute  bottom-0 flex flex-row justify-center items-center text-left"
+                    ? "lg:w-full lg:h-[37%] xl:w-[88px] xl:h-[300px] absolute  bottom-0 flex flex-row justify-center items-center text-left"
                     : "hidden"
                 }
                 xmlns="http://www.w3.org/2000/svg"
