@@ -64,7 +64,7 @@
     {
       "id": 1,
       "nombre": "Seguridad privada",
-      "imagen": "/images/EMPRESAS/seguridad.png",
+      "imagen": "/images/EMPRESAS/seguridad.webp",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Protección personalizada, escoltas expertos y soluciones avanzadas para tu tranquilidad"
     },
@@ -72,27 +72,27 @@
       "id": 2,
       "nombre": "Real Estate",
       "url": "LarkinBaumanSeguridad.com",
-      "imagen": "/images/EMPRESAS/realestate.png",
+      "imagen": "/images/EMPRESAS/realestate.webp",
       "descripcion": "Experiencia única en búsqueda y adquisición de propiedades con enfoque personalizado y amplio conocimiento del mercado."
     },
     {
       "id": 3,
       "nombre": "OIL & GAS INDUSTRY",
-      "imagen": "/images/EMPRESAS/oil.png",
+      "imagen": "/images/EMPRESAS/oil.webp",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Potencia tu éxito en la industria del petróleo y gas con nosotros. Contamos con ESPO y Diésel EN590 10PP con los precios más bajos del mercado."
     },
     {
       "id": 4,
       "nombre": "INVESTMENT & FINANCES",
-      "imagen": "/images/EMPRESAS/investment.png",
+      "imagen": "/images/EMPRESAS/investment.webp",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito."
     },
     {
       "id": 5,
       "nombre": "GOLD MINING",
-      "imagen": "/images/EMPRESAS/gold.png",
+      "imagen": "/images/EMPRESAS/gold.webp",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología."
     }

@@ -9,22 +9,24 @@ function Empresas() {
   const {traduccion} = useContext(AppContext)
 
   const [seleccion, setSeleccion] = useState(0);
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { 
       opacity: 1, 
       transition: { 
-        staggerChildren: 0.5 
+        staggerChildren: 0.3,
+        duration: 1.5
       } 
     },
   };
+  
   const variantsP = {
     hidden: { opacity: 0 },
     visible: { 
       opacity: 1, 
       transition: { 
-        duration: 3 
+        duration: 3.5,
+        ease: "easeInOut"
       } 
     },
   };
@@ -34,8 +36,8 @@ function Empresas() {
     visible: { 
       opacity: 1, 
       transition: { 
-        duration: 0.5, 
-        ease: "easeOut" 
+        duration: 1.0, 
+        ease: "easeInOut"
       } 
     },
   };
@@ -75,8 +77,9 @@ function Empresas() {
                 <div className="w-[184px] md:w-[350px] h-[136px] md:h-[250px]">
                   <Image
                     src={empresa.imagen}
-                    width={1000}
-                    height={1000}
+                    width={100}
+                    height={100}
+                    priority
                     alt={empresa.nombre}
                     className="w-full h-full object-cover rounded-t-[22px]"
                     style={{
