@@ -30,7 +30,7 @@ useEffect(() => {
     initial="hidden"
         animate={"visible"}
         variants={variants}
-    className='w-full  absolute -top-[650px] left-[200px]   -z-20  lg:-z-10'>
+    className='w-full  absolute lg:-top-[600px] xl:-top-[650px] lg:left-[0px] xl:left-[200px] 2xl:left-[750px]  -z-20  lg:-z-10'>
         <svg width="950" height={isTabletOrMobile?"650":"2054"} viewBox="0 0 984 1054" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <g filter="url(#filter0_f_224_634)">

@@ -62,7 +62,7 @@ function Servicio() {
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
         >
-          <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full'/>
+          <Image src='/images/mapa.png' alt="mapa" width={1000} height={1000} className='w-full h-full animate-pulse'/>
         </motion.div>
 
       <div className="h-full lg:w-[50%] 2xl:w-full flex flex-col lg:gap-4 xl:gap-0 justify-center items-center">
