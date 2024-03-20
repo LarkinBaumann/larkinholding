@@ -41,7 +41,7 @@ function Servicio() {
     <div 
     ref={ref}
     id="Servicio"
-    className="w-full h-full relative z-10 overflow-hidden ">
+    className="w-full h-full md:h-[900px] lg:h-full flex flex-col md:justify-center relative z-10 overflow-hidden ">
 
       {/* <ShadowServicio
       inView={inView}

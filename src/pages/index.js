@@ -142,7 +142,7 @@ useEffect(() => {
       />
        <Empresas />
         </div>
-        <div className="w-full h-full relative">
+        <div className="w-full h-full  relative">
         <Image
         src="/images/Servicios/ShadowSm.png"
         width={5000}
