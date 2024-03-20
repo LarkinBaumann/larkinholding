@@ -19,7 +19,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
 
   const variants = isLarge ? {
     hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+    visible: { opacity: 1, y: 0, transition: { duration: 2, ease: "easeOut" } },
   }
   :
   {
@@ -43,7 +43,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.5,
+        staggerChildren: 1,
       },
     },
   };
@@ -87,14 +87,12 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
       >
         {traduccion.contacto.header}
         <br className="" />
-        <motion.span
+        <span
           className="titulo2"
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
+         
         >
           {traduccion.contacto.accent}
-        </motion.span>
+        </span>
       </motion.h2>
       <motion.p
         className="w-[289px] lg:w-[930px] hidden lg:flex text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
@@ -110,6 +108,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}
+        
       >
         <a href="mailto:correo@correo.com">
         <motion.div

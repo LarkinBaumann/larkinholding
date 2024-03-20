@@ -27,7 +27,7 @@ function Servicio() {
     visible: { 
       opacity: 1, 
       transition: { 
-        duration: 4, 
+        duration: 3, 
         ease: "easeOut" 
       } 
     },
@@ -38,7 +38,7 @@ function Servicio() {
 
   return (
     <div 
-    
+    ref={ref}
     id="Servicio"
     className="w-full h-full relative z-10 ">
 
@@ -64,7 +64,7 @@ function Servicio() {
       <div className="h-full lg:w-[50%] 2xl:w-full flex flex-col lg:gap-4 xl:gap-0 justify-center items-center">
 
         <motion.h2 
-        ref={ref}
+        
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
