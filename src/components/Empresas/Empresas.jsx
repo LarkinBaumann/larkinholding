@@ -219,7 +219,7 @@ function Empresas() {
             <svg
               className={
                 seleccion != index
-                  ? " absolute  bottom-0 flex flex-row justify-center items-center text-left"
+                  ? "lg:w-full lg:h-[32%] xl:w-[88px] xl:h-[300px] absolute  bottom-0 flex flex-row justify-center items-center text-left"
                   : "hidden"
               }
               xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +239,7 @@ function Empresas() {
             <h3
               className={
                 seleccion != index
-                  ? " w-[180px] font-header font-bold text-[28px]  uppercase leading-[35px] "
+                  ? " w-[180px] font-header font-bold  text-[28px]  uppercase lg:leading-[30px] xl:leading-[35px] "
                   : "hidden"
               }
             >
