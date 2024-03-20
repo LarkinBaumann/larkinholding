@@ -57,7 +57,7 @@ function Servicio() {
       ">
         <div className="w-full flex flex-col lg:flex-row items-center  gap-[8px] md:gap-[20px]">
      
-        <motion.div className="hidden lg:flex w-[237px] md:w-[400px] lg:w-[557px] 2xl:w-full h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
+        <motion.div className="hidden lg:flex w-[237px] md:w-[400px] lg:w-[500px] xl:w-[50%] 2xl:w-full h-[229px] md:h-[400px] xl:h-[539px] order-2 lg:order-none" 
          initial="hidden"
          animate={inView ? "visible" : "hidden"}
          variants={variantsImage}
