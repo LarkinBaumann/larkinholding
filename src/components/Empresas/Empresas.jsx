@@ -239,7 +239,7 @@ function Empresas() {
             <h3
               className={
                 seleccion != index
-                  ? " font-header font-bold text-[28px]  uppercase leading-[35px] "
+                  ? " w-[160px] font-header font-bold text-[28px]  uppercase leading-[35px] "
                   : "hidden"
               }
             >
