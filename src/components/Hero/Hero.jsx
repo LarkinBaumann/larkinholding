@@ -69,17 +69,15 @@ const childVariants = {
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='hidden lg:flex w-[497px]' />
      
 <motion.h2
-  className={`${heroImage == 0 ? "w-[280px] lg:w-[400px] xl:w-[500px] 2xl:w-[350px] text-[68px] lg:text-8xl":heroImage == 1 ? "w-[280px] lg:w-[300px] xl:w-[500px] 2xl:w-[350px] text-[68px] lg:text-8xl":
-   heroImage == 2?" w-[500px]  lg:w-[656px] text-[60px] lg:text-8xl leading-[80.55px]" : 
-   heroImage == 3? "lg:w-[600px]"
-   :
-   "w-[280px] lg:w-[356px]"} h-[150px] text-center lg:text-start lg:h-[195px] text-white font-header text-[68px] lg:text-8xl font-extrabold lg:font-bold leading-[70px] lg:leading-[87.55px] titulo2 `}
+  className={`w-full h-[150px] text-center lg:text-start lg:h-[195px] text-white font-header text-[68px] lg:text-8xl font-extrabold lg:font-bold leading-[70px] lg:leading-[87.55px] titulo2 `}
   initial="hidden"
   animate="visible"
   variants={variants}
   key={traduccion.hero.titulos[heroImage]}
 >
   {traduccion.hero.titulos[heroImage]}
+  <br/>
+  {traduccion.hero.titulos2[heroImage]}
 </motion.h2>
    
     <motion.p

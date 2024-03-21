@@ -1,11 +1,18 @@
 {
   "hero": {
     "titulos": [
-      "Private Security",
-      "Real Estate",
-      "Investment & Finances",
-      "Oil & Gas Industry",
-      "Gold & Mining"
+      "Private",
+      "Real",
+      "Investment &",
+      "Oil & Gas",
+      "Gold &"
+    ],
+    "titulos2": [
+      "Security",
+      "Estate",
+      "Finances",
+      "Industry",
+      "Mining"
     ],
     "descripcion": [
   
