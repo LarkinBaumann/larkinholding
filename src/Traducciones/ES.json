@@ -3,7 +3,7 @@
     "titulos": [
       "Private",
       "Real",
-      "Investment &",
+      "Investments &",
       "Oil & Gas",
       "Gold &"
     ],
@@ -91,7 +91,7 @@
     },
     {
       "id": 4,
-      "nombre": "INVESTMENT & FINANCES",
+      "nombre": "INVESTMENTS & FINANCES",
       "imagen": "/images/EMPRESAS/investment.webp",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito."
