@@ -143,10 +143,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo}
           </h4>
-          <p className="font-paragraph text-[18px] ">
-            {" "}
-            Lorem ipsum dolor sit amet.
-          </p>
+          
           <p className="font-paragraph text-[18px] "> info@corporativolb.com</p>
         </motion.div>
         </a>
@@ -183,11 +180,8 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo2}
           </h4>
-          <p className="font-paragraph text-[18px] ">
-            {" "}
-            Lorem ipsum dolor sit amet.
-          </p>
-          <p className="font-paragraph text-[18px] "> +1 (555) 000-0000</p>
+          
+          <p className="font-paragraph text-[18px] ">+52 55 1689 1448</p>
         </motion.div>
         </a>
         <a href="https://maps.app.goo.gl/xAPL9j85xiapX6LNA" target="_blank">
@@ -238,8 +232,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <h4 className="font-bold font-header text-[23px] md:text-[17px]">
             {traduccion.contacto.titulo3}
           </h4>
-          <p className="font-paragraph text-[18px] ">Miguel Cervantes, CDMX  </p>
-          <p className="font-paragraph text-[18px] ">NSW 2000 AU</p>
+          <p className="font-paragraph text-[18px] ">Miguel Cervantes, CDMX.</p>
         </motion.div>
         </a>
       </motion.div>
