@@ -80,10 +80,10 @@ function Footer() {
             <div className="flex flex-col">
               <p className="text-center lg:text-left">{traduccion.footer.titulo2}</p>
               <a href="tel:+525516891448">
-              <p className="text-center">+52 55 1689 1448</p>
+              <p className="text-center lg:text-left">+52 55 1689 1448</p>
               </a>
               <a href="mailto:info@corporativo.com">
-              <p className="text-center">info@corporativo.com</p>
+              <p className="text-center">info@corporativolb.com</p>
               </a>
             </div>
             <div className="hidden lg:flex flex-row justify-between items-center">
