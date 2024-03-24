@@ -17,7 +17,7 @@
     "descripcion": [
   
       "Proporcionamos tecnología y servicios personalizados para proteger tus activos más valiosos, desde sistemas de vigilancia hasta protocolos de respuesta rápida, asegurando tu tranquilidad y protección en cada paso.",
-      "Explora propiedades inmobiliarias con tecnología de vanguardia. Te ofrecemos una experiencia única, confía en nuestra experiencia  para una búsqueda inmobiliaria eficiente y efectiva.",
+      "Construimos propiedades inmobiliarias con tecnología de vanguardia. Ofrecemos los más altos estándares de calidad en una combinación perfecta de innovación, funcionalidad y estilo, diseñado para superar las expectativas más exigentes.",
       "Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.",
       "Descubre cómo nuestra empresa líder en la industria de petróleo y gas ofrece soluciones integrales para tus proyectos. Ofrecemos resultados excepcionales adaptados a tus necesidades.",
       "Desde la compra hasta la venta, gestionamos todo el proceso con transparencia y eficiencia, asegurando los más altos estándares de calidad y cumplimiento."
@@ -50,7 +50,7 @@
     "accent": "Contáctanos.",
     "paragraph": "En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.",
     "titulo": "E-mail",
-    "titulo2": "Teléfono",
+    "titulo2": "Whatsapp",
     "titulo3": "Ubicación",
     "titulo4": "Weibo",
     "titulo5": "Wechat"
@@ -80,7 +80,7 @@
       "nombre": "Real Estate",
       "url": "LarkinBaumanSeguridad.com",
       "imagen": "/images/EMPRESAS/realestate.webp",
-      "descripcion": "Experiencia única en búsqueda y adquisición de propiedades con enfoque personalizado y amplio conocimiento del mercado."
+      "descripcion": "Construimos casas personalizadas con tecnología avanzada, siguiendo diseño y necesidades del cliente. Garantizando calidad excepcional para una inversión inteligente."
     },
     {
       "id": 3,
@@ -101,7 +101,7 @@
       "nombre": "GOLD MINING",
       "imagen": "/images/EMPRESAS/gold.webp",
       "url": "LarkinBaumanSeguridad.com",
-      "descripcion": "Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología."
+      "descripcion": "Adquisición de minerales preciosos y su procesamiento en convenios con refinadoras extranjeras."
     }
   ],
   "empresaBoton": "Ir a sitio web"

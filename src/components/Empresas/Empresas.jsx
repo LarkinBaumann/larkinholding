@@ -271,21 +271,7 @@ function Empresas() {
           ))}
         </motion.div>
       </div>
-      {/*  <motion.div className="w-full h-[50px] lg:hidden flex flex-row justify-center items-start gap-2 "
-      initial="hidden"
-      animate="visible"
-      variants={containerVariants}
-    >
-    {
-    traduccion.empresas.map((element,index) => (
-      <motion.div 
-        key={element} 
-        variants={childVariants}
-        className={`w-[13px] h-[13px] rounded-full border-[1px] bg-[#042134] border-[#55B0F0`}
-      />
-    ))
-  }
-      </motion.div> */}
+     
     </>
   );
 }

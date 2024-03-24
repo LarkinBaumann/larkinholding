@@ -66,7 +66,7 @@ useEffect(() => {
     :
     isMobile ?
     (
-      heroImage == '0' ? "-120px center" :
+      heroImage == '0' ? "0px center" :
       heroImage == '1' ? "-200px center" :
       heroImage == '2' ? "-100px center" :
       heroImage == '3' ? "-140px center" :
