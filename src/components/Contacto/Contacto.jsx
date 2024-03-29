@@ -147,7 +147,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
           <p className="font-paragraph text-[18px] "> info@corporativolb.com</p>
         </motion.div>
         </a>
-        <a href="tel:+525516891448">	
+        <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
         <motion.div
           variants={childVariants}
           className=" flex flex-col gap-[9px]  text-white"
@@ -297,7 +297,7 @@ const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
-            <a href="tel:+525516891448">
+            <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
