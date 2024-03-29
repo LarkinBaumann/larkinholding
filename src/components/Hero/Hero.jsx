@@ -69,7 +69,7 @@ const childVariants = {
       <Image src='/assets/logoHero.png' alt="hero" width={1000} height={1000} className='hidden lg:flex w-[497px]' />
      
 <motion.h2
-  className={`w-full h-[150px] text-center lg:text-start lg:h-[195px] text-white font-header text-[68px] lg:text-7xl xl:text-8xl font-extrabold lg:font-bold leading-[70px] lg:leading-[87.55px] titulo2 `}
+  className={`w-full h-[150px] text-center lg:text-start lg:h-[195px] text-white font-header text-[60px] md:text-[68px] lg:text-7xl xl:text-8xl font-extrabold lg:font-bold leading-[70px] lg:leading-[87.55px] titulo2 `}
   initial="hidden"
   animate="visible"
   variants={variants}
