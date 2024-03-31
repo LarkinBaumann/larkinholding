@@ -17,10 +17,10 @@
     "descripcion": [
   
       "Proporcionamos tecnología y servicios personalizados para proteger tus activos más valiosos, desde sistemas de vigilancia hasta protocolos de respuesta rápida, asegurando tu tranquilidad y protección en cada paso.",
-      "En la sinfonía arquitectónica de tus sueños, transformamos tus necesidades y aspiraciones en una obra maestra ecológica. Con materiales vanguardistas resistentes a sismos y huracanes, nuestra casa abraza la naturaleza mientras desafía la fuerza de los elementos. Cada detalle refleja una síntesis de durabilidad, elegancia y eficiencia, optimizando tu inversión con una construcción ágil y precios irresistibles.",
+      "Transformamos tus sueños en una obra maestra ecológica y duradera, resistente a sismos y huracanes. Nuestro diseño optimiza la inversión, combinando elegancia, eficiencia, y precios competitivos.",
       "Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.",
       "Descubre cómo nuestra empresa líder en la industria de petróleo y gas ofrece soluciones integrales para tus proyectos. Ofrecemos resultados excepcionales adaptados a tus necesidades.",
-      "Nuestra excelencia se traduce en una oferta dual: como compradores, brindamos acceso a mercados clave en USA y Dubái para el oro Doré o Refinado; como proveedores, ofrecemos oro certificado de calidad a precios competitivos en el mercado internacional. Tu búsqueda de socios ideales concluye aquí."
+      "Ofrecemos doble servicio: acceso a mercados en USA y Dubái para compradores de oro, y como proveedores, oro certificado a precios competitivos. Tu búsqueda de socios ideales termina aquí."
     ]
   },
   "acerca": {
@@ -78,7 +78,7 @@
     {
       "id": 2,
       "nombre": "Real Estate",
-      "url": "LarkinBaumanSeguridad.com",
+      "url": "Proximamente",
       "imagen": "/images/EMPRESAS/realestate.webp",
       "descripcion": "Creamos casas a medida con tecnología de punta, adaptadas a tus deseos, asegurando calidad superior para tu inversión."
     },
@@ -86,21 +86,21 @@
       "id": 3,
       "nombre": "OIL & GAS INDUSTRY",
       "imagen": "/images/EMPRESAS/oil.webp",
-      "url": "LarkinBaumanSeguridad.com",
+      "url": "Proximamente",
       "descripcion": "Potencia tu éxito en la industria del petróleo y gas con nosotros. Contamos con ESPO y Diésel EN590 10PP con los precios más bajos del mercado."
     },
     {
       "id": 4,
       "nombre": "INVESTMENTS & FINANCES",
       "imagen": "/images/EMPRESAS/investment.webp",
-      "url": "LarkinBaumanSeguridad.com",
+      "url": "Proximamente",
       "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito."
     },
     {
       "id": 5,
       "nombre": "GOLD MINING",
       "imagen": "/images/EMPRESAS/gold.webp",
-      "url": "LarkinBaumanSeguridad.com",
+      "url": "Proximamente",
       "descripcion": "Adquisición de minerales preciosos y su procesamiento en convenios con refinadoras extranjeras."
     }
   ],

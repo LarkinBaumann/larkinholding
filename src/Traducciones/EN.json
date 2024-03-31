@@ -15,11 +15,12 @@
       "Mining"
     ],
     "descripcion": [
-      "We provide technology and customized services to protect your most valuable assets, from surveillance systems to quick response protocols, ensuring your peace of mind and protection at every step.",
-      "Explore real estate properties with cutting-edge technology. We offer a unique experience, trust in our expertise for an efficient and effective real estate search.",
-      "Boost your investments with our expert financial management. Trust our team to optimize your portfolio and secure a solid financial future.",
-      "Discover how our leading company in the oil and gas industry offers comprehensive solutions for your projects. We provide exceptional results tailored to your needs.",
-      "From purchase to sale, we manage the entire process with transparency and efficiency, ensuring the highest standards of quality and compliance."
+  
+      "We provide customized technology and services to protect your most valuable assets, from surveillance systems to rapid response protocols, ensuring your peace of mind and protection every step of the way.",
+      "We transform your dreams into an ecological and durable masterpiece, resistant to earthquakes and hurricanes. Our design optimizes investment, combining elegance, efficiency, and competitive prices.",
+      "Power your investments with our expert financial management. Trust our team to optimize your portfolio and secure a solid financial future.",
+      "Discover how our industry-leading oil and gas company offers comprehensive solutions for your projects. We deliver exceptional results tailored to your needs.",
+      "We offer dual service: access to markets in the USA and Dubai for gold buyers, and as suppliers, certified gold at competitive prices. Your search for ideal partners ends here."
     ]
   },
   "acerca": {
@@ -66,42 +67,42 @@
     "titulo1": "Address",
     "titulo2": "Contact"
   },
-  "empresas": [
-    {
-      "id": 1,
-      "nombre": "Private Security",
-      "imagen": "/images/EMPRESAS/seguridad.webp",
-      "url": "LarkinBaumanSecurity.com",
-      "descripcion": "Customized protection, expert escorts, and advanced solutions for your peace of mind"
-    },
-    {
-      "id": 2,
-      "nombre": "Real Estate",
-      "url": "LarkinBaumanRealEstate.com",
-      "imagen": "/images/EMPRESAS/realestate.webp",
-      "descripcion": "Unique experience in search and acquisition of properties with a personalized focus and extensive market knowledge."
-    },
-    {
-      "id": 3,
-      "nombre": "OIL & GAS INDUSTRY",
-      "imagen": "/images/EMPRESAS/oil.webp",
-      "url": "LarkinBaumanOilGas.com",
-      "descripcion": "Boost your success in the oil and gas industry with us. We have ESPO and Diesel EN590 10PP at the lowest market prices."
-    },
-    {
-      "id": 4,
-      "nombre": "INVESTMENT & FINANCES",
-      "imagen": "/images/EMPRESAS/investment.webp",
-      "url": "LarkinBaumanInvestments.com",
-      "descripcion": "Achieve your financial goals with us. We maximize your growth and success opportunities."
-    },
-    {
-      "id": 5,
-      "nombre": "GOLD MINING",
-      "imagen": "/images/EMPRESAS/gold.webp",
-      "url": "LarkinBaumanGoldMining.com",
-      "descripcion": "Acquisition of precious minerals and processing at our high-tech refineries."
-    }
+    "empresas": [
+      {
+        "id": 1,
+        "nombre": "Private Security",
+        "imagen": "/images/EMPRESAS/seguridad.webp",
+        "url": "LarkinBaumanSeguridad.com",
+        "descripcion": "Customized protection, expert escorts, and advanced solutions for your peace of mind"
+      },
+      {
+        "id": 2,
+        "nombre": "Real Estate",
+        "url": "Coming soon",
+        "imagen": "/images/EMPRESAS/realestate.webp",
+        "descripcion": "We create custom homes with cutting-edge technology, tailored to your desires, ensuring superior quality for your investment."
+      },
+      {
+        "id": 3,
+        "nombre": "OIL & GAS INDUSTRY",
+        "imagen": "/images/EMPRESAS/oil.webp",
+        "url": "Coming soon",
+        "descripcion": "Boost your success in the oil and gas industry with us. We offer ESPO and Diesel EN590 10PP at the lowest prices in the market."
+      },
+      {
+        "id": 4,
+        "nombre": "INVESTMENTS & FINANCES",
+        "imagen": "/images/EMPRESAS/investment.webp",
+        "url": "Coming soon",
+        "descripcion": "Achieve your financial goals with us. We maximize your growth and success opportunities."
+      },
+      {
+        "id": 5,
+        "nombre": "GOLD MINING",
+        "imagen": "/images/EMPRESAS/gold.webp",
+        "url": "Coming soon",
+        "descripcion": "Acquisition of precious minerals and their processing in agreements with foreign refineries."
+      }
   ],
   "empresaBoton": "Go to website"
 }
