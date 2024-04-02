@@ -100,7 +100,7 @@ useEffect(() => {
   <meta name="twitter:image" content="/assets/ogimage.jpg" />
   <link rel="icon" href="/assets/favicon.ico" />
 </Head>
-      <main className="w-full h-full bg-[#000206]">
+      <main className="w-full h-full bg-[#000206] ">
         <div
         {...handlers}
         className="w-full relative z-10">

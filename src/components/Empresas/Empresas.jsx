@@ -152,7 +152,7 @@ function Empresas() {
               key={index}
               className={
                 seleccion != index
-                  ? "w-full h-[774px] col-span-1 rounded-[22px]  relative cursor-pointer hover:-translate-y-4 transition-all duration-300"
+                  ? "w-full h-[774px] col-span-1 rounded-[22px]  relative cursor-pointer hover:-translate-y-4 transition-all duration-300 overflow-hidden"
                   : "col-span-4 h-[774px] rounded-[22px]  "
               }
               onClick={() => setSeleccion(index)}
@@ -233,7 +233,7 @@ function Empresas() {
               <div
                 className={
                   seleccion != index
-                    ? "w-full h-full bg-[#005E937A] absolute top-0 rounded-[22px]"
+                    ? "w-full h-full bg-[#005E937A] absolute top-0 rounded-[22px] "
                     : "hidden"
                 }
               ></div>
