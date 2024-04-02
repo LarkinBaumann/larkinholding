@@ -46,11 +46,11 @@ function Acerca() {
   return (
     <div
     id='Acerca'
-     className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px] '>
-      <div className='w-full h-full flex flex-col items-center justify-center'>
+     className='w-full h-full justify-between items-center flex flex-col-reverse lg:flex-row gap-[45px]  '>
+      <div className='w-full lg:w-1/2 h-full flex flex-col items-center justify-center'>
        
 
-    <div className='w-full md:w-[580px] lg:w-full grid grid-cols-2 gap-x-0 lg:gap-x-4 gap-y-8 place-items-center lg:place-items-start z-30'>
+    <div className='w-full md:w-[580px] xl:w-full grid grid-cols-2 gap-x-0 xl:gap-x-4 gap-y-8 place-items-center xl:place-items-start z-30'>
       
       <div className='w-[161px] md:w-[250px] lg:w-[205px] xl:w-[260px] 2xl:w-[302px]  h-[121px]
       md:h-[180px] xl:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]' style={{ background: 'rgba(11, 32, 46, 0.30)' }}>
@@ -111,10 +111,10 @@ function Acerca() {
     </div>
     <div 
      id='AcercaMobile'
-    className='w-full lg:w-[50%] xl:w-full h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
+    className='w-full lg:w-[50%]   h-full flex flex-col justify-center items-center lg:items-start gap-[16px]'>
    
     <motion.h2
-  className='w-full text-[27px] md:text-[37px] lg:text-[47px] font-black text-white leading-[28px] md:leading-[40px] lg:leading-[49px] text-center lg:text-start md:w-[500px] '
+  className='w-full text-[27px] md:text-[37px] lg:text-[47px] font-black text-white leading-[28px] md:leading-[40px] lg:leading-[49px] text-center lg:text-start md:px-28 lg:px-0 '
   initial="hidden"
   animate={inView ? "visible" : "hidden"}
   variants={variants}
