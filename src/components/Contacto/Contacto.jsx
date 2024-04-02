@@ -264,6 +264,7 @@ function Contacto() {
           {traduccion.contacto.paragraph}
         </motion.p>
         <div className="w-full  flex lg:hidden flex-row justify-center items-center gap-[14px]">
+          
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
@@ -309,6 +310,7 @@ function Contacto() {
               </motion.div>
             </a>
           </div>
+          
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
@@ -355,11 +357,12 @@ function Contacto() {
               </motion.div>
             </a>
           </div>
+          
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
-            <a href="https://maps.app.goo.gl/xAPL9j85xiapX6LNA" target="_blank">
+            <a href="https://maps.app.goo.gl/zUC11owWN5uMZD4e7" target="_blank">
               <motion.div
                 variants={childVariants}
                 className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -417,6 +420,7 @@ function Contacto() {
           </div>
         </div>
         <div className="w-full  flex lg:hidden flex-row justify-center items-center gap-[14px]">
+          
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
@@ -471,10 +475,13 @@ function Contacto() {
               </motion.div>
             </a>
           </div>
+          
           <div
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
+            <a href="tel:+525516891448">
+              
             <motion.div
               variants={childVariants}
               className=" flex flex-col items-center justify-center  gap-[9px] text-white"
@@ -514,9 +521,11 @@ function Contacto() {
               </h4>
 
               <p className="font-paragraph text-[8px] md:text-[10px] text-center w-[83px] md:w-[120px] h-[30px] ">
-                Miguel Cervantes, CDMX
+                +52 55 1689 1448
               </p>
             </motion.div>
+            
+            </a>
           </div>
         </div>
         <div
