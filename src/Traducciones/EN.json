@@ -73,35 +73,40 @@
         "nombre": "Private Security",
         "imagen": "/images/EMPRESAS/seguridad.webp",
         "url": "LarkinBaumanSeguridad.com",
-        "descripcion": "Customized protection, expert escorts, and advanced solutions for your peace of mind"
+        "descripcion": "Customized protection, expert escorts, and advanced solutions for your peace of mind",
+        "empresaBoton": "Go to website"
       },
       {
         "id": 2,
         "nombre": "Real Estate",
-        "url": "Coming soon",
+        "url": "Coming soon", 
         "imagen": "/images/EMPRESAS/realestate.webp",
-        "descripcion": "We create custom homes with cutting-edge technology, tailored to your desires, ensuring superior quality for your investment."
+        "descripcion": "We create custom homes with cutting-edge technology, tailored to your desires, ensuring superior quality for your investment.",
+        "empresaBoton": "Coming soon"
       },
       {
         "id": 3,
         "nombre": "OIL & GAS INDUSTRY",
         "imagen": "/images/EMPRESAS/oil.webp",
         "url": "Coming soon",
-        "descripcion": "Boost your success in the oil and gas industry with us. We offer ESPO and Diesel EN590 10PP at the lowest prices in the market."
+        "descripcion": "Boost your success in the oil and gas industry with us. We offer ESPO and Diesel EN590 10PP at the lowest prices in the market.",
+        "empresaBoton": "Coming soon"
       },
       {
         "id": 4,
         "nombre": "INVESTMENTS & FINANCES",
         "imagen": "/images/EMPRESAS/investment.webp",
         "url": "Coming soon",
-        "descripcion": "Achieve your financial goals with us. We maximize your growth and success opportunities."
+        "descripcion": "Achieve your financial goals with us. We maximize your growth and success opportunities.",
+        "empresaBoton": "Coming soon"
       },
       {
         "id": 5,
         "nombre": "GOLD MINING",
         "imagen": "/images/EMPRESAS/gold.webp",
         "url": "Coming soon",
-        "descripcion": "Acquisition of precious minerals and their processing in agreements with foreign refineries."
+        "descripcion": "Acquisition of precious minerals and their processing in agreements with foreign refineries.",
+        "empresaBoton": "Coming soon"
       }
   ],
   "empresaBoton": "Go to website"

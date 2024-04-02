@@ -73,37 +73,42 @@
       "nombre": "Seguridad privada",
       "imagen": "/images/EMPRESAS/seguridad.webp",
       "url": "LarkinBaumanSeguridad.com",
-      "descripcion": "Protección personalizada, escoltas expertos y soluciones avanzadas para tu tranquilidad"
+      "descripcion": "Protección personalizada, escoltas expertos y soluciones avanzadas para tu tranquilidad",
+      "empresaBoton": "Ir a sitio web"
     },
     {
       "id": 2,
       "nombre": "Real Estate",
-      "url": "Proximamente",
+      "url": "Próximamente",
       "imagen": "/images/EMPRESAS/realestate.webp",
-      "descripcion": "Creamos casas a medida con tecnología de punta, adaptadas a tus deseos, asegurando calidad superior para tu inversión."
+      "descripcion": "Creamos casas a medida con tecnología de punta, adaptadas a tus deseos, asegurando calidad superior para tu inversión.",
+      "empresaBoton": "Próximamente"
     },
     {
       "id": 3,
       "nombre": "OIL & GAS INDUSTRY",
       "imagen": "/images/EMPRESAS/oil.webp",
-      "url": "Proximamente",
-      "descripcion": "Potencia tu éxito en la industria del petróleo y gas con nosotros. Contamos con ESPO y Diésel EN590 10PP con los precios más bajos del mercado."
+      "url": "Próximamente",
+      "descripcion": "Potencia tu éxito en la industria del petróleo y gas con nosotros. Contamos con ESPO y Diésel EN590 10PP con los precios más bajos del mercado.",
+      "empresaBoton": "Próximamente"
     },
     {
       "id": 4,
       "nombre": "INVESTMENTS & FINANCES",
       "imagen": "/images/EMPRESAS/investment.webp",
-      "url": "Proximamente",
-      "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito."
+      "url": "Próximamente",
+      "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito.",
+      "empresaBoton": "Próximamente"
     },
     {
       "id": 5,
       "nombre": "GOLD MINING",
       "imagen": "/images/EMPRESAS/gold.webp",
-      "url": "Proximamente",
-      "descripcion": "Adquisición de minerales preciosos y su procesamiento en convenios con refinadoras extranjeras."
+      "url": "Próximamente",
+      "descripcion": "Adquisición de minerales preciosos y su procesamiento en convenios con refinadoras extranjeras.",
+      "empresaBoton": "Próximamente"
     }
-  ],
-  "empresaBoton": "Ir a sitio web"
+  ]
+ 
 }
   

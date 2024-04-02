@@ -119,7 +119,8 @@ function Empresas() {
               "
                 >
                   <div className=" w-full h-full flex justify-center items-center gap-[6px] text-[9px] md:text-[15px] font-paragraph cursor-pointer ">
-                    {traduccion.empresaBoton}{" "}
+                  
+                    {empresa.empresaBoton}{" "}
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +189,7 @@ function Empresas() {
                     />
                     <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 cursor-pointer hover:scale-110 transition-all duration-300">
                       <div className=" w-full h-full flex justify-center items-center gap-[14px] text-[19px] font-paragraph cursor-pointer">
-                        {traduccion.empresaBoton}{" "}
+                      {empresa.empresaBoton}{" "}
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
