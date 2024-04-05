@@ -294,6 +294,10 @@ function Navbar({}) {
                   >
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
                       onClick={() => {
                         setIdioma({
                           nombre: "EN",
@@ -306,6 +310,10 @@ function Navbar({}) {
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
@@ -318,6 +326,10 @@ function Navbar({}) {
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
@@ -330,6 +342,10 @@ function Navbar({}) {
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
