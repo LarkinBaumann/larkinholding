@@ -459,7 +459,7 @@ function Navbar({}) {
                 setShowMenu(false);
             }}
               >
-                Contacto
+                {traduccion.contactoNavbar.titulo}
               </div>
               <div className="flex flex-row justify-center items-center text-white gap-[42px] ">
                 <svg
