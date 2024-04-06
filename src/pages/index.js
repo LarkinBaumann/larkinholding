@@ -25,7 +25,7 @@ const inter = Inter({ subsets: ["latin"] });
     useEffect(() => {
       const interval = setInterval(() => {
         setHeroImage((prevImage) =>  prevImage  + 1 > 4? 0 : prevImage + 1);
-      }, 8000);
+      }, 10000);
 
       return () => clearInterval(interval);
     }, []);
