@@ -78,34 +78,34 @@
     {
       "id": 2,
       "nombre": "房地产",
-      "url": "即将推出",
+      "url": "信息",
       "imagen": "/images/EMPRESAS/realestate.webp",
       "descripcion": "我们建筑的每一个细节都体现了耐用性、优雅和高效性的综合，最大程度地优化您的投资。",
-      "empresaBoton": "即将推出"
+      "empresaBoton":  "信息"
     },
     {
       "id": 3,
       "nombre": "石油与天然气工业",
       "imagen": "/images/EMPRESAS/oil.webp",
-      "url": "即将推出",
+      "url": "信息",
       "descripcion": "与我们一起提升您在石油和天然气行业的成功。我们以市场最低价提供ESPO和柴油EN590 10PP。",
-      "empresaBoton": "即将推出"
+      "empresaBoton":  "信息"
     },
     {
       "id": 4,
       "nombre": "投资与金融",
       "imagen": "/images/EMPRESAS/investment.webp",
-      "url": "即将推出",
+      "url": "信息",
       "descripcion": "与我们一起实现您的财务目标。我们最大化您的成长和成功机会。",
-      "empresaBoton": "即将推出"
+      "empresaBoton":  "信息"
     },
     {
       "id": 5,
       "nombre": "黄金采矿",
       "imagen": "/images/EMPRESAS/gold.webp",
-      "url": "即将推出",
+      "url": "信息",
       "descripcion": "获取贵金属并与国外炼金厂签订加工协议",
-      "empresaBoton": "即将推出"
+      "empresaBoton":  "信息"
     }
   ],
   "empresaBoton": "前往网站"

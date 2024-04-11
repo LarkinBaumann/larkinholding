@@ -79,34 +79,34 @@
       {
         "id": 2,
         "nombre": "Real Estate",
-        "url": "Coming soon", 
+        "url": "Information", 
         "imagen": "/images/EMPRESAS/realestate.webp",
         "descripcion": "Every detail of our architecture reflects a synthesis of durability, elegance, and efficiency, optimizing your investment.",
-        "empresaBoton": "Coming soon"
+        "empresaBoton": "Information"
       },
       {
         "id": 3,
         "nombre": "OIL & GAS INDUSTRY",
         "imagen": "/images/EMPRESAS/oil.webp",
-        "url": "Coming soon",
+        "url": "Information", 
         "descripcion": "Boost your success in the oil and gas industry with us. We offer ESPO and Diesel EN590 10PP at the lowest prices in the market.",
-        "empresaBoton": "Coming soon"
+        "empresaBoton": "Information"
       },
       {
         "id": 4,
         "nombre": "INVESTMENTS & FINANCES",
         "imagen": "/images/EMPRESAS/investment.webp",
-        "url": "Coming soon",
+        "url": "Information", 
         "descripcion": "Achieve your financial goals with us. We maximize your growth and success opportunities.",
-        "empresaBoton": "Coming soon"
+        "empresaBoton": "Information"
       },
       {
         "id": 5,
         "nombre": "GOLD MINING",
         "imagen": "/images/EMPRESAS/gold.webp",
-        "url": "Coming soon",
+        "url": "Information", 
         "descripcion": "Acquisition of precious minerals and their processing in agreements with foreign refineries.",
-        "empresaBoton": "Coming soon"
+        "empresaBoton": "Information"
       }
   ],
   "empresaBoton": "Go to website"
