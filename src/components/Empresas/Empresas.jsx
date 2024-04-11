@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useRouter } from "next/router";
 
 function Empresas() {
   const { traduccion } = useContext(AppContext);
@@ -54,6 +55,8 @@ function Empresas() {
       setShouldAnimate(true);
     }
   }, [loadedImages]);
+
+  const router = useRouter();
 
   return (
     <>
@@ -117,6 +120,14 @@ function Empresas() {
                   className="text-white w-[82px] md:w-[150px] h-[20px] md:h-[38px]  bg-[#005E93]  cursor-pointer 
               mb-4
               "
+              onClick={() => {
+                if (empresa.id != "1") {
+                  console.log("click");
+                    document
+                      .getElementById("Contacto")
+                      .scrollIntoView({ behavior: "smooth" });
+                }
+              }}
                 >
                   <div className=" w-full h-full flex justify-center items-center gap-[6px] text-[9px] md:text-[15px] font-paragraph cursor-pointer ">
                   
@@ -187,7 +198,16 @@ function Empresas() {
                           : "w-full h-full object-cover object-center rounded-b-[22px]"
                       }
                     />
-                    <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 cursor-pointer hover:scale-110 transition-all duration-300">
+                    <button className="text-white w-[171px] h-[42px] absolute bg-[#005E93] bottom-10 right-10 cursor-pointer hover:scale-110 transition-all duration-300"
+                     onClick={() => {
+                      if (empresa.id != "1") {
+                        console.log("click");
+                          document
+                            .getElementById("Contacto")
+                            .scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    >
                       <div className=" w-full h-full flex justify-center items-center gap-[14px] text-[19px] font-paragraph cursor-pointer">
                       {empresa.empresaBoton}{" "}
                         <span>
