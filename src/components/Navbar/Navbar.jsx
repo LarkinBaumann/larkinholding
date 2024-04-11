@@ -362,7 +362,7 @@ function Navbar({}) {
               animate="visible"
               variants={variantsButton}
               onClick={() => setShowMenu(!showMenu)}
-              className="px-[20px] py-[8px]  rounded-[10px]  text-white uppercase"
+              className={`px-[20px] ${!showMenu?"py-[10px]" : "py-[0px]"}   rounded-[10px]  text-white uppercase`}
             >
               {!showMenu ? (
                 <svg
@@ -392,32 +392,9 @@ function Navbar({}) {
                   />
                 </svg>
               ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="27"
-                  height="30"
-                  viewBox="0 0 27 30"
-                  fill="none"
-                >
-                  <line
-                    x1="3.02081"
-                    y1="6.22437"
-                    x2="24.6884"
-                    y2="26.444"
-                    stroke="white"
-                    strokeWidth="4.27462"
-                    strokeLinecap="round"
-                  />
-                  <line
-                    x1="23.0855"
-                    y1="3.00016"
-                    x2="4.83461"
-                    y2="26.3501"
-                    stroke="white"
-                    strokeWidth="4.27462"
-                    strokeLinecap="round"
-                  />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="39" viewBox="0 0 30 39" fill="none">
+  <path d="M26.0963 11.4715C27.0485 10.5193 27.0485 8.97302 26.0963 8.02087C25.1442 7.06873 23.5979 7.06873 22.6458 8.02087L14.6249 16.0494L6.59634 8.02849C5.64419 7.07634 4.0979 7.07634 3.14575 8.02849C2.1936 8.98064 2.1936 10.5269 3.14575 11.4791L11.1743 19.5L3.15337 27.5285C2.20122 28.4806 2.20122 30.0269 3.15337 30.9791C4.10552 31.9312 5.65181 31.9312 6.60395 30.9791L14.6249 22.9506L22.6534 30.9715C23.6055 31.9236 25.1518 31.9236 26.104 30.9715C27.0561 30.0193 27.0561 28.473 26.104 27.5209L18.0754 19.5L26.0963 11.4715Z" fill="white"/>
+</svg>
               )}
             </motion.button>
             </div>
