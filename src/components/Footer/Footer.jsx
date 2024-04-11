@@ -204,15 +204,7 @@ function Footer() {
               className="w-full h-full"
             />
           </div>
-          <div className="w-[227px] h-[203px]">
-            <Image
-              src="/images/wechatFooter.png"
-              alt="logo"
-              width={1000}
-              height={1000}
-              className="w-full h-full"
-            />
-          </div>
+          
         </div>
       </div>
     </motion.div>

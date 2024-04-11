@@ -162,12 +162,12 @@ function Navbar({}) {
                       onClick={() => {
                         setIdioma({
                           nombre: "EN",
-                          code: "GB",
+                          code: "US",
                         });
                         setNavIdioma(!navIdioma);
                       }}
                     >
-                      <FlagIcon code="GB" /> EN
+                      <FlagIcon code="US" /> EN
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
@@ -175,11 +175,11 @@ function Navbar({}) {
                         setNavIdioma(!navIdioma);
                         setIdioma({
                           nombre: "ES",
-                          code: "ES",
+                          code: "MX",
                         });
                       }}
                     >
-                      <FlagIcon code="ES" /> ES
+                      <FlagIcon code="MX" /> ES
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
@@ -298,12 +298,12 @@ function Navbar({}) {
                       onClick={() => {
                         setIdioma({
                           nombre: "EN",
-                          code: "GB",
+                          code: "US",
                         });
                         setNavIdioma(!navIdioma);
                       }}
                     >
-                      <FlagIcon code="GB" /> EN
+                      <FlagIcon code="US" /> EN
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
@@ -315,11 +315,11 @@ function Navbar({}) {
                         setNavIdioma(!navIdioma);
                         setIdioma({
                           nombre: "ES",
-                          code: "ES",
+                          code: "MX",
                         });
                       }}
                     >
-                      <FlagIcon code="ES" /> ES
+                      <FlagIcon code="MX" /> ES
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"

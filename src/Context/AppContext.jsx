@@ -14,7 +14,7 @@ export const AppProvider = ({ children }) => {
     const [data, setData] = useState([]);
     const [idioma, setIdioma] = useState({
         nombre: "ES",
-        code: "ES",
+        code: "MX",
       })
       const [traduccion, setTraduccion] = useState(ES)
 
