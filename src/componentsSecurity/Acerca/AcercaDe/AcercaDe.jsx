@@ -44,7 +44,7 @@ function AcercaDe() {
           {traduccion.acercaDe.paragraph} <span className="text-[#55B0F0]"> {traduccion.acercaDe.accent} </span>
           {traduccion.acercaDe.paragraph2}
         </p>
-        <Link href="/Services">
+        <Link href="/Security/Services">
 
         <Button
           text={traduccion.acercaDe.button}

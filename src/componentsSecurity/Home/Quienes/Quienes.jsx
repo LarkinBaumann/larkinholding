@@ -78,7 +78,7 @@ function Quienes() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="z-50 lg:hidden mt-[9px]"
       >
-        <Link href="/About" >
+        <Link href="/Security/About" >
         <Button text={traduccion.quienesInicio.button} />
         </Link>
       </motion.div>

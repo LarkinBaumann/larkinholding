@@ -64,7 +64,7 @@ import Link from 'next/link'
                 animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <Link href='/Services'>
+                <Link href='/Security/Services'>
                 <Button
                   text={traduccion.acercaInicio.button}
                   />
