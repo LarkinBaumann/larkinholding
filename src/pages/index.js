@@ -108,7 +108,7 @@ const router = useRouter();
   <link rel="icon" href="favicon.ico" />
 </Head>}
 {
-        router.pathname == "/Security" &&
+        router.pathname.startsWith == "/Security" &&
         <Head>
         <meta name="theme-color" content="#050409"/>
         <title>Larkin Baumann Security.</title>
