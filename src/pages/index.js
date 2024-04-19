@@ -86,8 +86,8 @@ useEffect(() => {
 }, [isLarge, isMobile, isDoubleExtraLarge, heroImage]);
 
 
-
 const router = useRouter();
+
 
     return (
       
