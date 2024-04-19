@@ -127,6 +127,9 @@ function Empresas() {
                       .getElementById("Contacto")
                       .scrollIntoView({ behavior: "smooth" });
                 }
+                else{
+                  router.push(empresa.url)
+                }
               }}
                 >
                   <div className=" w-full h-full flex justify-center items-center gap-[6px] text-[9px] md:text-[15px] font-paragraph cursor-pointer ">
@@ -205,6 +208,10 @@ function Empresas() {
                           document
                             .getElementById("Contacto")
                             .scrollIntoView({ behavior: "smooth" });
+                      }
+                      else{
+                        router.push(empresa.url)
+                      
                       }
                     }}
                     >
