@@ -13,6 +13,76 @@
   -webkit-text-fill-color: transparent;
 }
 
+.titulo3{
+  background: linear-gradient(90deg, #1777BA 0%, #A2B3EE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.titulo4{
+  background: linear-gradient(90deg, #1777BA 20.29%, #A2B3EE 143.68%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.titulo5{
+  background: linear-gradient(90deg, #1777BA 0%, #8FAFF1 61.09%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.titulo6{
+  background: linear-gradient(90deg, #1777BA 66.79%, #A2B3EE 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* Acerca */
+.tituloAcerca1{
+  background: linear-gradient(90deg, #1777BA 2.63%, #8FAFF1 84.92%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tituloAcerca2{
+  background: linear-gradient(90deg, #1777BA 0%, #8FAFF1 39.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+/* Servicios */
+.tituloServicios1{
+  background: linear-gradient(90deg, #1777BA 28.27%, #8EC8F8 48.42%, #132151 83.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tituloServicios2{
+  background: linear-gradient(90deg, #1777BA 0%, #A2B3EE 59.34%, #FFF 83.97%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tituloServicios3{
+  background: linear-gradient(90deg, #1777BA 0%, #A2B3EE 59.34%, #FFF 83.97%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.contactoCard{
+  z-index: 100 !important;
+}
+
 body {
   background-color: #000206;
 }

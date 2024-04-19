@@ -1,0 +1,142 @@
+{
+  "heroInicio":{
+    "titulo":"思考您的业务，",
+    "accent":"我们为您的安全保驾护航"
+  },
+  "heroAcerca":{
+    "titulo1":"您的安全是",
+    "accent1":"我们的使命；",
+    "titulo2":"您的宁静是",
+    "accent2":"我们的保证."
+  },
+  "heroServicios":{
+    "titulo":"了解我们的服务如何保护您的",
+    "accent":"宁静",
+    "aux":"和",
+    "accent2":"财产",
+    "button":"了解更多"
+  },
+  "acercaInicio":{
+    "titulo":"我们以一流的",
+    "accent":"质量",
+    "paragraph":"我们高度训练和承诺的团队致力于保护您的环境，我们提供广泛的解决方案，根据您特定的需求定制，确保您可以专注于重要事项，而我们负责您的安全。",
+    "button":"服务"
+  },
+  "quienesInicio":{
+    "escudoHeader1":"全球视野",
+    "escudoParagraph1":"和创新",
+    "escudoHeader2":"对卓越的",
+    "escudoParagraph2":"承诺",
+    "escudoHeader3":"诚信和",
+    "escudoParagraph3":"信任",
+    "header":"我们是谁？",
+    "accent":"",
+    "paragraph":"我们不仅是安全供应商，更是您在保护最重要的东西方面的合作伙伴。请相信我们，始终保证您的安宁和安全。",
+    "button":"我们"
+  },
+  "servicio": {
+    "header": "您在墨西哥的合作伙伴：",
+    "accent": "覆盖全国各地的服务",
+    "paragraph": "我们在墨西哥全境提供服务，无论您身在何处，我们的团队都准备好满足您的需求。请相信我们，在全国范围内为您提供可靠和优质的解决方案。",
+    "title": "服务"
+
+  },
+  "contacto": {
+    "header": "立即开始您的旅程。",
+    "accent": "联系我们。",
+    "paragraph": "在我们的团队中，我们在这里帮助您迈出迈向目标的第一步。我们为您提供启动成功之旅所需的推动力。",
+    "titulo": "电子邮件",
+    "titulo2": "电话",
+    "titulo3": "位置",
+    "titulo4": "微博",
+    "titulo5": "微信"
+  },
+  "acercaDe":{
+    "header":"关于",
+    "paragraph":"自1997年成立以来，",
+    "accent":"LARKIN BAUMANN - 专业私人安全服务",
+    "paragraph2":"一直是提供先进私人安全服务的先驱。我们始终坚信在保护人员和财产方面确立无可挑剔的标准。多年来，我们凭借卓越的承诺和对安全的执着赢得了墨西哥和全球客户的信任。",
+    "button":"服务",
+    "mision":"使命",
+    "paragraphMision":"在Larkin Baumann，我们致力于满足客户的需求，提供个性化的安全解决方案，以满足其特定要求，提供高质量、诚信和保密的服务。",
+    "vision":"愿景",
+    "paragraphVision":"我们致力于成为私人安全服务公司的领导者，在持续盈利方面取得最大的成就，吸引最优秀的人才，同时通过持续创新、采用最新技术和卓越的客户服务，成为安全服务行业的卓越标杆。"
+  },
+  "valores":{
+"header":"价值观",
+"paragraph":"我们承诺遵循以下价值观，为那些信任我们的人提供安全和保护。",
+"valorCardHeader1":"全球视野和",
+"valorCardHeader12":"创新",
+"valorCardParagraph1":"我们不断推动新的思路和方法来应对不断变化的安全挑战。我们致力于创新和采用新兴技术，以快速适应全球安全需求。",
+"valorCardHeader2":"承诺和",
+"valorCardHeader22":"卓越",
+"valorCardParagraph2":"我们追求在工作的每个方面都达到卓越，从团队的选择和培训到技术的实施，旨在超越期望，建立卓越的质量标准。",
+"valorCardHeader3":"诚信和",
+"valorCardHeader32":"信任",
+"valorCardParagraph3":"我们承诺在所有互动中诚实、透明和道德地行事。我们的客户信任我们保护他们最重要的东西。在每项服务中，我们的目标是保持这种信任，以诚信和持续卓越的方式。"
+  },
+  "navbar": {
+    "link1": "首页",
+    "link2": "关于",
+    "link3": "服务"
+  },
+  "contactoNavbar": {
+    "titulo":"联系我们"
+  },
+  "footer": {
+    "titulo1": "地址",
+    "titulo2": "联系方式"
+  },
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "高管保护",
+      "imagen": "/assetsSecurity/servicios/servicios/proteccion2.png",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "我们专注于为高级人员的个人安全设计和实施特定的计划和步骤，以确保成功。我们提供定制评估，以开发或改进现有计划，确保在家庭和企业环境中都能提供有效的解决方案。"
+    },
+    {
+      "id": 2,
+      "nombre": "高级交通服务",
+      "url": "LarkinBaumanSeguridad.com",
+      "imagen": "/assetsSecurity/servicios/servicios/transportacion2.png",
+      "descripcion": "我们是高级交通服务和受过训练的护航司机的领导者，不仅确保安全驾驶，还保护高管的安全。从抵达机场到目的地，我们提供安全和舒适的常规或装甲车辆，以满足客户在全国各地的需求。"
+    },
+    {
+      "id": 3,
+      "nombre": "装甲车辆租赁",
+      "imagen": "/assetsSecurity/servicios/servicios/renta2.png",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "通过我们的装甲车辆和护航司机，体验最高级别的安全。我们为您的安全交通需求提供全面解决方案，确保您每次旅行都能安心。相信我们，将您的交通体验提升到一个新的水平。"
+    },
+    {
+      "id": 4,
+      "nombre": "紧急响应",
+      "imagen": "/assetsSecurity/servicios/servicios/respuesta2.png",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "在Larkin紧急援助（LEA），我们全天候为紧急情况和支持提供服务。我们与当局和紧急服务合作，确保您的安全。此外，我们提供住宅和机构风险分析，并提供定制解决方案。"
+    },
+    {
+      "id": 5,
+      "nombre": "员工背景调查",
+      "imagen": "/assetsSecurity/servicios/servicios/investigacion2.png",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "我们为您的员工提供背景核查服务，确保您全面了解他们的个人资料，并确保他们符合公司的要求。我们还提供由该领域的专业人员支持的心理测评。"
+    },
+    {
+      "id": 6,
+      "nombre": "法庭审计",
+      "imagen": "/assetsSecurity/servicios/servicios/auditoria2.png",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "我们的服务专注于发现和记录财务不正常或欺诈行为，使用先进的法庭技术。我们提供早期发现欺诈、资产保护、合规性、事件重建和保密保证。保护您公司的完整性和声誉。"
+    }
+  ],
+    "elige":{
+      "header":"选择我们的",
+      "accent":"服务",
+      "paragraph":"我们的服务经过多年的经验和奉献支持。我们努力为您提供最好的服务。相信我们为您提供最佳的安全保障。",
+      "paragraph2":"明智选择，选择我们的服务！"
+    },
+  
+  "empresaBoton": "前往网站"
+}

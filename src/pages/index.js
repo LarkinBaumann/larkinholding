@@ -13,6 +13,8 @@ import { motion } from 'framer-motion';
 import { useSwipeable } from 'react-swipeable';
 import Head from "next/head";
 import { useMediaQuery } from 'react-responsive';
+import { useRouter } from "next/router";
+
 
 
 
@@ -85,9 +87,14 @@ useEffect(() => {
 
 
 
+const router = useRouter();
+
     return (
+      
       <> 
-      <Head>
+      {
+        router.pathname == "/" &&
+        <Head>
   <meta name="theme-color" content="#050409"/>
   <title>Larkin Baumann Holding.</title>
   <meta name="description" content="Descubre Larkin Baumann Holding, empresa líder en diversas industrias a nivel global desde 1997. Nuestra holding se especializa en la creación y gestión de empresas en sectores que van desde la seguridad privada hasta la construcción de viviendas. Con un enfoque en la excelencia y la responsabilidad, somos la elección confiable para tus necesidades empresariales." />
@@ -99,7 +106,24 @@ useEffect(() => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="/assets/ogimage.jpg" />
   <link rel="icon" href="favicon.ico" />
-</Head>
+</Head>}
+{
+        router.pathname == "/Security" &&
+        <Head>
+        <meta name="theme-color" content="#050409"/>
+        <title>Larkin Baumann Security.</title>
+        <meta name="description" content="Descubre Larkin Baumann Private Security, líder en protección ejecutiva y servicios de seguridad desde 1997. Ofrecemos transporte seguro, vehículos blindados, auditoría forense, respuesta a emergencias e investigaciones de antecedentes. Con un enfoque en la excelencia y la responsabilidad, somos tu elección confiable en seguridad privada." />
+        <meta name="keywords" content="seguridad privada, seguridad, escoltas, blindaje, protección, emergencia, investigación, auditoria, ejecutivo" />
+        <meta property="og:title" content="Larkin Baumann Security" />
+        <meta property="og:description" content="Descubre Larkin Baumann Private Security, líder en protección ejecutiva y servicios de seguridad desde 1997. Ofrecemos transporte seguro, vehículos blindados, auditoría forense, respuesta a emergencias e investigaciones de antecedentes. Con un enfoque en la excelencia y la responsabilidad, somos tu elección confiable en seguridad privada." />
+        <meta property="og:image" content="/assets/ogimage.jpg" />
+        <meta property="og:url" content="https://www.lbsecurity.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/assets/ogimage.jpg" />
+        <link rel="icon" href="favicon.ico" />
+      </Head>
+      }
+      
       <main className="w-full h-full bg-[#000206] ">
         <div
         {...handlers}
@@ -158,4 +182,7 @@ useEffect(() => {
       </main>
       </>
     );
+  
+
+ 
   }

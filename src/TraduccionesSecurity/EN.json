@@ -1,0 +1,141 @@
+{
+  "heroInicio":{
+    "titulo":"Think about your Business,",
+    "accent":"We'll take care of your Security"
+  },
+  "heroAcerca":{
+    "titulo1":"Your security is",
+    "accent1":"our mission;",
+    "titulo2":"Your peace of mind,",
+    "accent2":"our guarantee."
+  },
+  "heroServicios":{
+    "titulo":"Discover how our services can safeguard your",
+    "aux":"and",
+    "accent":"peace of mind",
+    "accent2":"patrimony",
+    "button":"Learn more"
+  },
+  "acercaInicio":{
+    "titulo":"We guarantee your peace of mind with",
+    "accent":"top quality",
+    "paragraph":"Our highly trained and committed team is dedicated to safeguarding your environment, with a wide range of solutions tailored to your specific needs, we ensure that you can focus on what matters while we take care of your security.",
+    "button":"Services"
+  },
+  "quienesInicio":{
+    "escudoHeader1":"Global vision",
+    "escudoParagraph1":"and innovation",
+    "escudoHeader2":"Commitment to",
+    "escudoParagraph2":"excellence",
+    "escudoHeader3":"Integrity and",
+    "escudoParagraph3":"trust",
+    "header":"Who",
+    "accent":"we are?",
+    "paragraph":"We are more than a security provider, we are your partner in protecting what you value most. Trust us to ensure your peace of mind and security at all times.",
+    "button":"About Us"
+  },
+  "servicio": {
+    "header": "Your Partners throughout Mexico:",
+    "accent": "Services Nationwide",
+    "paragraph": "Coverage throughout the Mexican Republic, our team is ready to meet your needs wherever you are. Trust us to provide reliable and quality solutions throughout the country.",
+    "title": "Services"
+  },
+  "contacto": {
+    "header": "Start your journey, today.",
+    "accent": "Contact us.",
+    "paragraph": "In our team, we are here to help you take the first step towards your goals. We offer you the boost you need to start this exciting journey towards success.",
+    "titulo": "E-mail",
+    "titulo2": "Phone",
+    "titulo3": "Location",
+    "titulo4": "Weibo",
+    "titulo5": "Wechat"
+  },
+  "acercaDe":{
+    "header":"About",
+    "paragraph":"Since our foundation in 1997,",
+    "accent":"LARKIN BAUMANN - Specialized Private Security Services",
+    "paragraph2":"has been a pioneer in providing cutting-edge private security services. We started our journey with the firm conviction of establishing impeccable standards in the protection of people and properties. Over the years, we have gained the trust of clients in Mexico and around the world, thanks to our dedication to excellence and our commitment to security.",
+    "button":"Services",
+    "mision":"Mission",
+    "paragraphMision":"At Larkin Baumann, we seek to meet the needs of our clients, offering personalized security solutions that adapt to their specific requirements with high quality, integrity, and confidentiality services.",
+    "vision":"Vision",
+    "paragraphVision":"We aim to be leaders in private security services companies, with the highest sustained profitability where the best aspire to work, as well as being recognized as the standard of excellence in the private security services industry thanks to continuous innovation, the adoption of the latest technologies, and the excellence of our customer service."
+  },
+  "valores":{
+"header":"Values",
+"paragraph":"Based on the following values, we commit to remain a reference in security and protection for those who trust us.",
+"valorCardHeader1":"Global vision and",
+"valorCardHeader12":"Innovation",
+"valorCardParagraph1":"We drive ourselves towards new ideas and approaches to address security challenges in a changing world. We are committed to innovation and the adoption of emerging technologies to quickly adapt to global security needs.",
+"valorCardHeader2":"Commitment and",
+"valorCardHeader22":"Excellence",
+"valorCardParagraph2":"We seek excellence in every aspect of our work, from the selection and training of our team to the implementation of technology, with the aim of exceeding expectations and establishing exceptional quality standards in all our services.",
+"valorCardHeader3":"Integrity and",
+"valorCardHeader32":"Trust",
+"valorCardParagraph3":"We are committed to acting with honesty, transparency, and ethics in all our interactions. Our clients trust us to protect what they value most. In each service, our goal is to maintain that trust with integrity and constant excellence."
+  },
+  "navbar": {
+    "link1": "Home",
+    "link2": "About",
+    "link3": "Services"
+  },
+  "contactoNavbar": {
+    "titulo":"Contact"
+  },
+  "footer": {
+    "titulo1": "Address",
+    "titulo2": "Contact"
+  },
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "Executive Protection",
+      "imagen": "/assetsSecurity/servicios/servicios/proteccion2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "We specialize in designing and implementing specific programs and steps to ensure success in high-level personal security. We offer personalized assessments to develop or improve existing programs, ensuring effective solutions in both domestic and business environments."
+    },
+    {
+      "id": 2,
+      "nombre": "Executive Transportation",
+      "url": "LarkinBaumanSecurity.com",
+      "imagen": "/assetsSecurity/servicios/servicios/transportacion2.png",
+      "descripcion": "We are leaders in executive transportation with trained Driver-Escorts, guaranteeing not only safe driving but also the protection of the Executive. From their arrival at airports to their destinations, we offer security and comfort in regular or armored vehicles, adapting to the client's needs anywhere in the country."
+    },
+    {
+      "id": 3,
+      "nombre": "Armored Vehicle Rental",
+      "imagen": "/assetsSecurity/servicios/servicios/renta2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "Experience maximum security with our fleet of armored vehicles and escort drivers. We offer comprehensive solutions for your safe transportation needs, ensuring your peace of mind on every trip. Trust us to elevate your transportation experience to a higher level."
+    },
+    {
+      "id": 4,
+      "nombre": "Immediate Emergency Response",
+      "imagen": "/assetsSecurity/servicios/servicios/respuesta2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "At Larkin Emergency Assistance (LEA), we are available 24/7 for emergencies and support. We work with authorities and emergency services to ensure your safety. In addition, we offer residential and institutional risk analysis with customized solutions."
+    },
+    {
+      "id": 5,
+      "nombre": "Background Investigation",
+      "imagen": "/assetsSecurity/servicios/servicios/investigacion2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "We offer background verification services for your employees, ensuring the peace of mind of thoroughly knowing their profile and ensuring that they meet your company's requirements. We also provide psychometric assessments backed by expert professionals in the field."
+    },
+    {
+      "id": 6,
+      "nombre": "Forensic Investigation",
+      "imagen": "/assetsSecurity/servicios/servicios/auditoria2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "Our service focuses on discovering and documenting financial irregularities or frauds, using advanced forensic techniques. We offer early fraud detection, asset protection, regulatory compliance, event reconstruction, and confidentiality assurance. Preserve the integrity and reputation of your company."
+    }
+  ],
+    "elige":{
+      "header":"Choose our",
+      "accent":"services",
+      "paragraph":"Our services are backed by years of experience and dedication. We strive to offer you the best at all times. Trust us to provide you with the best in security.",
+      "paragraph2":"Make the smart choice and choose our services today!"
+    },
+  
+  "empresaBoton": "Go to website"
+}
