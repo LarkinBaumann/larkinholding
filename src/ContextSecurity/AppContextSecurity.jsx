@@ -1,6 +1,8 @@
 import React, { createContext, useState } from 'react';
 import ES from '../TraduccionesSecurity/ES.json'
 import EN from '../TraduccionesSecurity/EN.json'
+import FR from '../TraduccionesSecurity/FR.json'
+import AE from '../TraduccionesSecurity/AE.json'
 import ZHS from '../TraduccionesSecurity/ZH-S.json'
 import ZHT from '../TraduccionesSecurity/ZH-T.json'
 import { useEffect } from 'react';
@@ -27,6 +29,11 @@ export const AppProviderSecurity = ({ children }) => {
           setTraduccion(ZHS)
         } else if (idioma.nombre === "ZH-T") {
           setTraduccion(ZHT)
+        }
+         else if (idioma.nombre === "FR") {
+          setTraduccion(FR)
+        } else if (idioma.nombre === "AE") {
+          setTraduccion(AE)
         }
       }, [idioma])
 

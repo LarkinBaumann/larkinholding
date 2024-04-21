@@ -181,6 +181,30 @@ function Navbar({}) {
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
+                          nombre: "FR",
+                          code: "FR",
+                        });
+                      }}
+                    >
+                      <FlagIcon code="FR" /> FR
+                    </div>
+                    <div
+                      className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      onClick={() => {
+                        setNavIdioma(!navIdioma);
+                        setIdioma({
+                          nombre: "AE",
+                          code: "AE",
+                        });
+                      }}
+                    >
+                      <FlagIcon code="AE" /> AE
+                    </div>
+                    <div
+                      className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      onClick={() => {
+                        setNavIdioma(!navIdioma);
+                        setIdioma({
                           nombre: "ZH-T",
                           code: "TW",
                         });
@@ -312,6 +336,38 @@ function Navbar({}) {
                       }}
                     >
                       <FlagIcon code="MX" /> ES
+                    </div>
+                    <div
+                      className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
+                      onClick={() => {
+                        setNavIdioma(!navIdioma);
+                        setIdioma({
+                          nombre: "FR",
+                          code: "FR",
+                        });
+                      }}
+                    >
+                      <FlagIcon code="FR" /> FR
+                    </div>
+                    <div
+                      className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
+                      style={{
+                        background: "rgba(11, 32, 46, 0.30)",
+                        hover: { backgroundColor: "rgba(44, 82, 107, 0.3)" },
+                      }}
+                      onClick={() => {
+                        setNavIdioma(!navIdioma);
+                        setIdioma({
+                          nombre: "AE",
+                          code: "AE",
+                        });
+                      }}
+                    >
+                      <FlagIcon code="AE" /> AE
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"

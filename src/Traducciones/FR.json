@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "titulos": [
+            "Privé",
+            "",
+            "Invest. &",
+            "Pétrole & Gaz",
+            "Or &"
+        ],
+        "titulos2": [
+            "Sécurité",
+            "Immobilier",
+            "Finances",
+            "Industrie",
+            "Exploitation minière"
+        ],
+        "descripcion": [
+            "Nous fournissons une technologie et des services personnalisés pour protéger vos actifs les plus précieux, des systèmes de surveillance aux protocoles d'intervention rapide, garantissant votre tranquillité d'esprit et votre protection à chaque étape.",
+            "Dans la symphonie architecturale de vos rêves, nous transformons vos besoins et aspirations en un chef-d'œuvre écologique. Avec des matériaux de pointe résistants aux tremblements de terre et aux ouragans, notre maison embrasse la nature tout en défiant la force des éléments.",
+            "Donnez de la puissance à vos investissements avec notre gestion financière experte. Faites confiance à notre équipe pour optimiser votre portefeuille et assurer un avenir financier solide.",
+            "Découvrez comment notre entreprise pétrolière et gazière de premier plan propose des solutions complètes pour vos projets. Nous offrons des résultats exceptionnels adaptés à vos besoins.",
+            "Nous proposons un service double : accès aux marchés aux États-Unis et à Dubaï pour les acheteurs d'or, et en tant que fournisseurs, de l'or certifié à des prix compétitifs. Votre recherche de partenaires idéaux se termine ici."
+        ]
+    },
+    "acerca": {
+        "titulo1": "25",
+        "complemento1": "+",
+        "descripcion1": "Années d'expérience",
+        "titulo2": "5",
+        "complemento2": "K+",
+        "descripcion2": "Clients satisfaits",
+        "titulo3": "50",
+        "complemento3": "+",
+        "descripcion3": "Certifications",
+        "titulo4": "200",
+        "complemento4": "+",
+        "descripcion4": "Collaborations",
+        "header": "Donner du pouvoir aux entreprises diversifiées,",
+        "accent": "Unir le succès.",
+        "paragraph": "Nous sommes une entreprise diversifiée, couvrant des secteurs clés tels que l'immobilier, la sécurité privée, le pétrole et le gaz, les investissements et la gestion financière. Avec une approche intégrative et un engagement envers l'excellence, nous stimulons le succès de chacune de nos entreprises. Notre équipe passionnée et professionnelle est dédiée à l'innovation et à la qualité en tout temps."
+    },
+    "servicio": {
+        "header": "Vos partenaires à travers le Mexique :",
+        "accent": "Services dans tout le pays",
+        "paragraph": "Couverture dans toute la République mexicaine, notre équipe est prête à répondre à vos besoins où que vous soyez. Faites-nous confiance pour vous fournir des solutions fiables et de qualité dans tout le pays."
+    },
+    "contacto": {
+        "header": "Commencez votre voyage dès aujourd'hui.",
+        "accent": "Contactez-nous.",
+        "paragraph": "Au sein de notre équipe, nous sommes là pour vous aider à franchir la première étape vers vos objectifs. Nous vous offrons l'élan dont vous avez besoin pour commencer ce chemin passionnant vers le succès.",
+        "titulo": "E-mail",
+        "titulo2": "Téléphone",
+        "titulo3": "Emplacement",
+        "titulo4": "Weibo",
+        "titulo5": "Wechat"
+    },
+    "navbar": {
+        "link1": "À propos de nous",
+        "link2": "Entreprises",
+        "link3": "Couverture"
+    },
+    "contactoNavbar": {
+        "titulo": "Contact"
+    },
+    "footer": {
+        "titulo1": "Adresse",
+        "titulo2": "Contact"
+    },
+    "empresas": [
+        {
+            "id": 1,
+            "nombre": "SÉCURITÉ PRIVÉE",
+            "imagen": "/images/EMPRESAS/seguridad.webp",
+            "url": "/Security",
+          "descripcion": "Protection personnalisée, escortes expertes et solutions avancées pour votre tranquillité d'esprit.",
+          "empresaBoton": "Aller au site web"
+        },
+        {
+          "id": 2,
+          "nombre": "IMMOBILIER",
+          "url": "Information", 
+          "imagen": "/images/EMPRESAS/realestate.webp",
+          "descripcion": "Chaque détail de notre architecture reflète une synthèse de durabilité, d'élégance et d'efficacité, optimisant votre investissement.",
+          "empresaBoton": "Information"
+        },
+        {
+          "id": 3,
+          "nombre": "PÉTROLIÈRE ET GAZIÈRE",
+          "imagen": "/images/EMPRESAS/oil.webp",
+          "url": "Information", 
+          "descripcion": "Alimentez votre succès dans l'industrie du pétrole et du gaz avec nous. Nous offrons ESPO et Diesel EN590 10PP CIF Amérique avec les prix les plus bas du marché.",
+          "empresaBoton": "Information"
+        },
+        {
+          "id": 4,
+          "nombre": "INVESTISSEMENTS & FINANCES",
+          "imagen": "/images/EMPRESAS/investment.webp",
+          "url": "Information", 
+          "descripcion": "Atteignez vos objectifs financiers avec nous. Nous maximisons vos opportunités de croissance et de succès.",
+          "empresaBoton": "Information"
+        },
+        {
+          "id": 5,
+          "nombre": "EXPLOITATION AURIFÈRE",
+          "imagen": "/images/EMPRESAS/gold.webp",
+          "url": "Information", 
+          "descripcion": "Acquisition de minéraux précieux et leur traitement dans des accords avec des raffineries étrangères.",
+          "empresaBoton": "Information"
+        }
+    ],
+    "empresaBoton": "Allez sur le site web"
+  }

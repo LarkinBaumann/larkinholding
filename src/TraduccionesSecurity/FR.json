@@ -1,0 +1,136 @@
+{
+  "heroInicio": {
+    "titulo": "Réfléchissez à votre entreprise,",
+    "accent": "Nous nous occuperons de votre sécurité"
+  },
+  "heroAcerca": {
+    "titulo1": "Votre sécurité est",
+    "accent1": "notre mission;",
+    "titulo2": "Votre tranquillité d'esprit,",
+    "accent2": "notre garantie."
+  },
+  "heroServicios": {
+    "titulo": "Découvrez comment nos services peuvent protéger votre",
+    "aux": "et",
+    "accent": "tranquillité d'esprit",
+    "accent2": "patrimoine",
+    "button": "En savoir plus"
+  },
+  "acercaInicio": {
+    "titulo": "Nous garantissons votre tranquillité d'esprit avec",
+    "accent": "une qualité supérieure",
+    "paragraph": "Notre équipe hautement qualifiée et engagée est dédiée à la protection de votre environnement. Avec une large gamme de solutions adaptées à vos besoins spécifiques, nous nous assurons que vous pouvez vous concentrer sur ce qui compte pendant que nous nous occupons de votre sécurité.",
+    "button": "Services"
+  },
+  "quienesInicio": {
+    "escudoHeader1": "Vision globale",
+    "escudoParagraph1": "et innovation",
+    "escudoHeader2": "Engagement envers",
+    "escudoParagraph2": "l'excellence",
+    "escudoHeader3": "Intégrité et",
+    "escudoParagraph3": "confiance",
+    "header": "Qui",
+    "accent": "sommes-nous ?",
+    "paragraph": "Nous sommes plus qu'un fournisseur de sécurité, nous sommes votre partenaire dans la protection de ce que vous appréciez le plus. Faites-nous confiance pour assurer votre tranquillité d'esprit et votre sécurité en tout temps.",
+    "button": "À propos de nous"
+  },
+  "servicio": {
+    "header": "Vos partenaires dans tout le Mexique :",
+    "accent": "Services nationaux",
+    "paragraph": "Couverture dans toute la République mexicaine, notre équipe est prête à répondre à vos besoins où que vous soyez. Faites-nous confiance pour fournir des solutions fiables et de qualité dans tout le pays.",
+    "title": "Services"
+  },
+  "contacto": {
+    "header": "Commencez votre voyage, aujourd'hui.",
+    "accent": "Contactez-nous.",
+    "paragraph": "Dans notre équipe, nous sommes là pour vous aider à franchir la première étape vers vos objectifs. Nous vous offrons l'impulsion dont vous avez besoin pour commencer ce voyage passionnant vers le succès.",
+    "titulo": "E-mail",
+    "titulo2": "Téléphone",
+    "titulo3": "Emplacement",
+    "titulo4": "Weibo",
+    "titulo5": "Wechat"
+  },
+  "acercaDe": {
+    "header": "À propos",
+    "paragraph": "Depuis notre création en 1997,",
+    "accent": "LARKIN BAUMANN - Services de sécurité privée spécialisés",
+    "paragraph2": "a été un pionnier dans la fourniture de services de sécurité privée de pointe. Nous avons commencé notre parcours avec la ferme conviction d'établir des normes impeccables dans la protection des personnes et des biens. Au fil des ans, nous avons gagné la confiance de clients au Mexique et dans le monde entier, grâce à notre dévouement à l'excellence et à notre engagement envers la sécurité.",
+    "button": "Services",
+    "mision": "Mission",
+    "paragraphMision": "Chez Larkin Baumann, nous cherchons à répondre aux besoins de nos clients en offrant des solutions de sécurité personnalisées qui s'adaptent à leurs exigences spécifiques, avec des services de haute qualité, d'intégrité et de confidentialité.",
+    "vision": "Vision",
+    "paragraphVision": "Nous visons à être leaders dans les entreprises de services de sécurité privée, avec la rentabilité soutenue la plus élevée où les meilleurs aspirent à travailler, tout en étant reconnus comme la norme d'excellence dans l'industrie des services de sécurité privée grâce à l'innovation continue, l'adoption des dernières technologies et l'excellence de notre service client."
+  },
+  "valores": {
+    "header": "Valeurs",
+    "paragraph": "Sur la base des valeurs suivantes, nous nous engageons à rester une référence en matière de sécurité et de protection pour ceux qui nous font confiance.",
+    "valorCardHeader1": "Vision globale et",
+    "valorCardHeader12": "innovation",
+    "valorCardParagraph1": "Nous nous efforçons de trouver de nouvelles idées et approches pour relever les défis de sécurité dans un monde en constante évolution. Nous nous engageons à l'innovation et à l'adoption de technologies émergentes pour nous adapter rapidement aux besoins mondiaux en matière de sécurité.",
+    "valorCardHeader2": "Engagement et",
+    "valorCardHeader22": "excellence",
+    "valorCardParagraph2": "Nous recherchons l'excellence dans tous les aspects de notre travail, de la sélection et de la formation de notre équipe à la mise en œuvre de la technologie, dans le but de dépasser les attentes et d'établir des normes de qualité exceptionnelles dans tous nos services.",
+    "valorCardHeader3": "Intégrité et",
+    "valorCardHeader32": "confiance",
+    "valorCardParagraph3": "Nous nous engageons à agir avec honnêteté, transparence et éthique dans toutes nos interactions. Nos clients nous font confiance pour protéger ce qu'ils apprécient le plus. Dans chaque service, notre objectif est de maintenir cette confiance avec intégrité et excellence constante."
+  },
+  "navbar": {
+    "link1": "Accueil",
+    "link2": "À propos",
+    "link3": "Services"
+  },
+  "contactoNavbar": {
+    "titulo": "Contact"
+  },
+  "footer": {
+    "titulo1": "Adresse",
+    "titulo2": "Contact"
+  },
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "Protection exécutive",
+      "imagen": "/assetsSecurity/servicios/servicios/proteccion2.png",
+      "descripcion": "Nous sommes spécialisés dans la conception et la mise en œuvre de programmes et de mesures spécifiques pour garantir le succès de la sécurité personnelle de haut niveau. Nous proposons des évaluations personnalisées pour développer ou améliorer les programmes existants, en garantissant des solutions efficaces dans les environnements domestiques et professionnels."
+    },
+    {
+      "id": 2,
+      "nombre": "Transport exécutif",
+      "imagen": "/assetsSecurity/servicios/servicios/transportacion2.png",
+      "descripcion": "Nous sommes leaders dans le transport exécutif avec des chauffeurs-escorte formés, garantissant non seulement une conduite sûre, mais aussi la protection de l'exécutif. De leur arrivée aux aéroports à leurs destinations, nous offrons sécurité et confort dans des véhicules réguliers ou blindés, en nous adaptant aux besoins du client partout dans le pays."
+    },
+    {
+      "id": 3,
+      "nombre": "Location de véhicules blindés",
+      "imagen": "/assetsSecurity/servicios/servicios/renta2.png",
+      "url": "LarkinBaumanSecurity.com",
+      "descripcion": "Experience maximum security with our fleet of armored vehicles and escort drivers. We offer comprehensive solutions for your safe transportation needs, ensuring your peace of mind on every trip. Trust us to elevate your transportation experience to a higher level."
+    },
+    {
+      "id": 4,
+      "nombre": "Intervention d'urgence immédiate",
+      "imagen": "/assetsSecurity/servicios/servicios/respuesta2.png",
+      "descripcion": "Chez Larkin Emergency Assistance (LEA), nous sommes disponibles 24h/24 et 7j/7 pour les urgences et le soutien. Nous travaillons avec les autorités et les services d'urgence pour garantir votre sécurité. De plus, nous proposons une analyse des risques résidentiels et institutionnels avec des solutions personnalisées."
+    },
+    {
+      "id": 5,
+      "nombre": "Enquête de vérification des antécédents",
+      "imagen": "/assetsSecurity/servicios/servicios/investigacion2.png",
+      "descripcion": "Nous proposons des services de vérification des antécédents pour vos employés, garantissant la tranquillité d'esprit en connaissant parfaitement leur profil et en veillant à ce qu'ils répondent aux exigences de votre entreprise. Nous fournissons également des évaluations psychométriques soutenues par des professionnels experts dans le domaine."
+    },
+    {
+      "id": 6,
+      "nombre": "Enquête judiciaire",
+      "imagen": "/assetsSecurity/servicios/servicios/auditoria2.png",
+      "descripcion": "Notre service se concentre sur la découverte et la documentation d'irrégularités financières ou de fraudes, en utilisant des techniques d'investigation avancées. Nous offrons une détection précoce de la fraude, une protection des actifs, une conformité réglementaire, une reconstruction d'événements et une assurance de confidentialité. Préservez l'intégrité et la réputation de votre entreprise."
+    }
+  ],
+  "elige": {
+    "header": "Choisissez nos",
+    "accent": "services",
+    "paragraph": "Nos services sont soutenus par des années d'expérience et de dévouement. Nous nous efforçons de vous offrir le meilleur à tout moment. Faites-nous confiance pour vous fournir le meilleur en matière de sécurité.",
+    "paragraph2": "Faites le choix intelligent et choisissez nos services dès aujourd'hui!"
+  },
+
+"empresaBoton": "Aller sur le site web"
+}
