@@ -33,7 +33,7 @@ export const AppProvider = ({ children }) => {
          else if (idioma.nombre === "FR") {
           setTraduccion(FR)
         }
-         else if (idioma.nombre === "AE") {
+         else if (idioma.nombre === "UAE") {
           setTraduccion(AE)
         }
       }, [idioma])

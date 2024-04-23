@@ -198,12 +198,12 @@ function Navbar({}) {
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
-                          nombre: "AE",
+                          nombre: "UAE",
                           code: "AE",
                         });
                       }}
                     >
-                      <FlagIcon code="AE" /> AE
+                      <FlagIcon code="AE" /> UAE
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
@@ -370,12 +370,12 @@ function Navbar({}) {
                       onClick={() => {
                         setNavIdioma(!navIdioma);
                         setIdioma({
-                          nombre: "AE",
+                          nombre: "UAE",
                           code: "AE",
                         });
                       }}
                     >
-                      <FlagIcon code="AE" /> AE
+                      <FlagIcon code="AE" /> UAE
                     </div>
                     <div
                       className="flex flex-row items-center gap-2 cursor-pointer hover:bg-[#959595]"
