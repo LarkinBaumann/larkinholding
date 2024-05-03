@@ -197,7 +197,7 @@ function Footer() {
         <div className="hidden lg:flex flex-row gap-[20px] ">
           <div className="w-[227px] h-[203px]">
             <Image
-              src="/assets/WaQR.png"
+              src="/assets/whatsQR.png"
               alt="logo"
               width={1000}
               height={1000}
