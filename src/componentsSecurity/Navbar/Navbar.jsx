@@ -116,6 +116,14 @@ function Navbar({}) {
             >
               {traduccion.navbar.link3}
             </span>
+            <span
+              className="cursor-pointer"
+              onClick={() => {
+                router.push("/")
+              }}
+            >
+              {traduccion.navbar.link4}
+            </span>
             <div>
               <div className="absolute -right-[100px] top-0 flex flex-col gap-4">
                 <div
@@ -454,11 +462,11 @@ function Navbar({}) {
               initial="hidden"
               animate="visible"
               variants={variantsMenuMovil}
-              className="w-full h-[50vh] flex flex-col mt-[87px] items-center text-center gap-4  text-white px-4 py-4"
+              className="w-full h-[350px] flex flex-col mt-[20px] items-center text-center gap-4  text-white px-4 py-4"
             >
               <div className="w-full h-full flex flex-col gap-[42px]">
                 <span
-                  className="text-[40px] font-header font-bold"
+                  className="text-[25px] font-header font-bold"
                   onClick={() => {
                     router.push("/Security")
                       setShowMenu(false);
@@ -467,7 +475,7 @@ function Navbar({}) {
                   {traduccion.navbar.link1}
                 </span>
                 <span
-                  className="text-[40px] font-header font-bold"
+                  className="text-[25px] font-header font-bold"
                   onClick={() => {
                     router.push("/Security/About")
                       setShowMenu(false);
@@ -476,7 +484,7 @@ function Navbar({}) {
                   {traduccion.navbar.link2}
                 </span>
                 <span
-                  className="text-[40px] font-header font-bold"
+                  className="text-[25px] font-header font-bold"
                   onClick={() => {
                     router.push("/Security/Services")
                       setShowMenu(false);
@@ -484,12 +492,21 @@ function Navbar({}) {
                 >
                   {traduccion.navbar.link3} 
                 </span>
+                <span
+                  className="text-[25px] font-header font-bold"
+                  onClick={() => {
+                    router.push("/")
+                      setShowMenu(false);
+                  }}
+                >
+                  {traduccion.navbar.link4} 
+                </span>
               </div>
             </motion.div>
 
             <div className="w-full flex flex-col items-center gap-[47px]">
               <div
-                className="w-[204px]h-[77px] flex flex-row justify-center px-[31px] py-[12px] items-center bg-[#022136] border-[1px] border-[#1777BA] text-white rounded-[11px] 
+                className="w-[150px] h-[50px] flex flex-row justify-center px-[31px] py-[12px] items-center bg-[#022136] border-[1px] border-[#1777BA] text-white rounded-[11px] 
             font-paragraph text-[25px] cursor-pointer
             "
             onClick={() => {

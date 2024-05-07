@@ -78,7 +78,8 @@
   "navbar": {
     "link1": "Inicio",
     "link2": "Acerca",
-    "link3": "Servicios"
+    "link3": "Servicios",
+    "link4": "Holding"
   },
   "contactoNavbar": {
     "titulo":"Contacto"

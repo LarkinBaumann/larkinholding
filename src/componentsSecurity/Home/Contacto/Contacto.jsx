@@ -74,7 +74,7 @@ function Contacto() {
     <>
      <div
       id="Contacto"
-      className="w-full h-[500px] lg:h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
+      className="w-full h-[500px] lg:h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-50 mt-10"
     >
       <ShadowTop/>
       <ShadowBottom/>
@@ -112,7 +112,7 @@ function Contacto() {
         variants={containerVariants}
         
       >
-        <a href="mailto:correo@correo.com">
+        <a href="mailto:correo@correo.com" >
         <motion.div
           variants={childVariants}
           className=" flex flex-col  gap-[9px] text-white"

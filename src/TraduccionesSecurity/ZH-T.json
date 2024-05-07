@@ -79,7 +79,9 @@
   "navbar": {
     "link1": "首页",
     "link2": "关于",
-    "link3": "服务"
+    "link3": "服务",
+    "link4": "控股公司"
+
   },
   "contactoNavbar": {
     "titulo":"联系我们"
