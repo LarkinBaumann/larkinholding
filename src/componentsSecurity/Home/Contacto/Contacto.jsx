@@ -250,7 +250,7 @@ function Contacto() {
         parrafo={"info@corporativolb.com"}
         />
         </a>
-        <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
+         <a href={traduccion.contacto.mensaje}>
         <ContactCard
         icono={'/assetsSecurity/icons/whatsapp.svg'}
         titulo={traduccion.contacto.titulo2}

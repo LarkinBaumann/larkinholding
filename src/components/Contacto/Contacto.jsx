@@ -145,7 +145,7 @@ function Contacto() {
             </p>
           </motion.div>
         </a>
-        <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
+        <a href={traduccion.contacto.mensaje}>
           <motion.div
             variants={childVariants}
             className=" flex flex-col gap-[9px]  text-white"
@@ -315,7 +315,7 @@ function Contacto() {
             className="w-[103px] md:w-[200px] lg:w-[302px] h-[108px] md:h-[150px] lg:h-[228px] border-solid border-[0.723px] border-[#005E93] rounded-[15.901px 15.901px 15.901px 0px] rounded-[16px] flex flex-col justify-center px-[34px] py-[56px]"
             style={{ background: "rgba(11, 32, 46, 0.30)" }}
           >
-            <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
+             <a href={traduccion.contacto.mensaje}>
               <motion.div
                 variants={childVariants}
                 className=" flex flex-col items-center justify-center  gap-[9px] text-white"

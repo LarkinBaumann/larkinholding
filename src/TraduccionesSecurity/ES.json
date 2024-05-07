@@ -45,10 +45,11 @@
     "accent": "Contáctanos.",
     "paragraph": "En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.",
     "titulo": "E-mail",
-    "titulo2": "Teléfono",
+    "titulo2": "WhatsApp",
     "titulo3": "Ubicación",
     "titulo4": "Weibo",
-    "titulo5": "Wechat" 
+    "titulo5": "Wechat" ,
+    "mensaje": "https://wa.me/525516891448?text=¡Hola!%20Quiero%20más%20información"
   },
   "acercaDe":{
     "header":"Acerca De",

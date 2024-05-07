@@ -79,7 +79,7 @@ function Footer() {
             </div>
             <div className="flex flex-col">
               <p className="text-center lg:text-left">{traduccion.footer.titulo2}</p>
-              <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
+               <a href={traduccion.contacto.mensaje}>
               <p className="text-center lg:text-left flex flex-row items-center justify-center lg:justify-start gap-2">
                 <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 31 31" fill="none">
